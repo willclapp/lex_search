@@ -1,0 +1,30 @@
+#jspsych-audio-button-response-btngroup {
+    border: 2px solid black;
+    width: 900px;
+    height: 775px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./img/fixation.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 75%;
+}
+
+.jspsych-audio-button-response-button {
+    width: 380px;
+    height: 380px;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.jspsych-audio-button-response-button:hover {
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 3px;
+}
+
+.jspsych-audio-button-response-button:active {
+    border: 2px solid rgb(108, 108, 108);
+}
