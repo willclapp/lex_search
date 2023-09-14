@@ -1,0 +1,37 @@
+index,target,sentence,trial_code,status,target_filename,anchor_tag,AIF1_tag,IF1_tag,IF3_tag,IM1_tag,IM2_tag,competitor,competitor_filename,Distractor1,Distractor1_filename,Distractor2,Distractor2_filename,Distractor3,Distractor3_filename,det
+1,archer,He wants to know about the archer,di_archer,critical,PICTURE_1001.png,2,3_2,1_1,1_1,3_2,2_1,arch,PICTURE_1000.png,robe,PICTURE_14.png,jellyfish,PICTURE_193.png,bagpipe,PICTURE_425.png,anchDet
+2,armor,Ruth has a problem with the armor,di_armor,critical,PICTURE_1002.png,2,1_2,1_2,1_2,3_2,3_2,arm,PICTURE_473.png,fairy,PICTURE_7.png,scale,PICTURE_212.png,pistachio,PICTURE_410.png,anchDet
+3,barrel,We did not discuss the barrel,di_barrel,critical,PICTURE_1003.png,1,1_2,3_2,1_2,1_1,1_1,bear,PICTURE_637.png,shoulder,PICTURE_5.png,compass,PICTURE_197.png,egg,PICTURE_423.png,anchDet
+4,diamond,The boy thought about the diamond,di_diamond,critical,PICTURE_85.png,1,2_1,3_2,2_1,2_2,3_1,dime,PICTURE_1006.png,leg,PICTURE_8.png,printer,PICTURE_204.png,factory,PICTURE_412.png,anchDet
+5,hammer,I am thinking about the hammer,di_hammer,critical,PICTURE_216.png,1,2_1,1_2,1_2,3_1,3_1,ham,PICTURE_1007.png,church,PICTURE_4.png,ankle,PICTURE_205.png,throne,PICTURE_420.png,anchDet
+6,needle,Paul spoke about the needle,di_needle,critical,PICTURE_235.png,2,2_1,1_1,1_2,2_2,1_2,knee,PICTURE_222.png,burger,PICTURE_11.png,seagull,PICTURE_220.png,comb,PICTURE_426.png,anchDet
+7,panda,She wants to talk about the panda,di_panda,critical,PICTURE_1014.png,2,1_1,2_2,2_1,2_2,2_1,pan,PICTURE_1013.png,shower,PICTURE_9.png,diaper,PICTURE_218.png,sock,PICTURE_416.png,anchDet
+8,pilgrim,The man spoke about the pilgrim,di_pilgrim,critical,PICTURE_1018.png,2,2_1,1_1,2_1,1_2,2_2,pill,PICTURE_1019.png,lion,PICTURE_15.png,zipper,PICTURE_223.png,cannon,PICTURE_437.png,anchDet
+9,sprinkler,You were interested in the sprinkler,di_sprinkler,critical,PICTURE_1023.png,1,2_1,2_2,3_1,2_1,3_1,spring,PICTURE_1022.png,bicycle,PICTURE_23.png,woman,PICTURE_239.png,curtain,PICTURE_418.png,anchDet
+10,bikini,We spoke about the bikini,tri_key,critical,PICTURE_1004.png,1,2_2,1_2,3_1,1_1,3_2,key,PICTURE_78.png,newspaper,PICTURE_61.png,paintbrush,PICTURE_224.png,thumb,PICTURE_438.png,anchDet
+11,conductor,The old man talked about the conductor,tri_conductor,critical,PICTURE_1005.png,2,2_2,2_2,1_2,3_1,2_2,duck,PICTURE_400.png,hairbrush,PICTURE_43.png,wall,PICTURE_227.png,mitten,PICTURE_431.png,anchDet
+12,eraser,Mary knows about the eraser,tri_eraser,critical,PICTURE_464.png,2,2_2,2_1,1_1,1_1,3_1,race,PICTURE_1020.png,candle,PICTURE_68.png,llama,PICTURE_232.png,mustache,PICTURE_494.png,anchDet
+13,intestine,We were discussing the intestine,tri_intestine,critical,PICTURE_1009.png,2,2_1,3_1,1_1,3_1,2_1,test,PICTURE_1024.png,roof,PICTURE_66.png,puzzle,PICTURE_238.png,clothespin,PICTURE_467.png,anchDet
+14,pajamas,Jane has a problem with the pajamas,tri_pajamas,critical,PICTURE_1012.png,1,3_2,2_2,1_1,1_1,1_1,jam,PICTURE_1010.png,screwdriver,PICTURE_46.png,train,PICTURE_226.png,bell,PICTURE_433.png,anchDet
+15,papaya,They were interested in the papaya,tri_papaya,critical,PICTURE_1015.png,1,3_1,3_2,3_2,2_1,3_2,pie,PICTURE_1017.png,couch,PICTURE_67.png,mailman,PICTURE_242.png,rectangle,PICTURE_463.png,anchDet
+16,repairman,I did not know about the repairman,tri_repairman,critical,PICTURE_1021.png,2,1_2,1_2,1_2,1_1,3_2,pear,PICTURE_42.png,button,PICTURE_64.png,eye,PICTURE_241.png,watch,PICTURE_452.png,anchDet
+17,torpedo,Peter knows about the torpedo,tri_torpedo,critical,PICTURE_1025.png,2,2_2,2_1,3_1,3_1,1_1,pea,PICTURE_1016.png,firefighter,PICTURE_48.png,giraffe,PICTURE_236.png,star,PICTURE_447.png,anchDet
+18,volcano,He is thinking about the volcano,tri_volcano,critical,PICTURE_439.png,2,1_2,3_2,3_1,3_1,1_1,cane,PICTURE_676.png,trophy,PICTURE_71.png,acorn,PICTURE_228.png,square,PICTURE_472.png,anchDet
+1,archer,He wants to know about the archer,di_archer,critical,PICTURE_1001.png,2,3_2,1_1,1_1,3_2,2_1,arch,PICTURE_1000.png,robe,PICTURE_14.png,jellyfish,PICTURE_193.png,bagpipe,PICTURE_425.png,intDet
+2,armor,Ruth has a problem with the armor,di_armor,critical,PICTURE_1002.png,2,1_2,1_2,1_2,3_2,3_2,arm,PICTURE_473.png,fairy,PICTURE_7.png,scale,PICTURE_212.png,pistachio,PICTURE_410.png,intDet
+3,barrel,We did not discuss the barrel,di_barrel,critical,PICTURE_1003.png,1,1_2,3_2,1_2,1_1,1_1,bear,PICTURE_637.png,shoulder,PICTURE_5.png,compass,PICTURE_197.png,egg,PICTURE_423.png,intDet
+4,diamond,The boy thought about the diamond,di_diamond,critical,PICTURE_85.png,1,2_1,3_2,2_1,2_2,3_1,dime,PICTURE_1006.png,leg,PICTURE_8.png,printer,PICTURE_204.png,factory,PICTURE_412.png,intDet
+5,hammer,I am thinking about the hammer,di_hammer,critical,PICTURE_216.png,1,2_1,1_2,1_2,3_1,3_1,ham,PICTURE_1007.png,church,PICTURE_4.png,ankle,PICTURE_205.png,throne,PICTURE_420.png,intDet
+6,needle,Paul spoke about the needle,di_needle,critical,PICTURE_235.png,2,2_1,1_1,1_2,2_2,1_2,knee,PICTURE_222.png,burger,PICTURE_11.png,seagull,PICTURE_220.png,comb,PICTURE_426.png,intDet
+7,panda,She wants to talk about the panda,di_panda,critical,PICTURE_1014.png,2,1_1,2_2,2_1,1_1,2_1,pan,PICTURE_1013.png,shower,PICTURE_9.png,diaper,PICTURE_218.png,sock,PICTURE_416.png,intDet
+8,pilgrim,The man spoke about the pilgrim,di_pilgrim,critical,PICTURE_1018.png,2,2_1,1_1,2_1,1_2,2_2,pill,PICTURE_1019.png,lion,PICTURE_15.png,zipper,PICTURE_223.png,cannon,PICTURE_437.png,intDet
+9,sprinkler,You were interested in the sprinkler,di_sprinkler,critical,PICTURE_1023.png,1,2_1,2_2,1_2,3_2,2_2,spring,PICTURE_1022.png,bicycle,PICTURE_23.png,woman,PICTURE_239.png,curtain,PICTURE_418.png,intDet
+10,bikini,We spoke about the bikini,tri_key,critical,PICTURE_1004.png,1,2_2,1_2,3_1,1_1,3_2,key,PICTURE_78.png,newspaper,PICTURE_61.png,paintbrush,PICTURE_224.png,thumb,PICTURE_438.png,intDet
+11,conductor,The old man talked about the conductor,tri_conductor,critical,PICTURE_1005.png,2,2_2,2_2,1_2,3_1,2_2,duck,PICTURE_400.png,hairbrush,PICTURE_43.png,wall,PICTURE_227.png,mitten,PICTURE_431.png,intDet
+12,eraser,Mary knows about the eraser,tri_eraser,critical,PICTURE_464.png,2,2_2,2_1,1_1,1_1,3_1,race,PICTURE_1020.png,candle,PICTURE_68.png,llama,PICTURE_232.png,mustache,PICTURE_494.png,intDet
+13,intestine,We were discussing the intestine,tri_intestine,critical,PICTURE_1009.png,2,2_1,1_2,1_1,3_1,2_1,test,PICTURE_1024.png,roof,PICTURE_66.png,puzzle,PICTURE_238.png,clothespin,PICTURE_467.png,intDet
+14,pajamas,Jane has a problem with the pajamas,tri_pajamas,critical,PICTURE_1012.png,1,3_2,2_2,1_1,1_1,1_1,jam,PICTURE_1010.png,screwdriver,PICTURE_46.png,train,PICTURE_226.png,bell,PICTURE_433.png,intDet
+15,papaya,They were interested in the papaya,tri_papaya,critical,PICTURE_1015.png,1,3_1,3_2,2_1,2_1,3_2,pie,PICTURE_1017.png,couch,PICTURE_67.png,mailman,PICTURE_242.png,rectangle,PICTURE_463.png,intDet
+16,repairman,I did not know about the repairman,tri_repairman,critical,PICTURE_1021.png,2,1_2,1_2,1_2,1_1,3_2,pear,PICTURE_42.png,button,PICTURE_64.png,eye,PICTURE_241.png,watch,PICTURE_452.png,intDet
+17,torpedo,Peter knows about the torpedo,tri_torpedo,critical,PICTURE_1025.png,2,2_2,2_1,3_1,3_1,1_1,pea,PICTURE_1016.png,firefighter,PICTURE_48.png,giraffe,PICTURE_236.png,star,PICTURE_447.png,intDet
+18,volcano,He is thinking about the volcano,tri_volcano,critical,PICTURE_439.png,2,1_2,3_2,3_1,3_1,1_1,cane,PICTURE_676.png,trophy,PICTURE_71.png,acorn,PICTURE_228.png,square,PICTURE_472.png,intDet
