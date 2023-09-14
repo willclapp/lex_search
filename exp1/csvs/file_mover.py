@@ -1,59 +1,38 @@
 import csv
 from os import listdir
 from os import remove
+import shutil
 
-# def check_files(input_csv, ident_tokens):
-#     # First, create list of all files that should be there
-#     # by reading through the CSV
-#     speakers = []
-#     exp_file_list = []
-#     with open(input_csv) as csv_file:
-#         csv_reader = csv.reader(csv_file, delimiter=",")
-#         for line in csv_reader:
-#             if line[1] == 'word':
-#                 for i in range(len(line) - 2):
-#                     speakers.append(line[i + 2])
-#             else:
-#                 for i in range(len(line) - 2):
-#                     if ident_tokens:
-#                         speaker_name = speakers[i]
-#                     else:
-#                         speaker_name = speakers[i][:-2]
-#                     filepath = line[1] + "_" + line[i + 2] + "_" + speaker_name + ".wav"
-                    
-#                     exp_file_list.append("../audio/" + speaker_name + "/" + filepath)
+def move_filler(input_csv, input_dir, out_dir):
+    # First, create list of all files that should be there
+    # by reading through the CSV
+    speakers = []
+    file_list = []
+    with open(input_csv) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=",")
+        for line in csv_reader:
+            if line[0] != 'index':
+                fname = line[1] + "_" + line[-1] + "_AnF.wav"
+                file_list.append(fname)
+                shutil.copyfile(input_dir+fname, out_dir+fname)
 
-    
-#     # Then, create a list of files that are in the directories
-#     u_speakers = []
-#     if ident_tokens == False:
-#         for i in range(len(speakers)):
-#             speakers[i] = speakers[i][:-2]
-#             if speakers[i] not in u_speakers:
-#                 u_speakers.append(speakers[i])
-#     else:
-#         u_speakers = speakers
-    
-#     actual_file_list = []
-#     for i in range(len(u_speakers)):
-#         path = "../audio/" + u_speakers[i] + "/"
-#         files = listdir(path)
-#         for file in files:
-#             actual_file_list.append("../audio/" + u_speakers[i] + "/" + file)
+filler_csv = "./trials_filler.csv"
+anchor_dir = "/Users/willclapp/Desktop/ART/artclass/project/recording/processed/AnF/"
+anchor_out = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1/audio/AnF/"
+# move_filler(filler_csv, anchor_dir, anchor_out)
 
-#     # then compare the two
-#     delete_list = []
-#     for file in actual_file_list:
-#         if file not in exp_file_list:
-#             delete_list.append(file)
-            
+def move_control(input_csv, input_dir, out_dir):
+    # First, create list of all files that should be there
+    # by reading through the CSV
+    speakers = []
+    file_list = []
+    with open(input_csv) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=",")
+        for line in csv_reader:
+            if line[0] != 'index':
+                fname = line[3] + "_" + line[6] + "_AnF.wav"
+                file_list.append(fname)
+                shutil.copyfile(input_dir+fname, out_dir+fname)
 
-#     # then delete anything in the delete list
-#     for file in delete_list:
-#         remove(file)
-
-def move_filler(input_csv, out_dir):
-
-filler_csv = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1/csvs/trials_filler.csv
-move_filler(input_file, True)
-
+critical_csv = "./trials_critical.csv"
+move_control(critical_csv, anchor_dir, anchor_out)
