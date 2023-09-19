@@ -13,20 +13,21 @@ function shuffle_imgs(stims) {
   return stims;
 }
 
+
 function divide_blocks(stims) {
-  stims = shuffle_array(stims)
+  let trials_per_block = [26, 26, 25, 25]
   let blocks = []
-  let total = 0;
+  let prev = 0;
   for (let i=0; i<4; i++) {
     let block = []
-    for (let j=0; j<stims.length/4; j++) {
-      let curr = stims[total]
-      curr.trial_num = total+1
-      curr.block = i
+    for (let j=0; j<trials_per_block[i]; j++) {
+      let curr = stims[j + prev]
+      console.log(curr)
+      curr.block = i+1
       block.push(curr)
-      total++
     }
     blocks.push(block)
+    prev = prev + trials_per_block[i]
   }
   return blocks
 }
