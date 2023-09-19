@@ -55,14 +55,14 @@ def make_critical(input_csv, output):
                 for i in range(len(line)) :
                     output_string += critical_header[i] + ": \"" + line[i] + "\",\n\t\t"
                 # add correct audio file name
-                audio_file = "AnF/" + line[1] + "_" + line[-1] + "_" + "AnF.wav\",\n\t\t"
+                audio_file = "AnF/" + line[3] + "_" + line[6] + "_" + "AnF.wav\",\n\t\t"
                 output_string += "audio_filename: \"" + audio_file
                 talker_tags = [line[7], line[8], line[9], line[10], line[11]]
                 for i in range(len(talkers)):
                     output_string += talkers[i] + "_audio_filename: \"" + talkers[i] + "/" + line[3] + "_"
-                    output_string += talker_tags[i][0] + "_" + talkers[i] + "_" + talker_tags[i][-1]
-                    output_string += "_" + line[-1] + ".wav\",\n\t\t"
-                output_string += "AnF_audio_filename: \"AnF/" + line[3] + "_" + line[6] + "_AnF.wav\",\n\t\t"
+                    output_string += talker_tags[i][0] + "_" + talkers[i] + "_" + talker_tags[i][-1]   
+                    output_string += "_AnF_" + line[-1] + ".wav\",\n\t\t"
+                # output_string += "AnF_audio_filename: \"AnF/" + line[3] + "_" + line[6] + "_AnF.wav\",\n\t\t"
                 output_string = output_string[:-4] +"\n\t},\n\t"
                 
 

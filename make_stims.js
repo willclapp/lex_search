@@ -56,12 +56,17 @@ let stims = []
 let j = 0
 let k = 0
 for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
-  console.log(i)
   let curr_trial = 0
   let audio_filename = "";
   let imgs = []
+  let trial_code = ""
   let competitor = "none"
   let distractor_3 = "none"
+  let target_img = "none"
+  let competitor_img = "none"
+  let distractor_1_img = "none"
+  let distractor_2_img = "none"
+  let distractor_3_img = "none"
   if (critical_nums.includes(i)) {
     curr_trial = critical_trials[critical_codes[j]]
     curr_talker = critical_talker_order[j]
@@ -74,6 +79,7 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
       imgs.push(curr_trial.Distractor3_filename)
       distractor_3 = curr_trial.Distractor3
     }
+    trial_code = critical_codes[j]
     j++;
   } else {
     curr_trial = filler_trials[filler_codes[k]]
@@ -81,6 +87,7 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     audio_filename = curr_trial.audio_filename
     imgs.push(curr_trial.target_filename, curr_trial.Distractor1_filename, curr_trial.Distractor2_filename, curr_trial.Distractor3_filename)
     distractor_3 = curr_trial.Distractor3
+    trial_code = filler_codes[k]
     k++;
   }
 
@@ -97,9 +104,8 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     sentence: curr_trial.sentence,
     talker: curr_talker,
     det: det,
-    status: curr_trial.status
+    status: curr_trial.status,
+    trial_code: trial_code
   }
-  // console.log(trial_obj)
   stims.push(trial_obj)
 }
-console.log(stims)

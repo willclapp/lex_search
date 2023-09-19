@@ -82,7 +82,13 @@ let validation = {
 
 stims = shuffle_imgs(stims)
 let all_trials = divide_blocks(stims);
+
+// To reduce experiment length for testing:
+for (let i=0; i<all_trials.length; i++) {
+  all_trials[i] = [all_trials[i][0]]
+}
 console.log(all_trials)
+
 
 for (let i=0; i<all_trials.length; i++) {
   const trials = {
@@ -91,10 +97,15 @@ for (let i=0; i<all_trials.length; i++) {
         type: jsPsychAudioButtonResponse,
         stimulus: jsPsych.timelineVariable('stimulus'),
         choices: jsPsych.timelineVariable('imgs'),
-        button_html: '<img src="../img/%choice%.png" id="%choice%"/>',
+        button_html: '<img src="../img/%choice%" id="%choice%" style="padding-top:40px"/>',
         margin_horizontal: '0px',
         response_allowed_while_playing: false,
         data: function() { 
+          console.log(jsPsych.timelineVariable('imgs')[0])
+          console.log(jsPsych.timelineVariable('imgs')[1])
+          console.log(jsPsych.timelineVariable('imgs')[2])
+          console.log(jsPsych.timelineVariable('imgs')[3])
+          console.log(jsPsych.timelineVariable('target'))
           return {
             loc_top_left: jsPsych.timelineVariable('imgs')[0],
             loc_top_right: jsPsych.timelineVariable('imgs')[1],
@@ -106,7 +117,17 @@ for (let i=0; i<all_trials.length; i++) {
             distractor_2: jsPsych.timelineVariable('distractor_2'),
             distractor_3: jsPsych.timelineVariable('distractor_3'),
             trial_num: jsPsych.timelineVariable('trial_num'),
-            block: jsPsych.timelineVariable('block')
+            block: jsPsych.timelineVariable('block'),
+            sentence: jsPsych.timelineVariable('sentence'),
+            det: jsPsych.timelineVariable('det'),
+            status: jsPsych.timelineVariable('status'),
+            talker: jsPsych.timelineVariable('talker'),
+            trial_code: jsPsych.timelineVariable('trial_code'),
+            target_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('target')),
+            competitor_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('competitor')),
+            distractor_1_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_1')),
+            distractor_2_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_2')),
+            distractor_3_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_3'))
           }; 
         },
         extensions: [

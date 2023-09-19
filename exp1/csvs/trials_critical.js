@@ -23,13 +23,12 @@ const critical_trials = {
 		Distractor3: "bagpipe",
 		Distractor3_filename: "PICTURE_425.png",
 		det: "anchDet",
-		audio_filename: "AnF/archer_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_archer_3_AIF1_2_anchDet.wav",
-		IF1_audio_filename: "IF1/di_archer_1_IF1_1_anchDet.wav",
-		IF3_audio_filename: "IF3/di_archer_1_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/di_archer_3_IM1_2_anchDet.wav",
-		IM2_audio_filename: "IM2/di_archer_2_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/di_archer_2_AnF.wav"
+		audio_filename: "AnF/di_archer_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_archer_3_AIF1_2_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/di_archer_1_IF1_1_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/di_archer_1_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/di_archer_3_IM1_2_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/di_archer_2_IM2_1_AnF_anchDet.wav"
 	},
 	di_armor_anchDet: {
 		index: "2",
@@ -53,13 +52,12 @@ const critical_trials = {
 		Distractor3: "pistachio",
 		Distractor3_filename: "PICTURE_410.png",
 		det: "anchDet",
-		audio_filename: "AnF/armor_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_armor_1_AIF1_2_anchDet.wav",
-		IF1_audio_filename: "IF1/di_armor_1_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/di_armor_1_IF3_2_anchDet.wav",
-		IM1_audio_filename: "IM1/di_armor_3_IM1_2_anchDet.wav",
-		IM2_audio_filename: "IM2/di_armor_3_IM2_2_anchDet.wav",
-		AnF_audio_filename: "AnF/di_armor_2_AnF.wav"
+		audio_filename: "AnF/di_armor_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_armor_1_AIF1_2_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/di_armor_1_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/di_armor_1_IF3_2_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/di_armor_3_IM1_2_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/di_armor_3_IM2_2_AnF_anchDet.wav"
 	},
 	di_barrel_anchDet: {
 		index: "3",
@@ -83,13 +81,12 @@ const critical_trials = {
 		Distractor3: "egg",
 		Distractor3_filename: "PICTURE_423.png",
 		det: "anchDet",
-		audio_filename: "AnF/barrel_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_barrel_1_AIF1_2_anchDet.wav",
-		IF1_audio_filename: "IF1/di_barrel_3_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/di_barrel_1_IF3_2_anchDet.wav",
-		IM1_audio_filename: "IM1/di_barrel_1_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/di_barrel_1_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/di_barrel_1_AnF.wav"
+		audio_filename: "AnF/di_barrel_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_barrel_1_AIF1_2_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/di_barrel_3_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/di_barrel_1_IF3_2_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/di_barrel_1_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/di_barrel_1_IM2_1_AnF_anchDet.wav"
 	},
 	di_diamond_anchDet: {
 		index: "4",
@@ -113,13 +110,12 @@ const critical_trials = {
 		Distractor3: "factory",
 		Distractor3_filename: "PICTURE_412.png",
 		det: "anchDet",
-		audio_filename: "AnF/diamond_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_diamond_2_AIF1_1_anchDet.wav",
-		IF1_audio_filename: "IF1/di_diamond_3_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/di_diamond_2_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/di_diamond_2_IM1_2_anchDet.wav",
-		IM2_audio_filename: "IM2/di_diamond_3_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/di_diamond_1_AnF.wav"
+		audio_filename: "AnF/di_diamond_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_diamond_2_AIF1_1_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/di_diamond_3_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/di_diamond_2_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/di_diamond_2_IM1_2_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/di_diamond_3_IM2_1_AnF_anchDet.wav"
 	},
 	di_hammer_anchDet: {
 		index: "5",
@@ -143,13 +139,12 @@ const critical_trials = {
 		Distractor3: "throne",
 		Distractor3_filename: "PICTURE_420.png",
 		det: "anchDet",
-		audio_filename: "AnF/hammer_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_hammer_2_AIF1_1_anchDet.wav",
-		IF1_audio_filename: "IF1/di_hammer_1_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/di_hammer_1_IF3_2_anchDet.wav",
-		IM1_audio_filename: "IM1/di_hammer_3_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/di_hammer_3_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/di_hammer_1_AnF.wav"
+		audio_filename: "AnF/di_hammer_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_hammer_2_AIF1_1_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/di_hammer_1_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/di_hammer_1_IF3_2_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/di_hammer_3_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/di_hammer_3_IM2_1_AnF_anchDet.wav"
 	},
 	di_needle_anchDet: {
 		index: "6",
@@ -173,13 +168,12 @@ const critical_trials = {
 		Distractor3: "comb",
 		Distractor3_filename: "PICTURE_426.png",
 		det: "anchDet",
-		audio_filename: "AnF/needle_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_needle_2_AIF1_1_anchDet.wav",
-		IF1_audio_filename: "IF1/di_needle_1_IF1_1_anchDet.wav",
-		IF3_audio_filename: "IF3/di_needle_1_IF3_2_anchDet.wav",
-		IM1_audio_filename: "IM1/di_needle_2_IM1_2_anchDet.wav",
-		IM2_audio_filename: "IM2/di_needle_1_IM2_2_anchDet.wav",
-		AnF_audio_filename: "AnF/di_needle_2_AnF.wav"
+		audio_filename: "AnF/di_needle_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_needle_2_AIF1_1_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/di_needle_1_IF1_1_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/di_needle_1_IF3_2_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/di_needle_2_IM1_2_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/di_needle_1_IM2_2_AnF_anchDet.wav"
 	},
 	di_panda_anchDet: {
 		index: "7",
@@ -203,13 +197,12 @@ const critical_trials = {
 		Distractor3: "sock",
 		Distractor3_filename: "PICTURE_416.png",
 		det: "anchDet",
-		audio_filename: "AnF/panda_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_panda_1_AIF1_1_anchDet.wav",
-		IF1_audio_filename: "IF1/di_panda_2_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/di_panda_2_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/di_panda_2_IM1_2_anchDet.wav",
-		IM2_audio_filename: "IM2/di_panda_2_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/di_panda_2_AnF.wav"
+		audio_filename: "AnF/di_panda_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_panda_1_AIF1_1_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/di_panda_2_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/di_panda_2_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/di_panda_2_IM1_2_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/di_panda_2_IM2_1_AnF_anchDet.wav"
 	},
 	di_pilgrim_anchDet: {
 		index: "8",
@@ -233,13 +226,12 @@ const critical_trials = {
 		Distractor3: "cannon",
 		Distractor3_filename: "PICTURE_437.png",
 		det: "anchDet",
-		audio_filename: "AnF/pilgrim_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_pilgrim_2_AIF1_1_anchDet.wav",
-		IF1_audio_filename: "IF1/di_pilgrim_1_IF1_1_anchDet.wav",
-		IF3_audio_filename: "IF3/di_pilgrim_2_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/di_pilgrim_1_IM1_2_anchDet.wav",
-		IM2_audio_filename: "IM2/di_pilgrim_2_IM2_2_anchDet.wav",
-		AnF_audio_filename: "AnF/di_pilgrim_2_AnF.wav"
+		audio_filename: "AnF/di_pilgrim_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_pilgrim_2_AIF1_1_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/di_pilgrim_1_IF1_1_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/di_pilgrim_2_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/di_pilgrim_1_IM1_2_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/di_pilgrim_2_IM2_2_AnF_anchDet.wav"
 	},
 	di_sprinkler_anchDet: {
 		index: "9",
@@ -263,13 +255,12 @@ const critical_trials = {
 		Distractor3: "curtain",
 		Distractor3_filename: "PICTURE_418.png",
 		det: "anchDet",
-		audio_filename: "AnF/sprinkler_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_sprinkler_2_AIF1_1_anchDet.wav",
-		IF1_audio_filename: "IF1/di_sprinkler_2_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/di_sprinkler_3_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/di_sprinkler_2_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/di_sprinkler_3_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/di_sprinkler_1_AnF.wav"
+		audio_filename: "AnF/di_sprinkler_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_sprinkler_2_AIF1_1_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/di_sprinkler_2_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/di_sprinkler_3_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/di_sprinkler_2_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/di_sprinkler_3_IM2_1_AnF_anchDet.wav"
 	},
 	tri_bikini_anchDet: {
 		index: "10",
@@ -293,13 +284,12 @@ const critical_trials = {
 		Distractor3: "thumb",
 		Distractor3_filename: "PICTURE_438.png",
 		det: "anchDet",
-		audio_filename: "AnF/bikini_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_bikini_2_AIF1_2_anchDet.wav",
-		IF1_audio_filename: "IF1/tri_bikini_1_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/tri_bikini_3_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/tri_bikini_1_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/tri_bikini_3_IM2_2_anchDet.wav",
-		AnF_audio_filename: "AnF/tri_bikini_1_AnF.wav"
+		audio_filename: "AnF/tri_bikini_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_bikini_2_AIF1_2_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/tri_bikini_1_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/tri_bikini_3_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/tri_bikini_1_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/tri_bikini_3_IM2_2_AnF_anchDet.wav"
 	},
 	tri_conductor_anchDet: {
 		index: "11",
@@ -323,13 +313,12 @@ const critical_trials = {
 		Distractor3: "mitten",
 		Distractor3_filename: "PICTURE_431.png",
 		det: "anchDet",
-		audio_filename: "AnF/conductor_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_conductor_2_AIF1_2_anchDet.wav",
-		IF1_audio_filename: "IF1/tri_conductor_2_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/tri_conductor_1_IF3_2_anchDet.wav",
-		IM1_audio_filename: "IM1/tri_conductor_3_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/tri_conductor_2_IM2_2_anchDet.wav",
-		AnF_audio_filename: "AnF/tri_conductor_2_AnF.wav"
+		audio_filename: "AnF/tri_conductor_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_conductor_2_AIF1_2_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/tri_conductor_2_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/tri_conductor_1_IF3_2_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/tri_conductor_3_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/tri_conductor_2_IM2_2_AnF_anchDet.wav"
 	},
 	tri_eraser_anchDet: {
 		index: "12",
@@ -353,13 +342,12 @@ const critical_trials = {
 		Distractor3: "mustache",
 		Distractor3_filename: "PICTURE_494.png",
 		det: "anchDet",
-		audio_filename: "AnF/eraser_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_eraser_2_AIF1_2_anchDet.wav",
-		IF1_audio_filename: "IF1/tri_eraser_2_IF1_1_anchDet.wav",
-		IF3_audio_filename: "IF3/tri_eraser_1_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/tri_eraser_1_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/tri_eraser_3_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/tri_eraser_2_AnF.wav"
+		audio_filename: "AnF/tri_eraser_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_eraser_2_AIF1_2_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/tri_eraser_2_IF1_1_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/tri_eraser_1_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/tri_eraser_1_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/tri_eraser_3_IM2_1_AnF_anchDet.wav"
 	},
 	tri_intestine_anchDet: {
 		index: "13",
@@ -383,13 +371,12 @@ const critical_trials = {
 		Distractor3: "clothespin",
 		Distractor3_filename: "PICTURE_467.png",
 		det: "anchDet",
-		audio_filename: "AnF/intestine_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_intestine_2_AIF1_1_anchDet.wav",
-		IF1_audio_filename: "IF1/tri_intestine_3_IF1_1_anchDet.wav",
-		IF3_audio_filename: "IF3/tri_intestine_1_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/tri_intestine_3_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/tri_intestine_2_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/tri_intestine_2_AnF.wav"
+		audio_filename: "AnF/tri_intestine_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_intestine_2_AIF1_1_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/tri_intestine_3_IF1_1_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/tri_intestine_1_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/tri_intestine_3_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/tri_intestine_2_IM2_1_AnF_anchDet.wav"
 	},
 	tri_pajamas_anchDet: {
 		index: "14",
@@ -413,13 +400,12 @@ const critical_trials = {
 		Distractor3: "bell",
 		Distractor3_filename: "PICTURE_433.png",
 		det: "anchDet",
-		audio_filename: "AnF/pajamas_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_pajamas_3_AIF1_2_anchDet.wav",
-		IF1_audio_filename: "IF1/tri_pajamas_2_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/tri_pajamas_1_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/tri_pajamas_1_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/tri_pajamas_1_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/tri_pajamas_1_AnF.wav"
+		audio_filename: "AnF/tri_pajamas_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_pajamas_3_AIF1_2_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/tri_pajamas_2_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/tri_pajamas_1_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/tri_pajamas_1_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/tri_pajamas_1_IM2_1_AnF_anchDet.wav"
 	},
 	tri_papaya_anchDet: {
 		index: "15",
@@ -443,13 +429,12 @@ const critical_trials = {
 		Distractor3: "rectangle",
 		Distractor3_filename: "PICTURE_463.png",
 		det: "anchDet",
-		audio_filename: "AnF/papaya_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_papaya_3_AIF1_1_anchDet.wav",
-		IF1_audio_filename: "IF1/tri_papaya_3_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/tri_papaya_3_IF3_2_anchDet.wav",
-		IM1_audio_filename: "IM1/tri_papaya_2_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/tri_papaya_3_IM2_2_anchDet.wav",
-		AnF_audio_filename: "AnF/tri_papaya_1_AnF.wav"
+		audio_filename: "AnF/tri_papaya_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_papaya_3_AIF1_1_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/tri_papaya_3_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/tri_papaya_3_IF3_2_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/tri_papaya_2_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/tri_papaya_3_IM2_2_AnF_anchDet.wav"
 	},
 	tri_repairman_anchDet: {
 		index: "16",
@@ -473,13 +458,12 @@ const critical_trials = {
 		Distractor3: "watch",
 		Distractor3_filename: "PICTURE_452.png",
 		det: "anchDet",
-		audio_filename: "AnF/repairman_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_repairman_1_AIF1_2_anchDet.wav",
-		IF1_audio_filename: "IF1/tri_repairman_1_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/tri_repairman_1_IF3_2_anchDet.wav",
-		IM1_audio_filename: "IM1/tri_repairman_1_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/tri_repairman_3_IM2_2_anchDet.wav",
-		AnF_audio_filename: "AnF/tri_repairman_2_AnF.wav"
+		audio_filename: "AnF/tri_repairman_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_repairman_1_AIF1_2_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/tri_repairman_1_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/tri_repairman_1_IF3_2_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/tri_repairman_1_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/tri_repairman_3_IM2_2_AnF_anchDet.wav"
 	},
 	tri_torpedo_anchDet: {
 		index: "17",
@@ -503,13 +487,12 @@ const critical_trials = {
 		Distractor3: "star",
 		Distractor3_filename: "PICTURE_447.png",
 		det: "anchDet",
-		audio_filename: "AnF/torpedo_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_torpedo_2_AIF1_2_anchDet.wav",
-		IF1_audio_filename: "IF1/tri_torpedo_2_IF1_1_anchDet.wav",
-		IF3_audio_filename: "IF3/tri_torpedo_3_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/tri_torpedo_3_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/tri_torpedo_1_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/tri_torpedo_2_AnF.wav"
+		audio_filename: "AnF/tri_torpedo_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_torpedo_2_AIF1_2_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/tri_torpedo_2_IF1_1_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/tri_torpedo_3_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/tri_torpedo_3_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/tri_torpedo_1_IM2_1_AnF_anchDet.wav"
 	},
 	tri_volcano_anchDet: {
 		index: "18",
@@ -533,13 +516,12 @@ const critical_trials = {
 		Distractor3: "square",
 		Distractor3_filename: "PICTURE_472.png",
 		det: "anchDet",
-		audio_filename: "AnF/volcano_anchDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_volcano_1_AIF1_2_anchDet.wav",
-		IF1_audio_filename: "IF1/tri_volcano_3_IF1_2_anchDet.wav",
-		IF3_audio_filename: "IF3/tri_volcano_3_IF3_1_anchDet.wav",
-		IM1_audio_filename: "IM1/tri_volcano_3_IM1_1_anchDet.wav",
-		IM2_audio_filename: "IM2/tri_volcano_1_IM2_1_anchDet.wav",
-		AnF_audio_filename: "AnF/tri_volcano_2_AnF.wav"
+		audio_filename: "AnF/tri_volcano_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_volcano_1_AIF1_2_AnF_anchDet.wav",
+		IF1_audio_filename: "IF1/tri_volcano_3_IF1_2_AnF_anchDet.wav",
+		IF3_audio_filename: "IF3/tri_volcano_3_IF3_1_AnF_anchDet.wav",
+		IM1_audio_filename: "IM1/tri_volcano_3_IM1_1_AnF_anchDet.wav",
+		IM2_audio_filename: "IM2/tri_volcano_1_IM2_1_AnF_anchDet.wav"
 	},
 	di_archer_intDet: {
 		index: "1",
@@ -563,13 +545,12 @@ const critical_trials = {
 		Distractor3: "bagpipe",
 		Distractor3_filename: "PICTURE_425.png",
 		det: "intDet",
-		audio_filename: "AnF/archer_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_archer_3_AIF1_2_intDet.wav",
-		IF1_audio_filename: "IF1/di_archer_1_IF1_1_intDet.wav",
-		IF3_audio_filename: "IF3/di_archer_1_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/di_archer_3_IM1_2_intDet.wav",
-		IM2_audio_filename: "IM2/di_archer_2_IM2_1_intDet.wav",
-		AnF_audio_filename: "AnF/di_archer_2_AnF.wav"
+		audio_filename: "AnF/di_archer_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_archer_3_AIF1_2_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/di_archer_1_IF1_1_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/di_archer_1_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/di_archer_3_IM1_2_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/di_archer_2_IM2_1_AnF_intDet.wav"
 	},
 	di_armor_intDet: {
 		index: "2",
@@ -593,13 +574,12 @@ const critical_trials = {
 		Distractor3: "pistachio",
 		Distractor3_filename: "PICTURE_410.png",
 		det: "intDet",
-		audio_filename: "AnF/armor_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_armor_1_AIF1_2_intDet.wav",
-		IF1_audio_filename: "IF1/di_armor_1_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/di_armor_1_IF3_2_intDet.wav",
-		IM1_audio_filename: "IM1/di_armor_3_IM1_2_intDet.wav",
-		IM2_audio_filename: "IM2/di_armor_3_IM2_2_intDet.wav",
-		AnF_audio_filename: "AnF/di_armor_2_AnF.wav"
+		audio_filename: "AnF/di_armor_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_armor_1_AIF1_2_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/di_armor_1_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/di_armor_1_IF3_2_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/di_armor_3_IM1_2_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/di_armor_3_IM2_2_AnF_intDet.wav"
 	},
 	di_barrel_intDet: {
 		index: "3",
@@ -623,13 +603,12 @@ const critical_trials = {
 		Distractor3: "egg",
 		Distractor3_filename: "PICTURE_423.png",
 		det: "intDet",
-		audio_filename: "AnF/barrel_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_barrel_1_AIF1_2_intDet.wav",
-		IF1_audio_filename: "IF1/di_barrel_3_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/di_barrel_1_IF3_2_intDet.wav",
-		IM1_audio_filename: "IM1/di_barrel_1_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/di_barrel_1_IM2_1_intDet.wav",
-		AnF_audio_filename: "AnF/di_barrel_1_AnF.wav"
+		audio_filename: "AnF/di_barrel_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_barrel_1_AIF1_2_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/di_barrel_3_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/di_barrel_1_IF3_2_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/di_barrel_1_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/di_barrel_1_IM2_1_AnF_intDet.wav"
 	},
 	di_diamond_intDet: {
 		index: "4",
@@ -653,13 +632,12 @@ const critical_trials = {
 		Distractor3: "factory",
 		Distractor3_filename: "PICTURE_412.png",
 		det: "intDet",
-		audio_filename: "AnF/diamond_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_diamond_2_AIF1_1_intDet.wav",
-		IF1_audio_filename: "IF1/di_diamond_3_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/di_diamond_2_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/di_diamond_2_IM1_2_intDet.wav",
-		IM2_audio_filename: "IM2/di_diamond_3_IM2_1_intDet.wav",
-		AnF_audio_filename: "AnF/di_diamond_1_AnF.wav"
+		audio_filename: "AnF/di_diamond_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_diamond_2_AIF1_1_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/di_diamond_3_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/di_diamond_2_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/di_diamond_2_IM1_2_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/di_diamond_3_IM2_1_AnF_intDet.wav"
 	},
 	di_hammer_intDet: {
 		index: "5",
@@ -683,13 +661,12 @@ const critical_trials = {
 		Distractor3: "throne",
 		Distractor3_filename: "PICTURE_420.png",
 		det: "intDet",
-		audio_filename: "AnF/hammer_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_hammer_2_AIF1_1_intDet.wav",
-		IF1_audio_filename: "IF1/di_hammer_1_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/di_hammer_1_IF3_2_intDet.wav",
-		IM1_audio_filename: "IM1/di_hammer_3_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/di_hammer_3_IM2_1_intDet.wav",
-		AnF_audio_filename: "AnF/di_hammer_1_AnF.wav"
+		audio_filename: "AnF/di_hammer_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_hammer_2_AIF1_1_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/di_hammer_1_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/di_hammer_1_IF3_2_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/di_hammer_3_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/di_hammer_3_IM2_1_AnF_intDet.wav"
 	},
 	di_needle_intDet: {
 		index: "6",
@@ -713,13 +690,12 @@ const critical_trials = {
 		Distractor3: "comb",
 		Distractor3_filename: "PICTURE_426.png",
 		det: "intDet",
-		audio_filename: "AnF/needle_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_needle_2_AIF1_1_intDet.wav",
-		IF1_audio_filename: "IF1/di_needle_1_IF1_1_intDet.wav",
-		IF3_audio_filename: "IF3/di_needle_1_IF3_2_intDet.wav",
-		IM1_audio_filename: "IM1/di_needle_2_IM1_2_intDet.wav",
-		IM2_audio_filename: "IM2/di_needle_1_IM2_2_intDet.wav",
-		AnF_audio_filename: "AnF/di_needle_2_AnF.wav"
+		audio_filename: "AnF/di_needle_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_needle_2_AIF1_1_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/di_needle_1_IF1_1_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/di_needle_1_IF3_2_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/di_needle_2_IM1_2_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/di_needle_1_IM2_2_AnF_intDet.wav"
 	},
 	di_panda_intDet: {
 		index: "7",
@@ -743,13 +719,12 @@ const critical_trials = {
 		Distractor3: "sock",
 		Distractor3_filename: "PICTURE_416.png",
 		det: "intDet",
-		audio_filename: "AnF/panda_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_panda_1_AIF1_1_intDet.wav",
-		IF1_audio_filename: "IF1/di_panda_2_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/di_panda_2_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/di_panda_1_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/di_panda_2_IM2_1_intDet.wav",
-		AnF_audio_filename: "AnF/di_panda_2_AnF.wav"
+		audio_filename: "AnF/di_panda_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_panda_1_AIF1_1_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/di_panda_2_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/di_panda_2_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/di_panda_1_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/di_panda_2_IM2_1_AnF_intDet.wav"
 	},
 	di_pilgrim_intDet: {
 		index: "8",
@@ -773,13 +748,12 @@ const critical_trials = {
 		Distractor3: "cannon",
 		Distractor3_filename: "PICTURE_437.png",
 		det: "intDet",
-		audio_filename: "AnF/pilgrim_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_pilgrim_2_AIF1_1_intDet.wav",
-		IF1_audio_filename: "IF1/di_pilgrim_1_IF1_1_intDet.wav",
-		IF3_audio_filename: "IF3/di_pilgrim_2_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/di_pilgrim_1_IM1_2_intDet.wav",
-		IM2_audio_filename: "IM2/di_pilgrim_2_IM2_2_intDet.wav",
-		AnF_audio_filename: "AnF/di_pilgrim_2_AnF.wav"
+		audio_filename: "AnF/di_pilgrim_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_pilgrim_2_AIF1_1_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/di_pilgrim_1_IF1_1_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/di_pilgrim_2_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/di_pilgrim_1_IM1_2_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/di_pilgrim_2_IM2_2_AnF_intDet.wav"
 	},
 	di_sprinkler_intDet: {
 		index: "9",
@@ -803,13 +777,12 @@ const critical_trials = {
 		Distractor3: "curtain",
 		Distractor3_filename: "PICTURE_418.png",
 		det: "intDet",
-		audio_filename: "AnF/sprinkler_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/di_sprinkler_2_AIF1_1_intDet.wav",
-		IF1_audio_filename: "IF1/di_sprinkler_2_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/di_sprinkler_1_IF3_2_intDet.wav",
-		IM1_audio_filename: "IM1/di_sprinkler_3_IM1_2_intDet.wav",
-		IM2_audio_filename: "IM2/di_sprinkler_2_IM2_2_intDet.wav",
-		AnF_audio_filename: "AnF/di_sprinkler_1_AnF.wav"
+		audio_filename: "AnF/di_sprinkler_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/di_sprinkler_2_AIF1_1_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/di_sprinkler_2_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/di_sprinkler_1_IF3_2_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/di_sprinkler_3_IM1_2_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/di_sprinkler_2_IM2_2_AnF_intDet.wav"
 	},
 	tri_bikini_intDet: {
 		index: "10",
@@ -833,13 +806,12 @@ const critical_trials = {
 		Distractor3: "thumb",
 		Distractor3_filename: "PICTURE_438.png",
 		det: "intDet",
-		audio_filename: "AnF/bikini_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_bikini_2_AIF1_2_intDet.wav",
-		IF1_audio_filename: "IF1/tri_bikini_1_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/tri_bikini_3_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/tri_bikini_1_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/tri_bikini_3_IM2_2_intDet.wav",
-		AnF_audio_filename: "AnF/tri_bikini_1_AnF.wav"
+		audio_filename: "AnF/tri_bikini_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_bikini_2_AIF1_2_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/tri_bikini_1_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/tri_bikini_3_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/tri_bikini_1_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/tri_bikini_3_IM2_2_AnF_intDet.wav"
 	},
 	tri_conductor_intDet: {
 		index: "11",
@@ -863,13 +835,12 @@ const critical_trials = {
 		Distractor3: "mitten",
 		Distractor3_filename: "PICTURE_431.png",
 		det: "intDet",
-		audio_filename: "AnF/conductor_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_conductor_2_AIF1_2_intDet.wav",
-		IF1_audio_filename: "IF1/tri_conductor_2_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/tri_conductor_1_IF3_2_intDet.wav",
-		IM1_audio_filename: "IM1/tri_conductor_3_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/tri_conductor_2_IM2_2_intDet.wav",
-		AnF_audio_filename: "AnF/tri_conductor_2_AnF.wav"
+		audio_filename: "AnF/tri_conductor_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_conductor_2_AIF1_2_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/tri_conductor_2_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/tri_conductor_1_IF3_2_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/tri_conductor_3_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/tri_conductor_2_IM2_2_AnF_intDet.wav"
 	},
 	tri_eraser_intDet: {
 		index: "12",
@@ -893,13 +864,12 @@ const critical_trials = {
 		Distractor3: "mustache",
 		Distractor3_filename: "PICTURE_494.png",
 		det: "intDet",
-		audio_filename: "AnF/eraser_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_eraser_2_AIF1_2_intDet.wav",
-		IF1_audio_filename: "IF1/tri_eraser_2_IF1_1_intDet.wav",
-		IF3_audio_filename: "IF3/tri_eraser_1_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/tri_eraser_1_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/tri_eraser_3_IM2_1_intDet.wav",
-		AnF_audio_filename: "AnF/tri_eraser_2_AnF.wav"
+		audio_filename: "AnF/tri_eraser_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_eraser_2_AIF1_2_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/tri_eraser_2_IF1_1_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/tri_eraser_1_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/tri_eraser_1_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/tri_eraser_3_IM2_1_AnF_intDet.wav"
 	},
 	tri_intestine_intDet: {
 		index: "13",
@@ -923,13 +893,12 @@ const critical_trials = {
 		Distractor3: "clothespin",
 		Distractor3_filename: "PICTURE_467.png",
 		det: "intDet",
-		audio_filename: "AnF/intestine_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_intestine_2_AIF1_1_intDet.wav",
-		IF1_audio_filename: "IF1/tri_intestine_1_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/tri_intestine_1_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/tri_intestine_3_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/tri_intestine_2_IM2_1_intDet.wav",
-		AnF_audio_filename: "AnF/tri_intestine_2_AnF.wav"
+		audio_filename: "AnF/tri_intestine_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_intestine_2_AIF1_1_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/tri_intestine_1_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/tri_intestine_1_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/tri_intestine_3_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/tri_intestine_2_IM2_1_AnF_intDet.wav"
 	},
 	tri_pajamas_intDet: {
 		index: "14",
@@ -953,13 +922,12 @@ const critical_trials = {
 		Distractor3: "bell",
 		Distractor3_filename: "PICTURE_433.png",
 		det: "intDet",
-		audio_filename: "AnF/pajamas_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_pajamas_3_AIF1_2_intDet.wav",
-		IF1_audio_filename: "IF1/tri_pajamas_2_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/tri_pajamas_1_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/tri_pajamas_1_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/tri_pajamas_1_IM2_1_intDet.wav",
-		AnF_audio_filename: "AnF/tri_pajamas_1_AnF.wav"
+		audio_filename: "AnF/tri_pajamas_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_pajamas_3_AIF1_2_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/tri_pajamas_2_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/tri_pajamas_1_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/tri_pajamas_1_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/tri_pajamas_1_IM2_1_AnF_intDet.wav"
 	},
 	tri_papaya_intDet: {
 		index: "15",
@@ -983,13 +951,12 @@ const critical_trials = {
 		Distractor3: "rectangle",
 		Distractor3_filename: "PICTURE_463.png",
 		det: "intDet",
-		audio_filename: "AnF/papaya_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_papaya_3_AIF1_1_intDet.wav",
-		IF1_audio_filename: "IF1/tri_papaya_3_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/tri_papaya_2_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/tri_papaya_2_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/tri_papaya_3_IM2_2_intDet.wav",
-		AnF_audio_filename: "AnF/tri_papaya_1_AnF.wav"
+		audio_filename: "AnF/tri_papaya_1_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_papaya_3_AIF1_1_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/tri_papaya_3_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/tri_papaya_2_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/tri_papaya_2_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/tri_papaya_3_IM2_2_AnF_intDet.wav"
 	},
 	tri_repairman_intDet: {
 		index: "16",
@@ -1013,13 +980,12 @@ const critical_trials = {
 		Distractor3: "watch",
 		Distractor3_filename: "PICTURE_452.png",
 		det: "intDet",
-		audio_filename: "AnF/repairman_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_repairman_1_AIF1_2_intDet.wav",
-		IF1_audio_filename: "IF1/tri_repairman_1_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/tri_repairman_1_IF3_2_intDet.wav",
-		IM1_audio_filename: "IM1/tri_repairman_1_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/tri_repairman_3_IM2_2_intDet.wav",
-		AnF_audio_filename: "AnF/tri_repairman_2_AnF.wav"
+		audio_filename: "AnF/tri_repairman_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_repairman_1_AIF1_2_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/tri_repairman_1_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/tri_repairman_1_IF3_2_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/tri_repairman_1_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/tri_repairman_3_IM2_2_AnF_intDet.wav"
 	},
 	tri_torpedo_intDet: {
 		index: "17",
@@ -1043,13 +1009,12 @@ const critical_trials = {
 		Distractor3: "star",
 		Distractor3_filename: "PICTURE_447.png",
 		det: "intDet",
-		audio_filename: "AnF/torpedo_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_torpedo_2_AIF1_2_intDet.wav",
-		IF1_audio_filename: "IF1/tri_torpedo_2_IF1_1_intDet.wav",
-		IF3_audio_filename: "IF3/tri_torpedo_3_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/tri_torpedo_3_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/tri_torpedo_1_IM2_1_intDet.wav",
-		AnF_audio_filename: "AnF/tri_torpedo_2_AnF.wav"
+		audio_filename: "AnF/tri_torpedo_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_torpedo_2_AIF1_2_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/tri_torpedo_2_IF1_1_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/tri_torpedo_3_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/tri_torpedo_3_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/tri_torpedo_1_IM2_1_AnF_intDet.wav"
 	},
 	tri_volcano_intDet: {
 		index: "18",
@@ -1073,12 +1038,11 @@ const critical_trials = {
 		Distractor3: "square",
 		Distractor3_filename: "PICTURE_472.png",
 		det: "intDet",
-		audio_filename: "AnF/volcano_intDet_AnF.wav",
-		AIF1_audio_filename: "AIF1/tri_volcano_1_AIF1_2_intDet.wav",
-		IF1_audio_filename: "IF1/tri_volcano_3_IF1_2_intDet.wav",
-		IF3_audio_filename: "IF3/tri_volcano_3_IF3_1_intDet.wav",
-		IM1_audio_filename: "IM1/tri_volcano_3_IM1_1_intDet.wav",
-		IM2_audio_filename: "IM2/tri_volcano_1_IM2_1_intDet.wav",
-		AnF_audio_filename: "AnF/tri_volcano_2_AnF.wav"
+		audio_filename: "AnF/tri_volcano_2_AnF.wav",
+		AIF1_audio_filename: "AIF1/tri_volcano_1_AIF1_2_AnF_intDet.wav",
+		IF1_audio_filename: "IF1/tri_volcano_3_IF1_2_AnF_intDet.wav",
+		IF3_audio_filename: "IF3/tri_volcano_3_IF3_1_AnF_intDet.wav",
+		IM1_audio_filename: "IM1/tri_volcano_3_IM1_1_AnF_intDet.wav",
+		IM2_audio_filename: "IM2/tri_volcano_1_IM2_1_AnF_intDet.wav"
 	}
 }

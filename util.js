@@ -22,7 +22,6 @@ function divide_blocks(stims) {
     let block = []
     for (let j=0; j<trials_per_block[i]; j++) {
       let curr = stims[j + prev]
-      console.log(curr)
       curr.block = i+1
       block.push(curr)
     }
