@@ -15,10 +15,24 @@
         <link href="../jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
         <link href="../exp.css" rel="stylesheet" type="text/css" />
 
+        <!-- Global js variables -->
+        <script>
+            let det = Math.floor(Math.random() * 2) ? "anchDet" : "intDet"
+            console.log(det)
+
+            anchor_talker = "AnF"
+            int_talkers = ["IF1", "IF3", "IM1", "IM2"]
+            pilot_talker = "AIF1"
+        </script>
+
         <!-- Other .js files -->
         <script src="../util.js"></script>
-        <script src="stims.js"></script>
+        <script src="csvs/trials_critical.js"></script>
+        <script src="csvs/trials_filler.js"></script>
+        <script src="../make_stims.js"></script>
+        <!-- <script src="stims.js"></script> -->
         <script src="exp1.js"></script>
+
 
         <!-- This is the name that will appear on the browser tab. -->
         <title>Language Experiment</title>
