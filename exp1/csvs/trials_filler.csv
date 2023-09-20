@@ -21,7 +21,7 @@ index,trial_code,sentence,status,target,target_filename,competitor,competitor_fi
 40,pred_lamp,"It's getting dark, so light the lamp",filler,lamp,PICTURE_414.png,NA,NA,drum set,PICTURE_101.png,rhinoceros,PICTURE_282.png,tongue,PICTURE_503.png,2
 41,pred_map,We're lost so let's look at the map,filler,map,PICTURE_677.png,NA,NA,robot,PICTURE_87.png,hand,PICTURE_264.png,chicken,PICTURE_454.png,2
 42,pred_meat,He is a vegetarian so he won't eat meat,filler,meat,PICTURE_81.png,NA,NA,wave,PICTURE_72.png,choir,PICTURE_253.png,tank,PICTURE_621.png,2
-43,pred_microphone,The musician sang into the microphone,filler,microphone,PICTURE_28.png,NA,NA,shadow,PICTURE_55.png,pirate,PICTURE_265.png,fly,PICTURE_462.png,2
+43,pred_microphone,The musician sang into the microphone,filler,microphone,PICTURE_208.png,NA,NA,shadow,PICTURE_55.png,pirate,PICTURE_265.png,fly,PICTURE_462.png,2
 44,pred_mirror,He saw his reflection in the mirror,filler,mirror,PICTURE_340.png,NA,NA,tractor,PICTURE_74.png,potato,PICTURE_249.png,coffin,PICTURE_497.png,2
 45,pred_mouse,They played a game of cat and mouse,filler,mouse,PICTURE_1.png,NA,NA,fire,PICTURE_116.png,wing,PICTURE_307.png,clown,PICTURE_532.png,2
 46,pred_net,He caught the fish in his net,filler,net,PICTURE_346.png,NA,NA,chair,PICTURE_122.png,razor,PICTURE_311.png,lighthouse,PICTURE_540.png,2
@@ -64,7 +64,7 @@ index,trial_code,sentence,status,target,target_filename,competitor,competitor_fi
 83,unpred_hotdog,He would think about the hot dog,filler,hot dog,PICTURE_627.png,NA,NA,wound,PICTURE_118.png,perfume,PICTURE_314.png,bat,PICTURE_547.png,1
 84,unpred_house,He wants to talk about the house,filler,house,PICTURE_522.png,NA,NA,boomerang,PICTURE_209.png,cauliflower,PICTURE_373.png,koala,PICTURE_601.png,2
 85,unpred_iceberg,Bill hopes Paul heard about the iceberg,filler,iceberg,PICTURE_577.png,NA,NA,domino,PICTURE_154.png,guitar,PICTURE_357.png,corn,PICTURE_587.png,2
-86,unpred_kite,We heard they called about the kite,filler,kite,PICTURE_535.png,NA,NA,shoelace,PICTURE_167.png,whale,PICTURE_724.png,funnel,PICTURE_633.png,1
+86,unpred_kite,We heard they called about the kite,filler,kite,PICTURE_720.png,NA,NA,shoelace,PICTURE_167.png,whale,PICTURE_724.png,funnel,PICTURE_633.png,1
 87,unpred_lighter,You're glad they heard about the lighter,filler,lighter,PICTURE_558.png,NA,NA,wheelbarrow,PICTURE_160.png,dolphin,PICTURE_361.png,sled,PICTURE_625.png,2
 88,unpred_magnet,Tom discussed the magnet,filler,magnet,PICTURE_571.png,NA,NA,snail,PICTURE_152.png,goat,PICTURE_354.png,lab,PICTURE_582.png,2
 89,unpred_painter,We have discussed the painter,filler,painter,PICTURE_175.png,NA,NA,witch,PICTURE_184.png,dragonfly,PICTURE_404.png,airport,PICTURE_617.png,2
