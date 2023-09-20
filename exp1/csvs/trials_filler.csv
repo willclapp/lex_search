@@ -2,7 +2,7 @@ index,trial_code,sentence,status,target,target_filename,competitor,competitor_fi
 21,pred_ant,A termite looks like an ant,filler,ant,PICTURE_585.png,NA,NA,saxophone,PICTURE_107.png,trigger,PICTURE_291.png,box,PICTURE_508.png,2
 22,pred_belt,His pants were held up by a belt,filler,belt,PICTURE_165.png,NA,NA,green house,PICTURE_106.png,plumber,PICTURE_294.png,fox,PICTURE_521.png,2
 23,pred_bench,The judge is sitting on the bench,filler,bench,PICTURE_449.png,NA,NA,deer,PICTURE_105.png,mime,PICTURE_303.png,telephone,PICTURE_509.png,1
-24,pred_bomb,The airplane dropped a bomb,filler,bomb,PICTURE_386.png,NA,NA,nose,PICTURE_100.png,tunnel,PICTURE_286.png,shepard,PICTURE_502.png,2
+24,pred_bomb,The airplane dropped a bomb,filler,bomb,PICTURE_386.png,NA,NA,nose,PICTURE_100.png,tunnel,PICTURE_286.png,shepherd,PICTURE_502.png,2
 25,pred_bone,The dog chewed on a bone,filler,bone,PICTURE_24.png,NA,NA,mask,PICTURE_84.png,knot,PICTURE_267.png,sun,PICTURE_488.png,2
 26,pred_broom,The girl swept the floor with a broom,filler,broom,PICTURE_590.png,NA,NA,tiger,PICTURE_98.png,cape,PICTURE_275.png,avocado,PICTURE_477.png,1
 27,pred_carrot,The rabbit ate the orange carrot,filler,carrot,PICTURE_285.png,NA,NA,heart,PICTURE_83.png,lizard,PICTURE_252.png,circle,PICTURE_496.png,2
@@ -16,11 +16,11 @@ index,trial_code,sentence,status,target,target_filename,competitor,competitor_fi
 35,pred_dentist,Her tooth hurt so she went to the dentist,filler,dentist,PICTURE_246.png,NA,NA,broccoli,PICTURE_76.png,lamppost,PICTURE_261.png,stairs,PICTURE_500.png,1
 36,pred_fist,He hit me with a clenched fist,filler,fist,PICTURE_411.png,NA,NA,painting,PICTURE_99.png,wig,PICTURE_277.png,skunk,PICTURE_493.png,1
 37,pred_fork,He eats the salad with a fork,filler,fork,PICTURE_673.png,NA,NA,camel,PICTURE_77.png,island,PICTURE_260.png,basket,PICTURE_487.png,1
-38,pred_jar,The cookies were kept in a jar,filler,jar,PICTURE_448.png,NA,NA,lung,PICTURE_112.png,ostritch,PICTURE_299.png,violin,PICTURE_566.png,2
+38,pred_jar,The cookies were kept in a jar,filler,jar,PICTURE_448.png,NA,NA,lung,PICTURE_112.png,ostrich,PICTURE_299.png,violin,PICTURE_566.png,2
 39,pred_knife,I cut my finger with a knife,filler,knife,PICTURE_465.png,NA,NA,hippopotamus,PICTURE_115.png,flower,PICTURE_312.png,astronaut,PICTURE_539.png,2
 40,pred_lamp,"It's getting dark, so light the lamp",filler,lamp,PICTURE_414.png,NA,NA,drum set,PICTURE_101.png,rhinoceros,PICTURE_282.png,tongue,PICTURE_503.png,2
 41,pred_map,We're lost so let's look at the map,filler,map,PICTURE_677.png,NA,NA,robot,PICTURE_87.png,hand,PICTURE_264.png,chicken,PICTURE_454.png,2
-42,pred_meat,He is a vegetarian so he won't eat meat,filler,meat,PICTURE_81.png,NA,NA,wave,PICTURE_72.png,choir,PICTURE_253.png,tank,PICTURE_621.png,2
+42,pred_meat,He is a vegetarian so he won't eat meat,filler,meat,PICTURE_81.png,NA,NA,wave,PICTURE_73.png,choir,PICTURE_253.png,tank,PICTURE_621.png,2
 43,pred_microphone,The musician sang into the microphone,filler,microphone,PICTURE_208.png,NA,NA,shadow,PICTURE_55.png,pirate,PICTURE_265.png,fly,PICTURE_462.png,2
 44,pred_mirror,He saw his reflection in the mirror,filler,mirror,PICTURE_340.png,NA,NA,tractor,PICTURE_74.png,potato,PICTURE_249.png,coffin,PICTURE_497.png,2
 45,pred_mouse,They played a game of cat and mouse,filler,mouse,PICTURE_1.png,NA,NA,fire,PICTURE_116.png,wing,PICTURE_307.png,clown,PICTURE_532.png,2
@@ -40,14 +40,14 @@ index,trial_code,sentence,status,target,target_filename,competitor,competitor_fi
 59,pred_thermometer,She took her temperature with a thermometer,filler,thermometer,PICTURE_192.png,NA,NA,banana,PICTURE_69.png,wagon,PICTURE_248.png,pyramid,PICTURE_457.png,1
 60,pred_truck,We shipped the furniture by truck,filler,truck,PICTURE_535.png,NA,NA,seal,PICTURE_92.png,arrow,PICTURE_270.png,kangaroo,PICTURE_479.png,2
 61,pred_tub,Paul took a bath in the tub,filler,tub,PICTURE_747.png,NA,NA,desk,PICTURE_110.png,flag,PICTURE_295.png,walrus,PICTURE_529.png,1
-62,pred_turkey,On Thanksgiving his family eats turkey,filler,turkey,PICTURE_19.png,NA,NA,balloon,PICTURE_75.png,shovel,PICTURE_255.png,rose,PICTURE_480.png,1
+62,pred_turkey,On Thanksgiving his family eats turkey,filler,turkey,PICTURE_668.png,NA,NA,balloon,PICTURE_75.png,shovel,PICTURE_255.png,rose,PICTURE_480.png,1
 63,unpred_asparagus,We're speaking about the asparagus,filler,asparagus,PICTURE_581.png,NA,NA,bullet,PICTURE_155.png,car,PICTURE_358.png,toad,PICTURE_584.png,2
 64,unpred_baby,I want to speak about the baby,filler,baby,PICTURE_507.png,NA,NA,road,PICTURE_164.png,gorilla,PICTURE_380.png,cloud,PICTURE_599.png,2
 65,unpred_battery,Bill heard we talked about the battery,filler,battery,PICTURE_656.png,NA,NA,faucet,PICTURE_140.png,night,PICTURE_342.png,cucumber,PICTURE_559.png,1
 66,unpred_beard,Jane did not speak about the beard,filler,beard,PICTURE_159.png,NA,NA,rain,PICTURE_190.png,steering wheel,PICTURE_398.png,cactus,PICTURE_640.png,2
 67,unpred_boat,The man should discuss the boat,filler,boat,PICTURE_482.png,NA,NA,pharmacy,PICTURE_173.png,chain,PICTURE_391.png,sweater,PICTURE_607.png,2
 68,unpred_book,I should have considered the book,filler,book,PICTURE_505.png,NA,NA,goal,PICTURE_170.png,strawberry,PICTURE_381.png,dynamite,PICTURE_634.png,2
-69,unpred_boy,Ruth must have known about the boy,filler,boy,PICTURE_499.png,NA,NA,parrot,PICTURE_172.png,stapler,PICTURE_387.png,cemetary,PICTURE_603.png,1
+69,unpred_boy,Ruth must have known about the boy,filler,boy,PICTURE_499.png,NA,NA,parrot,PICTURE_172.png,stapler,PICTURE_387.png,cemetery,PICTURE_603.png,1
 70,unpred_bridge,Tom will discuss the bridge,filler,bridge,PICTURE_178.png,NA,NA,soccer ball,PICTURE_185.png,teapot,PICTURE_392.png,pelican,PICTURE_662.png,1
 71,unpred_bus,Jane wants to speak about the bus,filler,bus,PICTURE_273.png,NA,NA,rat,PICTURE_137.png,tomato,PICTURE_326.png,eyebrow,PICTURE_578.png,1
 72,unpred_chocolate,He can't consider the chocolate,filler,chocolate,PICTURE_593.png,NA,NA,puddle,PICTURE_150.png,butterfly,PICTURE_351.png,juggler,PICTURE_572.png,2

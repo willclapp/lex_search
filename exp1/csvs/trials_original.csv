@@ -45,7 +45,7 @@ index,sentence,trial_code,status,target,target_filename,competitor,competitor_fi
 44,He hit me with a clenched fist,pred_fist,filler,fist,PICTURE_411.png,NA,NA,painting,PICTURE_99.png,wig,PICTURE_277.png,skunk,PICTURE_493.png
 45,The doctor X-rayed his chest,pred_chest,filler,chest,PICTURE_231.png,NA,NA,feather,PICTURE_97.png,pomegranate,PICTURE_281.png,shoe,PICTURE_541.png
 46,The duck swam with the white swan,pred_swan,filler,swan,PICTURE_528.png,NA,NA,mouth,PICTURE_91.png,limo,PICTURE_283.png,calculator,PICTURE_516.png
-47,The airplane dropped a bomb,pred_bomb,filler,bomb,PICTURE_386.png,NA,NA,nose,PICTURE_100.png,tunnel,PICTURE_286.png,shepard,PICTURE_502.png
+47,The airplane dropped a bomb,pred_bomb,filler,bomb,PICTURE_386.png,NA,NA,nose,PICTURE_100.png,tunnel,PICTURE_286.png,shepherd,PICTURE_502.png
 48,"It's getting dark, so light the lamp",pred_lamp,filler,lamp,PICTURE_414.png,NA,NA,drum set,PICTURE_101.png,rhinoceros,PICTURE_282.png,tongue,PICTURE_503.png
 49,He wiped the sink with a sponge,pred_sponge,filler,sponge,PICTURE_650.png,NA,NA,hair,PICTURE_102.png,forest,PICTURE_288.png,underwear,PICTURE_545.png
 50,The judge is sitting on the bench,pred_bench,filler,bench,PICTURE_449.png,NA,NA,deer,PICTURE_105.png,mime,PICTURE_303.png,telephone,PICTURE_509.png
@@ -55,7 +55,7 @@ index,sentence,trial_code,status,target,target_filename,competitor,competitor_fi
 54,His pants were held up by a belt,pred_belt,filler,belt,PICTURE_165.png,NA,NA,green house,PICTURE_106.png,plumber,PICTURE_294.png,fox,PICTURE_521.png
 55,Paul took a bath in the tub,pred_tub,filler,tub,PICTURE_747.png,NA,NA,desk,PICTURE_110.png,flag,PICTURE_295.png,walrus,PICTURE_529.png
 56,They played a game of cat and mouse,pred_mouse,filler,mouse,PICTURE_1.png,NA,NA,fire,PICTURE_116.png,wing,PICTURE_307.png,clown,PICTURE_532.png
-57,The cookies were kept in a jar,pred_jar,filler,jar,PICTURE_448.png,NA,NA,lung,PICTURE_112.png,ostritch,PICTURE_299.png,violin,PICTURE_566.png
+57,The cookies were kept in a jar,pred_jar,filler,jar,PICTURE_448.png,NA,NA,lung,PICTURE_112.png,ostrich,PICTURE_299.png,violin,PICTURE_566.png
 58,Air mail requires a special stamp,pred_stamp,filler,stamp,PICTURE_57.png,NA,NA,lake,PICTURE_113.png,die,PICTURE_308.png,fingerprint,PICTURE_537.png
 59,The bottle was sealed with a cork,pred_cork,filler,cork,PICTURE_409.png,NA,NA,fruit,PICTURE_114.png,envelope,PICTURE_310.png,turtle,PICTURE_531.png
 60,I cut my finger with a knife,pred_knife,filler,knife,PICTURE_465.png,NA,NA,hippopotamus,PICTURE_115.png,flower,PICTURE_312.png,astronaut,PICTURE_539.png
@@ -94,7 +94,7 @@ index,sentence,trial_code,status,target,target_filename,competitor,competitor_fi
 93,She has known about the submarine,unpred_submarine,filler,submarine,PICTURE_514.png,NA,NA,back,PICTURE_169.png,lobster,PICTURE_378.png,cube,PICTURE_595.png
 94,I want to speak about the baby,unpred_baby,filler,baby,PICTURE_507.png,NA,NA,road,PICTURE_164.png,gorilla,PICTURE_380.png,cloud,PICTURE_599.png
 95,I should have considered the book,unpred_book,filler,book,PICTURE_505.png,NA,NA,goal,PICTURE_170.png,strawberry,PICTURE_381.png,dynamite,PICTURE_634.png
-96,Ruth must have known about the boy,unpred_boy,filler,boy,PICTURE_499.png,NA,NA,parrot,PICTURE_172.png,stapler,PICTURE_387.png,cemetary,PICTURE_603.png
+96,Ruth must have known about the boy,unpred_boy,filler,boy,PICTURE_499.png,NA,NA,parrot,PICTURE_172.png,stapler,PICTURE_387.png,cemetery,PICTURE_603.png
 97,The man should discuss the boat,unpred_boat,filler,boat,PICTURE_482.png,NA,NA,pharmacy,PICTURE_173.png,chain,PICTURE_391.png,sweater,PICTURE_607.png
 98,They heard I called about the gun,unpred_gun,filler,gun,PICTURE_461.png,NA,NA,salad,PICTURE_191.png,purse,PICTURE_388.png,umbrella,PICTURE_653.png
 99,Bill cannot consider the tattoo,unpred_tattoo,filler,tattoo,PICTURE_413.png,NA,NA,mushroom,PICTURE_177.png,ballerina,PICTURE_399.png,pencil case,PICTURE_609.png
