@@ -178,8 +178,8 @@ var jsPsychAudioButtonResponse = (function (jspsych) {
                   this.audio.start(startTime);
               }
               else {
-                  sleep(2000).then(() => { this.audio.play();; });
-                //   this.audio.play();
+                //   sleep(2000).then(() => { this.audio.play();; });
+                  this.audio.play();
               }
               // end trial if time limit is set
               if (trial.trial_duration !== null) {

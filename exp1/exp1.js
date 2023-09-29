@@ -155,16 +155,16 @@ let experiment_instructions = {
   post_trial_gap: 1000
 };
 
-timeline.push(
-  camera_instructions, 
-  init_camera_trial, 
-  calibration_instructions, 
-  calibration_instructions_2, 
-  calibration, 
-  validation_instructions, 
-  validation,
-  experiment_instructions
-);
+// timeline.push(
+//   camera_instructions, 
+//   init_camera_trial, 
+//   calibration_instructions, 
+//   calibration_instructions_2, 
+//   calibration, 
+//   validation_instructions, 
+//   validation,
+//   experiment_instructions
+// );
 
 
 stims = shuffle_imgs(stims)
@@ -186,6 +186,15 @@ for (let i=0; i<all_trials.length; i++) {
         trial_duration: 500,
         prompt: `<div id="isi_fixation_box"> </div>`,
         choices: ['']
+      },
+      {
+        type: jsPsychAudioButtonResponse,
+        stimulus: './audio/silence.wav',
+        choices: jsPsych.timelineVariable('imgs'),
+        button_html: '<img src="../img/%choice%" id="%choice%" style="padding-top:40px"/>',
+        margin_horizontal: '0px',
+        response_allowed_while_playing: false,
+        trial_duration: 2000,
       },
       {
         type: jsPsychAudioButtonResponse,
