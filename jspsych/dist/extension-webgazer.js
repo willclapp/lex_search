@@ -65,7 +65,6 @@ var jsPsychExtensionWebgazer = (function () {
           this.on_start = (params) => {
               this.currentTrialData = [];
               this.currentTrialTargets = {};
-              console.log(params)
               this.currentTrialSelectors = params.targets;
               this.domObserver.observe(this.jsPsych.getDisplayElement(), { childList: true });
           };

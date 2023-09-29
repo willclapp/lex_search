@@ -72,12 +72,17 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     curr_talker = critical_talker_order[j]
     audio_filename = critical_talker_order[j] == "AnF" ? curr_trial.audio_filename : curr_trial[critical_talker_order[j]+"_audio_filename"]
     imgs.push(curr_trial.target_filename, curr_trial.Distractor1_filename, curr_trial.Distractor2_filename)
+    target_img = curr_trial.target_filename
+    distractor_1_img = curr_trial.Distractor1_filename
+    distractor_2_img = curr_trial.Distractor2_filename
     if (comp_codes[j] == "comp") {
       imgs.push(curr_trial.competitor_filename)
       competitor = curr_trial.competitor
+      competitor_img = curr_trial.competitor_filename
     } else {
       imgs.push(curr_trial.Distractor3_filename)
       distractor_3 = curr_trial.Distractor3
+      distractor_3_img = curr_trial.Distractor3_filename
     }
     trial_code = critical_codes[j]
     j++;
@@ -86,6 +91,10 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     curr_talker = "AnF"
     audio_filename = curr_trial.audio_filename
     imgs.push(curr_trial.target_filename, curr_trial.Distractor1_filename, curr_trial.Distractor2_filename, curr_trial.Distractor3_filename)
+    target_img = curr_trial.target_filename
+    distractor_1_img = curr_trial.Distractor1_filename
+    distractor_2_img = curr_trial.Distractor2_filename
+    distractor_3_img = curr_trial.Distractor3_filename
     distractor_3 = curr_trial.Distractor3
     trial_code = filler_codes[k]
     k++;
@@ -99,6 +108,11 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     distractor_1: curr_trial.Distractor1,
     distractor_2: curr_trial.Distractor2,
     distractor_3: distractor_3,
+    target_img: target_img,
+    competitor_img: competitor_img,
+    distractor_1_img: distractor_1_img,
+    distractor_2_img: distractor_2_img,
+    distractor_3_img: distractor_3_img,
     block: 0,
     trial_num: i,
     sentence: curr_trial.sentence,
@@ -108,4 +122,9 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     trial_code: trial_code
   }
   stims.push(trial_obj)
+
+  preload_audio.push("./audio/" + audio_filename)
+  for (let l=0; l<imgs.length; l++) {
+    preload_imgs.push("../img/" + imgs[l])
+  }
 }

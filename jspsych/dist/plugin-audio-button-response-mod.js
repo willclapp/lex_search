@@ -1,6 +1,10 @@
 var jsPsychAudioButtonResponse = (function (jspsych) {
   'use strict';
 
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
   const info = {
       name: "audio-button-response",
       parameters: {
@@ -174,7 +178,8 @@ var jsPsychAudioButtonResponse = (function (jspsych) {
                   this.audio.start(startTime);
               }
               else {
-                  this.audio.play();
+                  sleep(2000).then(() => { this.audio.play();; });
+                //   this.audio.play();
               }
               // end trial if time limit is set
               if (trial.trial_duration !== null) {
