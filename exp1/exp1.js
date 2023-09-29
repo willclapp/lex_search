@@ -171,9 +171,9 @@ stims = shuffle_imgs(stims)
 let all_trials = divide_blocks(stims);
 
 // To reduce experiment length for testing:
-for (let i=0; i<all_trials.length; i++) {
-  all_trials[i] = [all_trials[i][0], all_trials[i][1]]
-}
+// for (let i=0; i<all_trials.length; i++) {
+//   all_trials[i] = [all_trials[i][0], all_trials[i][1]]
+// }
 
 for (let i=0; i<all_trials.length; i++) {
   const trials = {
