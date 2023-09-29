@@ -59,8 +59,7 @@ var camera_instructions = {
         <p>You will be prompted to do this on the next screen.</p>
         <p>If you do not want to permit the experiment to use your camera, please close the page.</p>
     `,
-    choices: ['Click to begin'],
-    // post_trial_gap: 1000
+    choices: ['Click to begin']
 };
 
 let init_camera_trial = {
@@ -104,19 +103,19 @@ var calibration = {
     //     [70,10],[70,30],[70,50],[70,70],[70,90],
     //     [90,10],[90,30],[90,50],[90,70],[90,90]
     // ],
-    // calibration_points: [
-    //     [10,10],[10,30],[10,50],[10,70],[10,90],
-    //     [50,10],[50,30],[50,50],[50,70],[50,90],
-    //     [90,10],[90,30],[90,50],[90,70],[90,90]
-    // ],
+    calibration_points: [
+        [20,10],[20,30],[20,50],[20,70],[20,90],
+        [50,10],[50,30],[50,50],[50,70],[50,90],
+        [80,10],[80,30],[80,50],[80,70],[80,90]
+    ],
     // calibration_points: [
     //   [10,10],[10,50],[10,90],
     //   [50,10],[50,50],[50,90],
     //   [90,10],[90,50],[90,90]
     // ],
-    calibration_points: [
-      [50,50]
-    ],
+    // calibration_points: [
+    //   [50,50]
+    // ],
     repetitions_per_point: 2,
     calibration_mode: 'view',
     randomize_calibration_order: true,
