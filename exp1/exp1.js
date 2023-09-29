@@ -4,10 +4,31 @@ const jsPsych = initJsPsych({
   extensions: [
     {type: jsPsychExtensionWebgazer}
   ],
-  on_finish: function() {
-    jsPsych.data.displayData('csv');
+  on_finish: function(data) {
+    proliferate.submit({"trials": data.values()});
   }
 })
+
+const preload = {
+  type: jsPsychPreload,
+  audio: preload_audio,
+  images: preload_imgs
+}
+timeline.push(preload)
+
+const enter_fullscreen = {
+  type: jsPsychFullscreen,
+  fullscreen_mode: true,
+  message: `
+    <p>Before beginning, please close out of any open applications other than</p>
+    <p>this web browser. Also close out of any unnecessary tabs, particularly</p>
+    <p>those that might produce notifications.<br><br></p>
+    <p>This experiment requires use of your full screen. To enter full screen</p>  
+    <p>mode and continue with the experiment, click below.<br><br></p>
+  `
+}
+
+timeline.push(enter_fullscreen)
 
 const irb = {
   type: jsPsychHtmlButtonResponse,
@@ -16,6 +37,19 @@ const irb = {
 };
 timeline.push(irb)
 
+const audio_check = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: `
+    <p>This experiment uses audio. Please make sure that your</p>
+    <p>headphones are plugged in and that your volume is turned</p>
+    <p>up. The audio below is similar to what you'll hear in the</p>
+    <p>experiment, so you can play it as many times as you need</p>
+    <p>while you adjust your volume to a comfortable level.</p>
+    <audio controls src="./audio/AnF/di_kitchen_2_AnF.wav"></audio>
+  `,
+  choices: ['Continue']
+}
+timeline.push(audio_check);
 
 var camera_instructions = {
     type: jsPsychHtmlButtonResponse,
@@ -26,11 +60,39 @@ var camera_instructions = {
         <p>If you do not want to permit the experiment to use your camera, please close the page.</p>
     `,
     choices: ['Click to begin'],
-    post_trial_gap: 1000
+    // post_trial_gap: 1000
 };
 
 let init_camera_trial = {
     type: jsPsychWebgazerInitCamera
+}
+
+let calibration_instructions = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: `
+    <p>Before we calibrate the eye-tracker, here are a few reminders and suggestions.<br><br>
+    First, remember to make sure that your computer is resting on a flat surface, 
+    like a table or a desk. If your computer is on your lap, or moves at all, the 
+    eye-tracker will not work.<br><br>
+    Also make sure that you're lit from the front, either with a lamp or facing a window. <br><br>
+    They eye-tracker will also not work if you are wearing glasses. Contacts are fine. <br><br>
+    Hold your head as absolutely still as possible, as if your chin was resting on an 
+    invisible block. To look around the screen, move only your eyes. <br><br>
+    Click below to move on.</p>
+  `,
+  choices: ['Continue']
+}
+
+let calibration_instructions_2 = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: `
+    <p>On the next page, we will calibrate the eye-tracker.</p>
+    <p>You will see a series of black dots at various positions</p>
+    <p>on the screen. Keep your head still, and move your eyes to</p>
+    <p>focus on each dot as it appears. You do not need to click </p>
+    <p>on the dots. Just move your eyes to look at the dots. </p>
+  `,
+  choices: ['Continue']
 }
 
 var calibration = {
@@ -77,22 +139,55 @@ let validation = {
     show_validation_data: true
 };
 
-// timeline.push(camera_instructions, init_camera_trial, calibration, validation_instructions, validation)
-// timeline.push(camera_instructions, init_camera_trial, calibration)
+let experiment_instructions = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: `
+    <p>We're now ready to begin the main experiment. </p>
+    <p>On each page, you'll see four images. Take a look around to familiarize yourself</p>
+    <p>with all the images. After a second, you'll hear a sentence. Click on the image on</p>
+    <p>the screen that is associated with the sentence. For example, if you hear the sentence</p>
+    <p>"Ruth talked about the kitchen," you would click on the image of the kitchen. The image</p>
+    <p>will always be associated with the last word in the sentence. If you do not respond within</p>
+    <p>a few seconds, the experiment will proceed automatically. There will be four sets</p>
+    <p>of sentences in the experiment, and before each, we will stop so that you can take a break</p>
+    <p>and we can recalibrate the eye-tracker.</p>
+  `,
+  choices: ['Click to begin'],
+  post_trial_gap: 1000
+};
+
+timeline.push(
+  camera_instructions, 
+  init_camera_trial, 
+  calibration_instructions, 
+  calibration_instructions_2, 
+  calibration, 
+  validation_instructions, 
+  validation,
+  experiment_instructions
+);
+
 
 stims = shuffle_imgs(stims)
 let all_trials = divide_blocks(stims);
 
 // To reduce experiment length for testing:
 for (let i=0; i<all_trials.length; i++) {
-  all_trials[i] = [all_trials[i][0]]
+  all_trials[i] = [all_trials[i][0], all_trials[i][1]]
 }
-console.log(all_trials)
-
 
 for (let i=0; i<all_trials.length; i++) {
   const trials = {
     timeline: [
+      {
+        type: jsPsychAudioKeyboardResponse,
+        margin_horizontal: '0px',
+        stimulus: './audio/silence.wav',
+        response_allowed_while_playing: false,
+        trial_duration: 500,
+        prompt: `<div id="isi_fixation_box"> </div>`,
+        choices: ['']
+      },
       {
         type: jsPsychAudioButtonResponse,
         stimulus: jsPsych.timelineVariable('stimulus'),
@@ -100,12 +195,8 @@ for (let i=0; i<all_trials.length; i++) {
         button_html: '<img src="../img/%choice%" id="%choice%" style="padding-top:40px"/>',
         margin_horizontal: '0px',
         response_allowed_while_playing: false,
+        trial_duration: 8000,
         data: function() { 
-          console.log(jsPsych.timelineVariable('imgs')[0])
-          console.log(jsPsych.timelineVariable('imgs')[1])
-          console.log(jsPsych.timelineVariable('imgs')[2])
-          console.log(jsPsych.timelineVariable('imgs')[3])
-          console.log(jsPsych.timelineVariable('target'))
           return {
             loc_top_left: jsPsych.timelineVariable('imgs')[0],
             loc_top_right: jsPsych.timelineVariable('imgs')[1],
@@ -116,6 +207,11 @@ for (let i=0; i<all_trials.length; i++) {
             distractor_1: jsPsych.timelineVariable('distractor_1'),
             distractor_2: jsPsych.timelineVariable('distractor_2'),
             distractor_3: jsPsych.timelineVariable('distractor_3'),
+            target_img: jsPsych.timelineVariable('target_img'),
+            competitor_img: jsPsych.timelineVariable('competitor_img'),
+            distractor_1_img: jsPsych.timelineVariable('distractor_1_img'),
+            distractor_2_img: jsPsych.timelineVariable('distractor_2_img'),
+            distractor_3_img: jsPsych.timelineVariable('distractor_3_img'),
             trial_num: jsPsych.timelineVariable('trial_num'),
             block: jsPsych.timelineVariable('block'),
             sentence: jsPsych.timelineVariable('sentence'),
@@ -123,11 +219,11 @@ for (let i=0; i<all_trials.length; i++) {
             status: jsPsych.timelineVariable('status'),
             talker: jsPsych.timelineVariable('talker'),
             trial_code: jsPsych.timelineVariable('trial_code'),
-            target_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('target')),
-            competitor_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('competitor')),
-            distractor_1_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_1')),
-            distractor_2_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_2')),
-            distractor_3_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_3'))
+            target_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('target_img')),
+            competitor_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('competitor_img')),
+            distractor_1_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_1_img')),
+            distractor_2_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_2_img')),
+            distractor_3_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_3_img'))
           }; 
         },
         extensions: [
@@ -148,6 +244,107 @@ for (let i=0; i<all_trials.length; i++) {
     timeline_variables: all_trials[i]
   }
   timeline.push(trials)
+
+  // ADD RE-Validate instructions
+  if (i < (all_trials.length - 1)) {
+    const post_block = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
+        <p>That is the end of block #${i + 1} out of 4. </p>
+        <p>Feel free to take a break if you need to.</p>
+        <p>Before we continue, let's take a moment to make sure that</p>
+        <p>the eye-tracker is still calibrated correctly. </p>
+        <p>Remember to keep your head as still as possible, as if it</p>
+        <p>were held in place by a chin rest. Just like before, you'll</p>
+        <p>now see some black dots on the screen. As each one appears</p>
+        <p>focus on it using only your eyes without moving your neck or</p>
+        <p>head. When you're ready to begin, click below.</p>
+      `,
+      choices: ['Continue']
+    }
+    timeline.push(post_block, calibration, validation)
+
+  }
 }
+
+const quest_intstructions = {
+  type: jsPsychHtmlButtonResponse,
+  choices: ['Continue'],
+  stimulus: "That's the end of the experiment! Thank you for your responses. To help us analyze our results, it would be helpful to know know a little more about you. Please answer the following questions. <br><br>"
+}
+
+const questionnaire = {
+  type: jsPsychSurvey,
+  pages: [
+      [
+          {
+              type: 'html',
+              prompt: "Please answer the following questions:"
+          },
+          {
+              type: 'multi-choice',
+              prompt: 'Did you read the instructions and do you think you did the task correctly?', 
+              name: 'correct', 
+              options: ['Yes', 'No', 'I was confused']
+          },
+          {
+              type: 'drop-down',
+              prompt: 'Gender:',
+              name: 'gender',
+              options: ['Female', 'Male', 'Non-binary/Non-conforming', 'Other']
+          },
+          {
+              type: 'text',
+              prompt: 'Age:',
+              name: 'age',
+              textbox_columns: 10
+          },
+          {
+              type: 'drop-down',
+              prompt: 'Level of education:',
+              name: 'education',
+              options: ['Some high school', 'Graduated high school', 'Some college', 'Graduated college', 'Hold a higher degree']
+          },
+          {
+              type: 'text',
+              prompt: "Native language? (What was the language spoken at home when you were growing up?)",
+              name: 'language',
+              textbox_columns: 20
+          },
+          {
+              type: 'drop-down',
+              prompt: 'Do you think the payment was fair?',
+              name: 'payment',
+              options: ['The payment was too low', 'The payment was fair']
+          },
+          {
+              type: 'drop-down',
+              prompt: 'Did you enjoy the experiment?',
+              name: 'enjoy',
+              options: ['Worse than the average experiment', 'An average experiment', 'Better than the average experiment']
+          },
+          {
+              type: 'text',
+              prompt: "Do you have any other comments about this experiment?",
+              name: 'comments',
+              textbox_columns: 30,
+              textbox_rows: 4
+          }
+      ]
+  ]
+}
+
+const thanks = {
+  type: jsPsychHtmlButtonResponse,
+  choices: ['Continue'],
+  stimulus: `
+    <p>Thank you for your time! Please click 'Continue' and then wait a moment</p>
+    <p>until you're directed back to Prolific. There's a lot of data, so this</p>
+    <p>may take a minute. But please don't close the window until you're redirected.<br><br></p>
+  `
+}
+
+timeline.push(quest_intstructions, questionnaire, thanks);
+
 
 jsPsych.run(timeline);
