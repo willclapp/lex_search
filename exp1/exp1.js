@@ -96,18 +96,18 @@ let calibration_instructions_2 = {
 
 var calibration = {
     type: jsPsychWebgazerCalibrate,
-    // calibration_points: [
-    //     [10,10],[10,30],[10,50],[10,70],[10,90],
-    //     [30,10],[30,30],[30,50],[30,70],[30,90],
-    //     [50,10],[50,30],[50,50],[50,70],[50,90],
-    //     [70,10],[70,30],[70,50],[70,70],[70,90],
-    //     [90,10],[90,30],[90,50],[90,70],[90,90]
-    // ],
     calibration_points: [
-        [20,10],[20,30],[20,50],[20,70],[20,90],
+        [10,10],[10,30],[10,50],[10,70],[10,90],
+        [30,10],[30,30],[30,50],[30,70],[30,90],
         [50,10],[50,30],[50,50],[50,70],[50,90],
-        [80,10],[80,30],[80,50],[80,70],[80,90]
+        [70,10],[70,30],[70,50],[70,70],[70,90],
+        [90,10],[90,30],[90,50],[90,70],[90,90]
     ],
+    // calibration_points: [
+    //     [20,10],[20,30],[20,50],[20,70],[20,90],
+    //     [50,10],[50,30],[50,50],[50,70],[50,90],
+    //     [80,10],[80,30],[80,50],[80,70],[80,90]
+    // ],
     // calibration_points: [
     //   [10,10],[10,50],[10,90],
     //   [50,10],[50,50],[50,90],
@@ -155,16 +155,16 @@ let experiment_instructions = {
   post_trial_gap: 1000
 };
 
-// timeline.push(
-//   camera_instructions, 
-//   init_camera_trial, 
-//   calibration_instructions, 
-//   calibration_instructions_2, 
-//   calibration, 
-//   validation_instructions, 
-//   validation,
-//   experiment_instructions
-// );
+timeline.push(
+  camera_instructions, 
+  init_camera_trial, 
+  calibration_instructions, 
+  calibration_instructions_2, 
+  calibration, 
+  validation_instructions, 
+  validation,
+  experiment_instructions
+);
 
 
 stims = shuffle_imgs(stims)
