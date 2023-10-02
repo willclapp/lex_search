@@ -1,5 +1,3 @@
-
-
 let filler_codes = []
 
 // generate list of filler trials

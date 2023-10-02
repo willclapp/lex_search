@@ -135,7 +135,7 @@ let validation_instructions = {
 let validation = {
     type: jsPsychWebgazerValidate,
     validation_points: [[25,25], [25,75], [75,25], [75,75]],
-    show_validation_data: true
+    show_validation_data: false
 };
 
 let experiment_instructions = {
