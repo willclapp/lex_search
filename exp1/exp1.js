@@ -14,7 +14,23 @@ const preload = {
   audio: preload_audio,
   images: preload_imgs
 }
-timeline.push(preload)
+
+const camera_instructions = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: `
+      <p>This experiment uses your camera for eye tracking.</p>
+      <p>In order to participate you must allow the experiment to use your camera.</p>
+      <p>You will be prompted to do this on the next screen.</p>
+      <p>If you do not want to permit the experiment to use your camera, please close the page.</p>
+      <p><br>Note: No video is ever recorded in this experiment. We will</p>
+      <p>only measure your eye movements.</p>
+  `,
+  choices: ['Click to begin']
+};
+
+const init_camera_trial = {
+  type: jsPsychWebgazerInitCamera
+}
 
 const enter_fullscreen = {
   type: jsPsychFullscreen,
@@ -28,14 +44,26 @@ const enter_fullscreen = {
   `
 }
 
-timeline.push(enter_fullscreen)
-
 const irb = {
   type: jsPsychHtmlButtonResponse,
-  stimulus: '<p><font size="3">We invite you to participate in a research study on language production and comprehension. Your experimenter will ask you to do a linguistic task such as reading sentences or words, naming pictures or describing scenes, making up sentences of your own, or participating in a simple language game. <br><br>There are no risks or benefits of any kind involved in this study. <br><br>You will be paid for your participation at the posted rate.<br><br>If you have read this form and have decided to participate in this experiment, please understand your participation is voluntary and you have the right to withdraw your consent or discontinue participation at anytime without penalty or loss of benefits to which you are otherwise entitled. You have the right to refuse to do particular tasks. Your individual privacy will be maintained in all published and written data resulting from the study. You may print this form for your records.<br><br>CONTACT INFORMATION: If you have any questions, concerns or complaints about this research study, its procedures, risks and benefits, you should contact the Protocol Director Meghan Sumner at (650)-725-9336. If you are not satisfied with how this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the research team at (650)-723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.<br><br>If you agree to participate, please proceed to the study tasks.</font></p>',
+  stimulus: `<p><font size="3">We invite you to participate in a research study on language production and comprehension. <br>
+  Your experimenter will ask you to do a linguistic task such as reading sentences or words, naming pictures or describing <br>
+  scenes, making up sentences of your own, or participating in a simple language game. <br><br>
+  There are no risks or benefits of any kind involved in this study. <br><br>
+  You will be paid for your participation at the posted rate.<br><br>
+  If you have read this form and have decided to participate in this experiment, please understand your participation is <br>
+  voluntary and you have the right to withdraw your consent or discontinue participation at anytime without penalty or loss <br>
+  of benefits to which you are otherwise entitled. You have the right to refuse to do particular tasks. Your individual <br>
+  privacy will be maintained in all published and written data resulting from the study. You may print this form for your records.<br><br>
+  CONTACT INFORMATION: If you have any questions, concerns or complaints about this research study, its procedures, risks <br>
+  and benefits, you should contact the Protocol Director Meghan Sumner at (650)-725-9336. If you are not satisfied with how <br>
+  this study is being conducted, or if you have any concerns, complaints, or general questions about the research or your <br>
+  rights as a participant, please contact the Stanford Institutional Review Board (IRB) to speak to someone independent of <br>
+  the research team at (650)-723-2480 or toll free at 1-866-680-2906. You can also write to the Stanford IRB, Stanford <br>
+  University, 3000 El Camino Real, Five Palo Alto Square, 4th Floor, Palo Alto, CA 94306 USA.<br><br>
+  If you agree to participate, please proceed to the study tasks.</font></p>`,
   choices: ['Continue']
 };
-timeline.push(irb)
 
 const audio_check = {
   type: jsPsychHtmlButtonResponse,
@@ -49,34 +77,26 @@ const audio_check = {
   `,
   choices: ['Continue']
 }
-timeline.push(audio_check);
 
-var camera_instructions = {
-    type: jsPsychHtmlButtonResponse,
-    stimulus: `
-        <p>This experiment uses your camera for eye tracking.</p>
-        <p>In order to participate you must allow the experiment to use your camera.</p>
-        <p>You will be prompted to do this on the next screen.</p>
-        <p>If you do not want to permit the experiment to use your camera, please close the page.</p>
-    `,
-    choices: ['Click to begin']
-};
-
-let init_camera_trial = {
-    type: jsPsychWebgazerInitCamera
-}
+timeline.push(
+  preload,
+  camera_instructions, 
+  init_camera_trial, 
+  enter_fullscreen, 
+  irb, 
+  audio_check
+)
 
 let calibration_instructions = {
   type: jsPsychHtmlButtonResponse,
   stimulus: `
     <p>Before we calibrate the eye-tracker, here are a few reminders and suggestions.<br><br>
-    First, remember to make sure that your computer is resting on a flat surface, 
-    like a table or a desk. If your computer is on your lap, or moves at all, the 
-    eye-tracker will not work.<br><br>
+    First, remember to make sure that your computer is resting on a flat surface, like a table or a desk. <br>
+    If your computer is on your lap, or moves at all, the eye-tracker will not work.<br><br>
     Also make sure that you're lit from the front, either with a lamp or facing a window. <br><br>
     They eye-tracker will also not work if you are wearing glasses. Contacts are fine. <br><br>
-    Hold your head as absolutely still as possible, as if your chin was resting on an 
-    invisible block. To look around the screen, move only your eyes. <br><br>
+    Hold your head as absolutely still as possible, as if your chin was resting on an invisible block. <br>
+    To look around the screen, move only your eyes. <br><br>
     Click below to move on.</p>
   `,
   choices: ['Continue']
@@ -101,7 +121,8 @@ var calibration = {
         [30,10],[30,30],[30,50],[30,70],[30,90],
         [50,10],[50,30],[50,50],[50,70],[50,90],
         [70,10],[70,30],[70,50],[70,70],[70,90],
-        [90,10],[90,30],[90,50],[90,70],[90,90]
+        [90,10],[90,30],[90,50],[90,70],[90,90],
+        [25,25],[25,75],[75,25],[75,75]
     ],
     // calibration_points: [
     //     [20,10],[20,30],[20,50],[20,70],[20,90],
@@ -135,7 +156,8 @@ let validation_instructions = {
 let validation = {
     type: jsPsychWebgazerValidate,
     validation_points: [[25,25], [25,75], [75,25], [75,75]],
-    show_validation_data: false
+    show_validation_data: false,
+    randomize_validation_order: true
 };
 
 let experiment_instructions = {
@@ -147,17 +169,16 @@ let experiment_instructions = {
     <p>the screen that is associated with the sentence. For example, if you hear the sentence</p>
     <p>"Ruth talked about the kitchen," you would click on the image of the kitchen. The image</p>
     <p>will always be associated with the last word in the sentence. If you do not respond within</p>
-    <p>a few seconds, the experiment will proceed automatically. There will be four sets</p>
-    <p>of sentences in the experiment, and before each, we will stop so that you can take a break</p>
-    <p>and we can recalibrate the eye-tracker.</p>
+    <p>a few seconds, the experiment will proceed automatically. Between trials, try to look at the</p>
+    <p>cross in the center of the screen. But please look around at the images after they appear. <br><br></p>
+    <p>There will be four sets of sentences in the experiment, and before each, we will stop so </p>
+    <p>that you can take a break and we can recalibrate the eye-tracker.</p>
   `,
   choices: ['Click to begin'],
   post_trial_gap: 1000
 };
 
 timeline.push(
-  camera_instructions, 
-  init_camera_trial, 
   calibration_instructions, 
   calibration_instructions_2, 
   calibration, 
