@@ -299,7 +299,12 @@ for (let i=0; i<all_trials.length; i++) {
 const quest_intstructions = {
   type: jsPsychHtmlButtonResponse,
   choices: ['Continue'],
-  stimulus: "That's the end of the experiment! Thank you for your responses. To help us analyze our results, it would be helpful to know know a little more about you. Please answer the following questions. <br><br>"
+  stimulus: `
+    That's the end of the experiment! Thank you for your responses. <br>
+    We're no longer measuring eye movements, so feel free to move <br>
+    around now, if you like. To help us analyze our results, it <br>
+    would be helpful to know know a little more about you. Please <br>
+    answer the following questions. <br><br>`
 }
 
 const questionnaire = {
@@ -345,6 +350,12 @@ const questionnaire = {
               prompt: 'Do you think the payment was fair?',
               name: 'payment',
               options: ['The payment was too low', 'The payment was fair']
+          },
+          {
+              type: 'drop-down',
+              prompt: 'Which web browser are you using?',
+              name: 'browser',
+              options: ['Chrome', 'Firefox', 'Safari', 'Microsoft Edge', 'Other']
           },
           {
               type: 'drop-down',
