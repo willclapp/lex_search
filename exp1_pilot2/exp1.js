@@ -1,3 +1,11 @@
+// Second Pilot version
+// New features:
+//  - Anch stims are now spliced to account for stream anomalies            (NOT IMPLEMENTED)
+//  - New questions added to Questionnaire to get to the sample rate issue  (IMPLEMENTED)
+//  - New fixation interval between inspection and audio                    (IMPLEMENTED)
+//  - New condition with text instead of images for stimuli                 (IMPLEMENTED)
+//  - Get rid of Pilot talker                                               (NOT IMPLEMENTED)
+
 let timeline = [];
 
 const jsPsych = initJsPsych({
@@ -37,8 +45,9 @@ const enter_fullscreen = {
   fullscreen_mode: true,
   message: `
     <p>Before beginning, please close out of any open applications other than</p>
-    <p>this web browser. Also close out of any unnecessary tabs, particularly</p>
-    <p>those that might produce notifications.<br><br></p>
+    <p>this web browser. Also close out of any unnecessary tabs. Having other</p>
+    <p>open applications and tabs can reduce the quality of the data, often to </p>
+    <p>the point where it is unusable.<br><br></p>
     <p>This experiment requires use of your full screen. To enter full screen</p>  
     <p>mode and continue with the experiment, click below.<br><br></p>
   `
@@ -78,14 +87,14 @@ const audio_check = {
   choices: ['Continue']
 }
 
-timeline.push(
-  preload,
-  camera_instructions, 
-  init_camera_trial, 
-  enter_fullscreen, 
-  irb, 
-  audio_check
-)
+// timeline.push(
+//   preload,
+//   camera_instructions, 
+//   init_camera_trial, 
+//   enter_fullscreen, 
+//   irb, 
+//   audio_check
+// )
 
 let calibration_instructions = {
   type: jsPsychHtmlButtonResponse,
@@ -178,14 +187,14 @@ let experiment_instructions = {
   post_trial_gap: 1000
 };
 
-timeline.push(
-  calibration_instructions, 
-  calibration_instructions_2, 
-  calibration, 
-  validation_instructions, 
-  validation,
-  experiment_instructions
-);
+// timeline.push(
+//   calibration_instructions, 
+//   calibration_instructions_2, 
+//   calibration, 
+//   validation_instructions, 
+//   validation,
+//   experiment_instructions
+// );
 
 
 stims = shuffle_imgs(stims)
@@ -193,7 +202,7 @@ let all_trials = divide_blocks(stims);
 
 // To reduce experiment length for testing:
 // for (let i=0; i<all_trials.length; i++) {
-//   all_trials[i] = [all_trials[i][0], all_trials[i][1]]
+//   all_trials[i] = [all_trials[i][0]]
 // }
 
 for (let i=0; i<all_trials.length; i++) {
@@ -211,21 +220,74 @@ for (let i=0; i<all_trials.length; i++) {
       {
         type: jsPsychAudioButtonResponse,
         stimulus: './audio/silence.wav',
-        choices: jsPsych.timelineVariable('imgs'),
-        button_html: '<img src="../img/%choice%" id="%choice%" style="padding-top:40px"/>',
+        choices: function() {
+          if (stim_condition == "image") {
+            return jsPsych.timelineVariable('imgs')
+          } else {
+            console.log(jsPsych.timelineVariable('imgs'))
+            return jsPsych.timelineVariable('imgs')
+          }
+        },
+        button_html: function() {
+          if (stim_condition == "image") {
+            return '<img src="../img/%choice%" id="%choice%" style="padding-top:40px"/>'
+          } else {
+            return `<div class = "text_choice_container"><p class = "text_choice" id="%choice%">%choice%</p></div>`
+          }
+        },
         margin_horizontal: '0px',
         response_allowed_while_playing: false,
-        trial_duration: 2000,
+        trial_duration: 2500,
+      },
+      {
+        type: jsPsychAudioKeyboardResponse,
+        margin_horizontal: '0px',
+        stimulus: './audio/silence.wav',
+        response_allowed_while_playing: false,
+        trial_duration: 750,
+        prompt: `<div id="isi_fixation_box"> </div>`,
+        choices: ['']
       },
       {
         type: jsPsychAudioButtonResponse,
         stimulus: jsPsych.timelineVariable('stimulus'),
-        choices: jsPsych.timelineVariable('imgs'),
-        button_html: '<img src="../img/%choice%" id="%choice%" style="padding-top:40px"/>',
+        choices: function() {
+          if (stim_condition == "image") {
+            return jsPsych.timelineVariable('imgs')
+          } else {
+            console.log(jsPsych.timelineVariable('imgs'))
+            return jsPsych.timelineVariable('imgs')
+          }
+        },
+        button_html: function() {
+          if (stim_condition == "image") {
+            return '<img src="../img/%choice%" id="%choice%" style="padding-top:40px"/>'
+          } else {
+            return `<div class = "text_choice_container"><p class = "text_choice" id="%choice%">%choice%</p></div>`
+          }
+        },
         margin_horizontal: '0px',
         response_allowed_while_playing: false,
         trial_duration: 8000,
         data: function() { 
+          let target_loc = 0
+          let competitor_loc = 0
+          let distractor_1_loc = 0
+          let distractor_2_loc = 0
+          let distractor_3_loc = 0
+          if (stim_condition == "image") {
+            target_loc = jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('target_img'))
+            competitor_loc = jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('competitor_img'))
+            distractor_1_loc = jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_1_img'))
+            distractor_2_loc = jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_2_img'))
+            distractor_3_loc = jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_3_img'))
+          } else {
+            target_loc = jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('target').toUpperCase())
+            competitor_loc = jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('competitor').toUpperCase())
+            distractor_1_loc = jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_1').toUpperCase())
+            distractor_2_loc = jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_2').toUpperCase())
+            distractor_3_loc = jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_3').toUpperCase())
+          }
           return {
             loc_top_left: jsPsych.timelineVariable('imgs')[0],
             loc_top_right: jsPsych.timelineVariable('imgs')[1],
@@ -245,14 +307,15 @@ for (let i=0; i<all_trials.length; i++) {
             block: jsPsych.timelineVariable('block'),
             sentence: jsPsych.timelineVariable('sentence'),
             det: jsPsych.timelineVariable('det'),
+            stim_condition: jsPsych.timelineVariable('stim_condition'),
             status: jsPsych.timelineVariable('status'),
             talker: jsPsych.timelineVariable('talker'),
             trial_code: jsPsych.timelineVariable('trial_code'),
-            target_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('target_img')),
-            competitor_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('competitor_img')),
-            distractor_1_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_1_img')),
-            distractor_2_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_2_img')),
-            distractor_3_loc: jsPsych.timelineVariable('imgs').indexOf(jsPsych.timelineVariable('distractor_3_img'))
+            target_loc: target_loc,
+            competitor_loc: competitor_loc,
+            distractor_1_loc: distractor_1_loc,
+            distractor_2_loc: distractor_2_loc,
+            distractor_3_loc: distractor_3_loc
           }; 
         },
         extensions: [
@@ -291,7 +354,7 @@ for (let i=0; i<all_trials.length; i++) {
       `,
       choices: ['Continue']
     }
-    timeline.push(post_block, calibration, validation)
+    // timeline.push(post_block, calibration, validation)
 
   }
 }
@@ -313,7 +376,7 @@ const questionnaire = {
       [
           {
               type: 'html',
-              prompt: "Please answer the following questions:"
+              prompt: "Please answer the following questions. None of the answers you provide will affect your compensation:"
           },
           {
               type: 'multi-choice',
@@ -356,6 +419,30 @@ const questionnaire = {
               prompt: 'Which web browser are you using?',
               name: 'browser',
               options: ['Chrome', 'Firefox', 'Safari', 'Microsoft Edge', 'Other']
+          },
+          {
+              type: 'text',
+              prompt: 'What is the manufacturing year of your computer?',
+              name: 'manufacture_year',
+              textbox_columns: 10
+          },
+          {
+              type: 'drop-down',
+              prompt: 'Is your webcam built in or external?',
+              name: 'webcam',
+              options: ['Built in', 'External', 'I don\'t know']
+          },
+          {
+              type: 'drop-down',
+              prompt: 'Is your computer a laptop or a desktop?',
+              name: 'computer',
+              options: ['Laptop', 'Desktop', 'I don\'t know']
+          },
+          {
+              type: 'drop-down',
+              prompt: 'Did you remember to close out of all other apps before beginning the experiment?',
+              name: 'other_apps',
+              options: ['Yes', 'No', 'Prefer not to answer']
           },
           {
               type: 'drop-down',

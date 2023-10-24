@@ -1,6 +1,6 @@
 index,trial_code,sentence,status,target,target_filename,competitor,competitor_filename,Distractor1,Distractor1_filename,Distractor2,Distractor2_filename,Distractor3,Distractor3_filename,audio_tag
 21,pred_ant,A termite looks like an ant,filler,ant,PICTURE_585.png,NA,NA,saxophone,PICTURE_107.png,trigger,PICTURE_291.png,box,PICTURE_508.png,2
-22,pred_belt,His pants were held up by a belt,filler,belt,PICTURE_165.png,NA,NA,green house,PICTURE_106.png,plumber,PICTURE_294.png,fox,PICTURE_521.png,2
+22,pred_belt,His pants were held up by a belt,filler,belt,PICTURE_165.png,NA,NA,greenhouse,PICTURE_106.png,plumber,PICTURE_294.png,fox,PICTURE_521.png,2
 23,pred_bench,The judge is sitting on the bench,filler,bench,PICTURE_449.png,NA,NA,deer,PICTURE_105.png,mime,PICTURE_303.png,telephone,PICTURE_509.png,1
 24,pred_bomb,The airplane dropped a bomb,filler,bomb,PICTURE_386.png,NA,NA,nose,PICTURE_100.png,tunnel,PICTURE_286.png,shepherd,PICTURE_502.png,2
 25,pred_bone,The dog chewed on a bone,filler,bone,PICTURE_24.png,NA,NA,mask,PICTURE_84.png,knot,PICTURE_267.png,sun,PICTURE_488.png,2

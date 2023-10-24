@@ -69,16 +69,28 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     curr_trial = critical_trials[critical_codes[j]]
     curr_talker = critical_talker_order[j]
     audio_filename = critical_talker_order[j] == "AnF" ? curr_trial.audio_filename : curr_trial[critical_talker_order[j]+"_audio_filename"]
-    imgs.push(curr_trial.target_filename, curr_trial.Distractor1_filename, curr_trial.Distractor2_filename)
+    if (stim_condition == "image") {
+      imgs.push(curr_trial.target_filename, curr_trial.Distractor1_filename, curr_trial.Distractor2_filename)
+    } else {
+      imgs.push(curr_trial.target.toUpperCase(), curr_trial.Distractor1.toUpperCase(), curr_trial.Distractor2.toUpperCase())
+    }
     target_img = curr_trial.target_filename
     distractor_1_img = curr_trial.Distractor1_filename
     distractor_2_img = curr_trial.Distractor2_filename
     if (comp_codes[j] == "comp") {
-      imgs.push(curr_trial.competitor_filename)
+      if (stim_condition == "image") {
+        imgs.push(curr_trial.competitor_filename)
+      } else {
+        imgs.push(curr_trial.competitor.toUpperCase())
+      }
       competitor = curr_trial.competitor
       competitor_img = curr_trial.competitor_filename
     } else {
-      imgs.push(curr_trial.Distractor3_filename)
+      if (stim_condition == "image") {
+        imgs.push(curr_trial.Distractor3_filename)
+      } else {
+        imgs.push(curr_trial.Distractor3.toUpperCase())
+      }
       distractor_3 = curr_trial.Distractor3
       distractor_3_img = curr_trial.Distractor3_filename
     }
@@ -88,7 +100,12 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     curr_trial = filler_trials[filler_codes[k]]
     curr_talker = "AnF"
     audio_filename = curr_trial.audio_filename
-    imgs.push(curr_trial.target_filename, curr_trial.Distractor1_filename, curr_trial.Distractor2_filename, curr_trial.Distractor3_filename)
+    if (stim_condition == "image") {
+      imgs.push(curr_trial.target_filename, curr_trial.Distractor1_filename, curr_trial.Distractor2_filename, curr_trial.Distractor3_filename)
+    } else {
+      imgs.push(curr_trial.target.toUpperCase(), curr_trial.Distractor1.toUpperCase(), curr_trial.Distractor2.toUpperCase(), curr_trial.Distractor3.toUpperCase())
+
+    }
     target_img = curr_trial.target_filename
     distractor_1_img = curr_trial.Distractor1_filename
     distractor_2_img = curr_trial.Distractor2_filename
@@ -116,6 +133,7 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     sentence: curr_trial.sentence,
     talker: curr_talker,
     det: det,
+    stim_condition: stim_condition,
     status: curr_trial.status,
     trial_code: trial_code
   }
