@@ -20,11 +20,7 @@ const jsPsych = initJsPsych({
 const preload = {
   type: jsPsychPreload,
   audio: preload_audio,
-  images: preload_imgs,
-  on_start: function() {
-    console.log(preload_audio)
-    console.log(preload_imgs)
-  }
+  images: preload_imgs
 }
 
 const camera_instructions = {
@@ -104,7 +100,7 @@ let calibration_instructions = {
   type: jsPsychHtmlButtonResponse,
   stimulus: `
     <p>Before we calibrate the eye-tracker, here are a few reminders and suggestions.<br><br>
-    First, remember to make sure that your computer is resting on a flat surface, like a table or a desk. <br>
+    First, make sure that your computer is resting on a flat surface, like a table or a desk. <br>
     If your computer is on your lap, or moves at all, the eye-tracker will not work.<br><br>
     Also make sure that you're lit from the front, either with a lamp or facing a window. <br><br>
     They eye-tracker will also not work if you are wearing glasses. Contacts are fine. <br><br>
@@ -129,27 +125,17 @@ let calibration_instructions_2 = {
 
 var calibration = {
     type: jsPsychWebgazerCalibrate,
-    calibration_points: [
-        [10,10],[10,30],[10,50],[10,70],[10,90],
-        [30,10],[30,30],[30,50],[30,70],[30,90],
-        [50,10],[50,30],[50,50],[50,70],[50,90],
-        [70,10],[70,30],[70,50],[70,70],[70,90],
-        [90,10],[90,30],[90,50],[90,70],[90,90],
-        [25,25],[25,75],[75,25],[75,75]
-    ],
     // calibration_points: [
-    //     [20,10],[20,30],[20,50],[20,70],[20,90],
+    //     [10,10],[10,30],[10,50],[10,70],[10,90],
+    //     [30,10],[30,30],[30,50],[30,70],[30,90],
     //     [50,10],[50,30],[50,50],[50,70],[50,90],
-    //     [80,10],[80,30],[80,50],[80,70],[80,90]
+    //     [70,10],[70,30],[70,50],[70,70],[70,90],
+    //     [90,10],[90,30],[90,50],[90,70],[90,90],
+    //     [25,25],[25,75],[75,25],[75,75]
     // ],
-    // calibration_points: [
-    //   [10,10],[10,50],[10,90],
-    //   [50,10],[50,50],[50,90],
-    //   [90,10],[90,50],[90,90]
-    // ],
-    // calibration_points: [
-    //   [50,50]
-    // ],
+    calibration_points: [
+      [50,50]
+    ],
     repetitions_per_point: 2,
     calibration_mode: 'view',
     randomize_calibration_order: true,
@@ -181,7 +167,7 @@ let image_intructions = `<p>We're now ready to begin the main experiment. </p>
   <p>"Ruth talked about the kitchen," you would click on the image of the kitchen. The image</p>
   <p>will always be associated with the last word in the sentence. If you do not respond within</p>
   <p>a few seconds, the experiment will proceed automatically. Between trials, try to look at the</p>
-  <p>cross in the center of the screen. But please look around at the images after they appear. <br><br></p>
+  <p>cross in the center of the screen. But please look around at the images after they reappear. <br><br></p>
   <p>There will be four sets of sentences in the experiment, and before each, we will stop so </p>
   <p>that you can take a break and we can recalibrate the eye-tracker.</p>`
 
@@ -193,7 +179,7 @@ let text_instructions = `<p>We're now ready to begin the main experiment. </p>
   <p>"Ruth talked about the kitchen," you would click on the word "KITCHEN". The word you click</p>
   <p>will always be the last word in the sentence. If you do not respond within a few seconds,</p> 
   <p>the experiment will proceed automatically. Between trials, try to look at the</p>
-  <p>cross in the center of the screen. But please look around at the words after they appear. <br><br></p>
+  <p>cross in the center of the screen. But please look around at the words after they reappear. <br><br></p>
   <p>There will be four sets of sentences in the experiment, and before each, we will stop so </p>
   <p>that you can take a break and we can recalibrate the eye-tracker.</p>`
 
@@ -223,7 +209,7 @@ timeline.push(
 stims = shuffle_imgs(stims)
 let all_trials = divide_blocks(stims);
 
-// To reduce experiment length for testing:
+// // To reduce experiment length for testing:
 // for (let i=0; i<all_trials.length; i++) {
 //   all_trials[i] = [all_trials[i][0]]
 // }
@@ -247,7 +233,6 @@ for (let i=0; i<all_trials.length; i++) {
           if (stim_condition == "image") {
             return jsPsych.timelineVariable('imgs')
           } else {
-            console.log(jsPsych.timelineVariable('imgs'))
             return jsPsych.timelineVariable('imgs')
           }
         },
@@ -278,7 +263,6 @@ for (let i=0; i<all_trials.length; i++) {
           if (stim_condition == "image") {
             return jsPsych.timelineVariable('imgs')
           } else {
-            console.log(jsPsych.timelineVariable('imgs'))
             return jsPsych.timelineVariable('imgs')
           }
         },
@@ -371,13 +355,13 @@ for (let i=0; i<all_trials.length; i++) {
         <p>the eye-tracker is still calibrated correctly. </p>
         <p>Remember to keep your head as still as possible, as if it</p>
         <p>were held in place by a chin rest. Just like before, you'll</p>
-        <p>now see some black dots on the screen. As each one appears</p>
+        <p>now see some black dots on the screen. As each one appears,</p>
         <p>focus on it using only your eyes without moving your neck or</p>
         <p>head. When you're ready to begin, click below.</p>
       `,
       choices: ['Continue']
     }
-    // timeline.push(post_block, calibration, validation)
+    timeline.push(post_block, calibration, validation)
 
   }
 }
@@ -423,7 +407,7 @@ const questionnaire = {
               type: 'drop-down',
               prompt: 'Level of education:',
               name: 'education',
-              options: ['Some high school', 'Graduated high school', 'Some college', 'Graduated college', 'Hold a higher degree']
+              options: ['Some high school', 'Graduated high school', 'Some college', 'Graduated college', 'Hold a higher degree', 'Prefer not to answer']
           },
           {
               type: 'text',
@@ -433,9 +417,15 @@ const questionnaire = {
           },
           {
               type: 'drop-down',
+              prompt: 'Are you wearing glasses or contacts right now?',
+              name: 'glasses',
+              options: ['Glasses', 'Contacts', 'Neither', 'Prefer not to answer']
+          },
+          {
+              type: 'drop-down',
               prompt: 'Do you think the payment was fair?',
               name: 'payment',
-              options: ['The payment was too low', 'The payment was fair']
+              options: ['The payment was too low', 'The payment was fair', 'Prefer not to answer']
           },
           {
               type: 'drop-down',
