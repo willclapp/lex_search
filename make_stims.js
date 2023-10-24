@@ -136,9 +136,10 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
   stims.push(trial_obj)
 
   preload_audio.push("./audio/" + audio_filename)
-  for (let l=0; l<imgs.length; l++) {
-    preload_imgs.push("../img/" + imgs[l])
+  if (stim_condition == "image") {
+    for (let l=0; l<imgs.length; l++) {
+      preload_imgs.push("../img/" + imgs[l])
+    }
   }
 }
 
-console.log(stims)

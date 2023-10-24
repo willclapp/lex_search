@@ -1,6 +1,6 @@
 // Second Pilot version
 // New features:
-//  - Anch stims are now spliced to account for stream anomalies            (NOT IMPLEMENTED)
+//  - Anch stims are now spliced to account for stream anomalies            (IMPLEMENTED)
 //  - New questions added to Questionnaire to get to the sample rate issue  (IMPLEMENTED)
 //  - New fixation interval between inspection and audio                    (IMPLEMENTED)
 //  - New condition with text instead of images for stimuli                 (IMPLEMENTED)
@@ -20,7 +20,11 @@ const jsPsych = initJsPsych({
 const preload = {
   type: jsPsychPreload,
   audio: preload_audio,
-  images: preload_imgs
+  images: preload_imgs,
+  on_start: function() {
+    console.log(preload_audio)
+    console.log(preload_imgs)
+  }
 }
 
 const camera_instructions = {
@@ -87,14 +91,14 @@ const audio_check = {
   choices: ['Continue']
 }
 
-// timeline.push(
-//   preload,
-//   camera_instructions, 
-//   init_camera_trial, 
-//   enter_fullscreen, 
-//   irb, 
-//   audio_check
-// )
+timeline.push(
+  preload,
+  camera_instructions, 
+  init_camera_trial, 
+  enter_fullscreen, 
+  irb, 
+  audio_check
+)
 
 let calibration_instructions = {
   type: jsPsychHtmlButtonResponse,
@@ -169,32 +173,51 @@ let validation = {
     randomize_validation_order: true
 };
 
+let image_intructions = `<p>We're now ready to begin the main experiment. </p>
+  <p>On each page, you'll see four images. Take a look around to familiarize yourself</p>
+  <p>with all the images. After a second, the images will disappear and you should look to</p>
+  <p>the cross in the middle of the screen. Then you will hear a sentence. Click on the image on</p>
+  <p>the screen that is associated with the sentence. For example, if you hear the sentence</p>
+  <p>"Ruth talked about the kitchen," you would click on the image of the kitchen. The image</p>
+  <p>will always be associated with the last word in the sentence. If you do not respond within</p>
+  <p>a few seconds, the experiment will proceed automatically. Between trials, try to look at the</p>
+  <p>cross in the center of the screen. But please look around at the images after they appear. <br><br></p>
+  <p>There will be four sets of sentences in the experiment, and before each, we will stop so </p>
+  <p>that you can take a break and we can recalibrate the eye-tracker.</p>`
+
+let text_instructions = `<p>We're now ready to begin the main experiment. </p>
+  <p>On each page, you'll see four words. Take a look around to familiarize yourself</p>
+  <p>with all the words. After a second, the words will disappear and you should look to</p>
+  <p>the cross in the middle of the screen. Then you will hear a sentence. Click on the word on</p>
+  <p>the screen that you hear in the sentence. For example, if you hear the sentence</p>
+  <p>"Ruth talked about the kitchen," you would click on the word "KITCHEN". The word you click</p>
+  <p>will always be the last word in the sentence. If you do not respond within a few seconds,</p> 
+  <p>the experiment will proceed automatically. Between trials, try to look at the</p>
+  <p>cross in the center of the screen. But please look around at the words after they appear. <br><br></p>
+  <p>There will be four sets of sentences in the experiment, and before each, we will stop so </p>
+  <p>that you can take a break and we can recalibrate the eye-tracker.</p>`
+
 let experiment_instructions = {
   type: jsPsychHtmlButtonResponse,
-  stimulus: `
-    <p>We're now ready to begin the main experiment. </p>
-    <p>On each page, you'll see four images. Take a look around to familiarize yourself</p>
-    <p>with all the images. After a second, you'll hear a sentence. Click on the image on</p>
-    <p>the screen that is associated with the sentence. For example, if you hear the sentence</p>
-    <p>"Ruth talked about the kitchen," you would click on the image of the kitchen. The image</p>
-    <p>will always be associated with the last word in the sentence. If you do not respond within</p>
-    <p>a few seconds, the experiment will proceed automatically. Between trials, try to look at the</p>
-    <p>cross in the center of the screen. But please look around at the images after they appear. <br><br></p>
-    <p>There will be four sets of sentences in the experiment, and before each, we will stop so </p>
-    <p>that you can take a break and we can recalibrate the eye-tracker.</p>
-  `,
+  stimulus: function() {
+    if (stim_condition == 'image') {
+      return image_intructions;
+    } else {
+      return text_instructions;
+    }
+  },
   choices: ['Click to begin'],
   post_trial_gap: 1000
 };
 
-// timeline.push(
-//   calibration_instructions, 
-//   calibration_instructions_2, 
-//   calibration, 
-//   validation_instructions, 
-//   validation,
-//   experiment_instructions
-// );
+timeline.push(
+  calibration_instructions, 
+  calibration_instructions_2, 
+  calibration, 
+  validation_instructions, 
+  validation,
+  experiment_instructions
+);
 
 
 stims = shuffle_imgs(stims)
