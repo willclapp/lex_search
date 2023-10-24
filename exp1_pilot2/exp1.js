@@ -4,7 +4,7 @@
 //  - New questions added to Questionnaire to get to the sample rate issue  (IMPLEMENTED)
 //  - New fixation interval between inspection and audio                    (IMPLEMENTED)
 //  - New condition with text instead of images for stimuli                 (IMPLEMENTED)
-//  - Get rid of Pilot talker                                               (NOT IMPLEMENTED)
+//  - Get rid of Pilot talker                                               (IMPLEMENTED)
 
 let timeline = [];
 

@@ -2,7 +2,7 @@ const filler_header = ["index", "trial_code", "sentence", "status", "target", "t
 
 const filler_trials = {
 	pred_ant: {
-		index: "21",
+		index: "17",
 		trial_code: "pred_ant",
 		sentence: "A termite looks like an ant",
 		status: "filler",
@@ -20,7 +20,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_ant_2_AnF.wav"
 	},
 	pred_belt: {
-		index: "22",
+		index: "18",
 		trial_code: "pred_belt",
 		sentence: "His pants were held up by a belt",
 		status: "filler",
@@ -28,7 +28,7 @@ const filler_trials = {
 		target_filename: "PICTURE_165.png",
 		competitor: "NA",
 		competitor_filename: "NA",
-		Distractor1: "green house",
+		Distractor1: "greenhouse",
 		Distractor1_filename: "PICTURE_106.png",
 		Distractor2: "plumber",
 		Distractor2_filename: "PICTURE_294.png",
@@ -38,7 +38,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_belt_2_AnF.wav"
 	},
 	pred_bench: {
-		index: "23",
+		index: "19",
 		trial_code: "pred_bench",
 		sentence: "The judge is sitting on the bench",
 		status: "filler",
@@ -56,7 +56,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_bench_1_AnF.wav"
 	},
 	pred_bomb: {
-		index: "24",
+		index: "20",
 		trial_code: "pred_bomb",
 		sentence: "The airplane dropped a bomb",
 		status: "filler",
@@ -74,7 +74,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_bomb_2_AnF.wav"
 	},
 	pred_bone: {
-		index: "25",
+		index: "21",
 		trial_code: "pred_bone",
 		sentence: "The dog chewed on a bone",
 		status: "filler",
@@ -92,7 +92,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_bone_2_AnF.wav"
 	},
 	pred_broom: {
-		index: "26",
+		index: "22",
 		trial_code: "pred_broom",
 		sentence: "The girl swept the floor with a broom",
 		status: "filler",
@@ -110,7 +110,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_broom_1_AnF.wav"
 	},
 	pred_carrot: {
-		index: "27",
+		index: "23",
 		trial_code: "pred_carrot",
 		sentence: "The rabbit ate the orange carrot",
 		status: "filler",
@@ -128,7 +128,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_carrot_2_AnF.wav"
 	},
 	pred_castle: {
-		index: "28",
+		index: "24",
 		trial_code: "pred_castle",
 		sentence: "The queen lives inside of the castle",
 		status: "filler",
@@ -146,7 +146,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_castle_1_AnF.wav"
 	},
 	pred_cheese: {
-		index: "29",
+		index: "25",
 		trial_code: "pred_cheese",
 		sentence: "He paired the red wine with cheese",
 		status: "filler",
@@ -164,7 +164,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_cheese_2_AnF.wav"
 	},
 	pred_chest: {
-		index: "30",
+		index: "26",
 		trial_code: "pred_chest",
 		sentence: "The doctor X-rayed his chest",
 		status: "filler",
@@ -182,7 +182,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_chest_2_AnF.wav"
 	},
 	pred_coin: {
-		index: "31",
+		index: "27",
 		trial_code: "pred_coin",
 		sentence: "Let's decide by tossing a coin",
 		status: "filler",
@@ -200,7 +200,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_coin_2_AnF.wav"
 	},
 	pred_computer: {
-		index: "32",
+		index: "28",
 		trial_code: "pred_computer",
 		sentence: "She started typing on the computer",
 		status: "filler",
@@ -218,7 +218,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_computer_2_AnF.wav"
 	},
 	pred_cork: {
-		index: "33",
+		index: "29",
 		trial_code: "pred_cork",
 		sentence: "The bottle was sealed with a cork",
 		status: "filler",
@@ -236,7 +236,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_cork_1_AnF.wav"
 	},
 	pred_crown: {
-		index: "34",
+		index: "30",
 		trial_code: "pred_crown",
 		sentence: "The king wore a golden crown",
 		status: "filler",
@@ -254,7 +254,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_crown_2_AnF.wav"
 	},
 	pred_dentist: {
-		index: "35",
+		index: "31",
 		trial_code: "pred_dentist",
 		sentence: "Her tooth hurt so she went to the dentist",
 		status: "filler",
@@ -272,7 +272,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_dentist_1_AnF.wav"
 	},
 	pred_fist: {
-		index: "36",
+		index: "32",
 		trial_code: "pred_fist",
 		sentence: "He hit me with a clenched fist",
 		status: "filler",
@@ -290,7 +290,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_fist_1_AnF.wav"
 	},
 	pred_fork: {
-		index: "37",
+		index: "33",
 		trial_code: "pred_fork",
 		sentence: "He eats the salad with a fork",
 		status: "filler",
@@ -308,7 +308,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_fork_1_AnF.wav"
 	},
 	pred_jar: {
-		index: "38",
+		index: "34",
 		trial_code: "pred_jar",
 		sentence: "The cookies were kept in a jar",
 		status: "filler",
@@ -326,7 +326,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_jar_2_AnF.wav"
 	},
 	pred_knife: {
-		index: "39",
+		index: "35",
 		trial_code: "pred_knife",
 		sentence: "I cut my finger with a knife",
 		status: "filler",
@@ -344,7 +344,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_knife_2_AnF.wav"
 	},
 	pred_lamp: {
-		index: "40",
+		index: "36",
 		trial_code: "pred_lamp",
 		sentence: "It's getting dark, so light the lamp",
 		status: "filler",
@@ -362,7 +362,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_lamp_2_AnF.wav"
 	},
 	pred_map: {
-		index: "41",
+		index: "37",
 		trial_code: "pred_map",
 		sentence: "We're lost so let's look at the map",
 		status: "filler",
@@ -380,7 +380,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_map_2_AnF.wav"
 	},
 	pred_meat: {
-		index: "42",
+		index: "38",
 		trial_code: "pred_meat",
 		sentence: "He is a vegetarian so he won't eat meat",
 		status: "filler",
@@ -398,7 +398,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_meat_2_AnF.wav"
 	},
 	pred_microphone: {
-		index: "43",
+		index: "39",
 		trial_code: "pred_microphone",
 		sentence: "The musician sang into the microphone",
 		status: "filler",
@@ -416,7 +416,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_microphone_2_AnF.wav"
 	},
 	pred_mirror: {
-		index: "44",
+		index: "40",
 		trial_code: "pred_mirror",
 		sentence: "He saw his reflection in the mirror",
 		status: "filler",
@@ -434,7 +434,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_mirror_2_AnF.wav"
 	},
 	pred_mouse: {
-		index: "45",
+		index: "41",
 		trial_code: "pred_mouse",
 		sentence: "They played a game of cat and mouse",
 		status: "filler",
@@ -452,7 +452,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_mouse_2_AnF.wav"
 	},
 	pred_net: {
-		index: "46",
+		index: "42",
 		trial_code: "pred_net",
 		sentence: "He caught the fish in his net",
 		status: "filler",
@@ -470,7 +470,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_net_2_AnF.wav"
 	},
 	pred_orchestra: {
-		index: "47",
+		index: "43",
 		trial_code: "pred_orchestra",
 		sentence: "He is a violinist in the orchestra",
 		status: "filler",
@@ -488,7 +488,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_orchestra_2_AnF.wav"
 	},
 	pred_pool: {
-		index: "48",
+		index: "44",
 		trial_code: "pred_pool",
 		sentence: "The swimmer dove into the pool",
 		status: "filler",
@@ -506,7 +506,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_pool_1_AnF.wav"
 	},
 	pred_rope: {
-		index: "49",
+		index: "45",
 		trial_code: "pred_rope",
 		sentence: "He tossed the drowning man a rope",
 		status: "filler",
@@ -524,7 +524,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_rope_2_AnF.wav"
 	},
 	pred_rug: {
-		index: "50",
+		index: "46",
 		trial_code: "pred_rug",
 		sentence: "She hated to vacuum the rug",
 		status: "filler",
@@ -542,7 +542,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_rug_1_AnF.wav"
 	},
 	pred_scissors: {
-		index: "51",
+		index: "47",
 		trial_code: "pred_scissors",
 		sentence: "He cut the papers with scissors",
 		status: "filler",
@@ -560,7 +560,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_scissors_1_AnF.wav"
 	},
 	pred_sheep: {
-		index: "52",
+		index: "48",
 		trial_code: "pred_sheep",
 		sentence: "The shepherd watched his flock of sheep",
 		status: "filler",
@@ -578,7 +578,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_sheep_2_AnF.wav"
 	},
 	pred_skirt: {
-		index: "53",
+		index: "49",
 		trial_code: "pred_skirt",
 		sentence: "She shortened the hem of her skirt",
 		status: "filler",
@@ -596,7 +596,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_skirt_2_AnF.wav"
 	},
 	pred_sponge: {
-		index: "54",
+		index: "50",
 		trial_code: "pred_sponge",
 		sentence: "He wiped the sink with a sponge",
 		status: "filler",
@@ -614,7 +614,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_sponge_1_AnF.wav"
 	},
 	pred_spoon: {
-		index: "55",
+		index: "51",
 		trial_code: "pred_spoon",
 		sentence: "Stir your coffee with a spoon",
 		status: "filler",
@@ -632,7 +632,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_spoon_1_AnF.wav"
 	},
 	pred_stamp: {
-		index: "56",
+		index: "52",
 		trial_code: "pred_stamp",
 		sentence: "Air mail requires a special stamp",
 		status: "filler",
@@ -650,7 +650,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_stamp_2_AnF.wav"
 	},
 	pred_swan: {
-		index: "57",
+		index: "53",
 		trial_code: "pred_swan",
 		sentence: "The duck swam with the white swan",
 		status: "filler",
@@ -668,7 +668,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_swan_1_AnF.wav"
 	},
 	pred_sword: {
-		index: "58",
+		index: "54",
 		trial_code: "pred_sword",
 		sentence: "He killed the dragon with his sword",
 		status: "filler",
@@ -686,7 +686,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_sword_2_AnF.wav"
 	},
 	pred_thermometer: {
-		index: "59",
+		index: "55",
 		trial_code: "pred_thermometer",
 		sentence: "She took her temperature with a thermometer",
 		status: "filler",
@@ -704,7 +704,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_thermometer_1_AnF.wav"
 	},
 	pred_truck: {
-		index: "60",
+		index: "56",
 		trial_code: "pred_truck",
 		sentence: "We shipped the furniture by truck",
 		status: "filler",
@@ -722,7 +722,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_truck_2_AnF.wav"
 	},
 	pred_tub: {
-		index: "61",
+		index: "57",
 		trial_code: "pred_tub",
 		sentence: "Paul took a bath in the tub",
 		status: "filler",
@@ -740,7 +740,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_tub_1_AnF.wav"
 	},
 	pred_turkey: {
-		index: "62",
+		index: "58",
 		trial_code: "pred_turkey",
 		sentence: "On Thanksgiving his family eats turkey",
 		status: "filler",
@@ -758,7 +758,7 @@ const filler_trials = {
 		audio_filename: "AnF/pred_turkey_1_AnF.wav"
 	},
 	unpred_asparagus: {
-		index: "63",
+		index: "59",
 		trial_code: "unpred_asparagus",
 		sentence: "We're speaking about the asparagus",
 		status: "filler",
@@ -776,7 +776,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_asparagus_2_AnF.wav"
 	},
 	unpred_baby: {
-		index: "64",
+		index: "60",
 		trial_code: "unpred_baby",
 		sentence: "I want to speak about the baby",
 		status: "filler",
@@ -794,7 +794,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_baby_2_AnF.wav"
 	},
 	unpred_battery: {
-		index: "65",
+		index: "61",
 		trial_code: "unpred_battery",
 		sentence: "Bill heard we talked about the battery",
 		status: "filler",
@@ -812,7 +812,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_battery_1_AnF.wav"
 	},
 	unpred_beard: {
-		index: "66",
+		index: "62",
 		trial_code: "unpred_beard",
 		sentence: "Jane did not speak about the beard",
 		status: "filler",
@@ -830,7 +830,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_beard_2_AnF.wav"
 	},
 	unpred_boat: {
-		index: "67",
+		index: "63",
 		trial_code: "unpred_boat",
 		sentence: "The man should discuss the boat",
 		status: "filler",
@@ -848,7 +848,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_boat_2_AnF.wav"
 	},
 	unpred_book: {
-		index: "68",
+		index: "64",
 		trial_code: "unpred_book",
 		sentence: "I should have considered the book",
 		status: "filler",
@@ -866,7 +866,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_book_2_AnF.wav"
 	},
 	unpred_boy: {
-		index: "69",
+		index: "65",
 		trial_code: "unpred_boy",
 		sentence: "Ruth must have known about the boy",
 		status: "filler",
@@ -884,7 +884,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_boy_1_AnF.wav"
 	},
 	unpred_bridge: {
-		index: "70",
+		index: "66",
 		trial_code: "unpred_bridge",
 		sentence: "Tom will discuss the bridge",
 		status: "filler",
@@ -902,7 +902,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_bridge_1_AnF.wav"
 	},
 	unpred_bus: {
-		index: "71",
+		index: "67",
 		trial_code: "unpred_bus",
 		sentence: "Jane wants to speak about the bus",
 		status: "filler",
@@ -920,7 +920,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_bus_1_AnF.wav"
 	},
 	unpred_chocolate: {
-		index: "72",
+		index: "68",
 		trial_code: "unpred_chocolate",
 		sentence: "He can't consider the chocolate",
 		status: "filler",
@@ -938,7 +938,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_chocolate_2_AnF.wav"
 	},
 	unpred_city: {
-		index: "73",
+		index: "69",
 		trial_code: "unpred_city",
 		sentence: "Bill can't have considered the city",
 		status: "filler",
@@ -956,7 +956,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_city_2_AnF.wav"
 	},
 	unpred_coat: {
-		index: "74",
+		index: "70",
 		trial_code: "unpred_coat",
 		sentence: "I was considering the coat",
 		status: "filler",
@@ -974,7 +974,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_coat_2_AnF.wav"
 	},
 	unpred_coffee: {
-		index: "75",
+		index: "71",
 		trial_code: "unpred_coffee",
 		sentence: "We would consider the coffee",
 		status: "filler",
@@ -992,7 +992,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_coffee_1_AnF.wav"
 	},
 	unpred_door: {
-		index: "76",
+		index: "72",
 		trial_code: "unpred_door",
 		sentence: "The man could consider the door",
 		status: "filler",
@@ -1010,7 +1010,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_door_2_AnF.wav"
 	},
 	unpred_fence: {
-		index: "77",
+		index: "73",
 		trial_code: "unpred_fence",
 		sentence: "Bob could have known about the fence",
 		status: "filler",
@@ -1028,7 +1028,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_fence_2_AnF.wav"
 	},
 	unpred_fridge: {
-		index: "78",
+		index: "74",
 		trial_code: "unpred_fridge",
 		sentence: "You heard Jane called about the fridge",
 		status: "filler",
@@ -1046,7 +1046,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_fridge_1_AnF.wav"
 	},
 	unpred_frog: {
-		index: "79",
+		index: "75",
 		trial_code: "unpred_frog",
 		sentence: "He should know about the frog",
 		status: "filler",
@@ -1064,7 +1064,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_frog_1_AnF.wav"
 	},
 	unpred_glasses: {
-		index: "80",
+		index: "76",
 		trial_code: "unpred_glasses",
 		sentence: "Nancy didn't discuss the glasses",
 		status: "filler",
@@ -1082,7 +1082,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_glasses_1_AnF.wav"
 	},
 	unpred_gun: {
-		index: "81",
+		index: "77",
 		trial_code: "unpred_gun",
 		sentence: "They heard I called about the gun",
 		status: "filler",
@@ -1100,7 +1100,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_gun_1_AnF.wav"
 	},
 	unpred_harp: {
-		index: "82",
+		index: "78",
 		trial_code: "unpred_harp",
 		sentence: "Nancy had considered the harp",
 		status: "filler",
@@ -1118,7 +1118,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_harp_1_AnF.wav"
 	},
 	unpred_hotdog: {
-		index: "83",
+		index: "79",
 		trial_code: "unpred_hotdog",
 		sentence: "He would think about the hot dog",
 		status: "filler",
@@ -1136,7 +1136,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_hotdog_1_AnF.wav"
 	},
 	unpred_house: {
-		index: "84",
+		index: "80",
 		trial_code: "unpred_house",
 		sentence: "He wants to talk about the house",
 		status: "filler",
@@ -1154,7 +1154,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_house_2_AnF.wav"
 	},
 	unpred_iceberg: {
-		index: "85",
+		index: "81",
 		trial_code: "unpred_iceberg",
 		sentence: "Bill hopes Paul heard about the iceberg",
 		status: "filler",
@@ -1172,7 +1172,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_iceberg_2_AnF.wav"
 	},
 	unpred_kite: {
-		index: "86",
+		index: "82",
 		trial_code: "unpred_kite",
 		sentence: "We heard they called about the kite",
 		status: "filler",
@@ -1190,7 +1190,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_kite_1_AnF.wav"
 	},
 	unpred_lighter: {
-		index: "87",
+		index: "83",
 		trial_code: "unpred_lighter",
 		sentence: "You're glad they heard about the lighter",
 		status: "filler",
@@ -1208,7 +1208,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_lighter_2_AnF.wav"
 	},
 	unpred_magnet: {
-		index: "88",
+		index: "84",
 		trial_code: "unpred_magnet",
 		sentence: "Tom discussed the magnet",
 		status: "filler",
@@ -1226,7 +1226,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_magnet_2_AnF.wav"
 	},
 	unpred_painter: {
-		index: "89",
+		index: "85",
 		trial_code: "unpred_painter",
 		sentence: "We have discussed the painter",
 		status: "filler",
@@ -1244,7 +1244,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_painter_2_AnF.wav"
 	},
 	unpred_piano: {
-		index: "90",
+		index: "86",
 		trial_code: "unpred_piano",
 		sentence: "She hears Bob asked about the piano",
 		status: "filler",
@@ -1262,7 +1262,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_piano_1_AnF.wav"
 	},
 	unpred_plant: {
-		index: "91",
+		index: "87",
 		trial_code: "unpred_plant",
 		sentence: "I'm glad you heard about the plant",
 		status: "filler",
@@ -1280,7 +1280,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_plant_1_AnF.wav"
 	},
 	unpred_prison: {
-		index: "92",
+		index: "88",
 		trial_code: "unpred_prison",
 		sentence: "I had not thought about the prison",
 		status: "filler",
@@ -1298,7 +1298,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_prison_2_AnF.wav"
 	},
 	unpred_pumpkin: {
-		index: "93",
+		index: "89",
 		trial_code: "unpred_pumpkin",
 		sentence: "I've spoken about the pumpkin",
 		status: "filler",
@@ -1316,7 +1316,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_pumpkin_2_AnF.wav"
 	},
 	unpred_rifle: {
-		index: "94",
+		index: "90",
 		trial_code: "unpred_rifle",
 		sentence: "Bill might discuss the rifle",
 		status: "filler",
@@ -1334,7 +1334,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_rifle_2_AnF.wav"
 	},
 	unpred_scar: {
-		index: "95",
+		index: "91",
 		trial_code: "unpred_scar",
 		sentence: "The boy can't talk about the scar",
 		status: "filler",
@@ -1352,7 +1352,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_scar_1_AnF.wav"
 	},
 	unpred_shirt: {
-		index: "96",
+		index: "92",
 		trial_code: "unpred_shirt",
 		sentence: "They had a problem with the shirt",
 		status: "filler",
@@ -1370,7 +1370,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_shirt_1_AnF.wav"
 	},
 	unpred_snow: {
-		index: "97",
+		index: "93",
 		trial_code: "unpred_snow",
 		sentence: "She hopes Jane called about the snow",
 		status: "filler",
@@ -1388,7 +1388,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_snow_1_AnF.wav"
 	},
 	unpred_soldier: {
-		index: "98",
+		index: "94",
 		trial_code: "unpred_soldier",
 		sentence: "The man would not discuss the soldier",
 		status: "filler",
@@ -1406,7 +1406,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_soldier_2_AnF.wav"
 	},
 	unpred_submarine: {
-		index: "99",
+		index: "95",
 		trial_code: "unpred_submarine",
 		sentence: "She has known about the submarine",
 		status: "filler",
@@ -1424,7 +1424,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_submarine_1_AnF.wav"
 	},
 	unpred_tattoo: {
-		index: "100",
+		index: "96",
 		trial_code: "unpred_tattoo",
 		sentence: "Bill cannot consider the tattoo",
 		status: "filler",
@@ -1442,7 +1442,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_tattoo_1_AnF.wav"
 	},
 	unpred_telescope: {
-		index: "101",
+		index: "97",
 		trial_code: "unpred_telescope",
 		sentence: "Bob has discussed the telescope",
 		status: "filler",
@@ -1460,7 +1460,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_telescope_1_AnF.wav"
 	},
 	unpred_toaster: {
-		index: "102",
+		index: "98",
 		trial_code: "unpred_toaster",
 		sentence: "She's glad Jane asked about the toaster",
 		status: "filler",
@@ -1478,7 +1478,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_toaster_1_AnF.wav"
 	},
 	unpred_tree: {
-		index: "103",
+		index: "99",
 		trial_code: "unpred_tree",
 		sentence: "Ruth hopes he heard about the tree",
 		status: "filler",
@@ -1496,7 +1496,7 @@ const filler_trials = {
 		audio_filename: "AnF/unpred_tree_1_AnF.wav"
 	},
 	unpred_zebra: {
-		index: "104",
+		index: "100",
 		trial_code: "unpred_zebra",
 		sentence: "The class is discussing the zebra",
 		status: "filler",
