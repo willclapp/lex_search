@@ -15,7 +15,7 @@ function shuffle_imgs(stims) {
 
 
 function divide_blocks(stims) {
-  let trials_per_block = [26, 26, 25, 25]
+  let trials_per_block = [25, 25, 25, 25]
   let blocks = []
   let prev = 0;
   for (let i=0; i<4; i++) {

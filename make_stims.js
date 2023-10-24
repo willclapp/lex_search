@@ -20,10 +20,6 @@ for (let i = 0; i < 8; i++) {
   critical_talker_order.push(int_talkers[Math.floor(i/2)])
 }
 
-// Add accented talker for pilot
-critical_talker_order.push(anchor_talker)
-critical_talker_order.push(pilot_talker)
-
 // create order of comp/noComp
 // fully random for now
 let comp_codes = []
@@ -68,7 +64,7 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
   if (critical_nums.includes(i)) {
     curr_trial = critical_trials[critical_codes[j]]
     curr_talker = critical_talker_order[j]
-    audio_filename = critical_talker_order[j] == "AnF" ? curr_trial.audio_filename : curr_trial[critical_talker_order[j]+"_audio_filename"]
+    audio_filename = curr_trial[critical_talker_order[j]+"_audio_filename"]
     if (stim_condition == "image") {
       imgs.push(curr_trial.target_filename, curr_trial.Distractor1_filename, curr_trial.Distractor2_filename)
     } else {
@@ -144,3 +140,5 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     preload_imgs.push("../img/" + imgs[l])
   }
 }
+
+console.log(stims)
