@@ -18,21 +18,8 @@ anchor_dir = "/Users/willclapp/Desktop/ART/artclass/project/recording/processed/
 anchor_out = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1/audio/AnF/"
 # move_filler(filler_csv, anchor_dir, anchor_out)
 
-def move_control(input_csv, input_dir, out_dir):
-    # First, create list of all files that should be there
-    # by reading through the CSV
-    with open(input_csv) as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=",")
-        for line in csv_reader:
-            if line[0] != 'index':
-                fname = line[3] + "_" + line[6] + "_AnF.wav"
-                shutil.copyfile(input_dir+fname, out_dir+fname)
-
-critical_csv = "./trials_critical.csv"
-# move_control(critical_csv, anchor_dir, anchor_out)
-
 def move_critical(input_csv, input_dir, out_dir):
-    speakers = ['AIF1', 'IF1', 'IF3', 'IM1', 'IM2']
+    speakers = ['AnF', 'IF1', 'IF3', 'IM1', 'IM2']
     s_ind = []
     with open(input_csv) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=",")
@@ -47,6 +34,7 @@ def move_critical(input_csv, input_dir, out_dir):
                     fname = line[3] + '_' + tag[0] + '_' + speakers[i] + '_' + tag[1] + '_AnF_' + line[-1] + '.wav'
                     shutil.copyfile(input_dir+flead+fname, out_dir+'/'+speakers[i]+'/'+fname)
 
+critical_csv = "./trials_critical.csv"
 indir = "/Users/willclapp/Desktop/ART/artclass/project/recording/splicing/"
-outdir = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1/audio/"
+outdir = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1_pilot2/audio/"
 move_critical(critical_csv, indir, outdir)
