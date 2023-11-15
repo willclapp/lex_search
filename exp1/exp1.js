@@ -104,7 +104,9 @@ let calibration_instructions = {
     If your computer is on your lap, or moves at all, the eye-tracker will not work.<br><br>
     Also make sure that you're lit from the front, either with a lamp or facing a window. <br><br>
     They eye-tracker will also not work if you are wearing glasses. Contacts are fine. <br><br>
-    Hold your head as absolutely still as possible, as if your chin was resting on an invisible block. <br>
+    Hold your head as absolutely still as possible, as if your chin was resting on an <br>
+    invisible block. You might find it more comfortable to stack up some books to create <br>
+    an improvised chin rest. You can also rest your chin on your hand to help you keep still. <br>
     To look around the screen, move only your eyes. <br><br>
     Click below to move on.</p>
   `,
