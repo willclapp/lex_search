@@ -180,7 +180,7 @@ let validation = {
       return p
     },
     show_validation_data: false,
-    randomize_validation_order: true
+    randomize_validation_order: false
 };
 
 let image_intructions = `<p>We're now ready to begin the main experiment. </p>
