@@ -14,10 +14,18 @@ for (const [key, value] of Object.entries(critical_trials)) {
 }
 
 // generate order of talkers
-critical_talker_order = []
+let critical_talker_order = []
 for (let i = 0; i < 8; i++) {
   critical_talker_order.push(anchor_talker)
   critical_talker_order.push(int_talkers[Math.floor(i/2)])
+}
+critical_talker_order = critical_talker_order.sort()
+let cto_anch = critical_talker_order.slice(0, critical_talker_order.length/2)
+let cto_int = shuffle_array(critical_talker_order.slice(critical_talker_order.length/2, critical_talker_order.length))
+critical_talker_order = []
+for (let i = 0; i < cto_anch.length; i++) {
+  critical_talker_order.push(cto_anch[i])
+  critical_talker_order.push(cto_int[i])
 }
 
 // create order of comp/noComp
@@ -30,15 +38,36 @@ for (let i = 0; i < (critical_codes.length/2); i++) {
 // shuffle everything
 filler_codes = shuffle_array(filler_codes)
 critical_codes = shuffle_array(critical_codes)
-critical_talker_order = shuffle_array(critical_talker_order)
-comp_codes - shuffle_array(comp_codes)
+comp_codes = shuffle_array(comp_codes)
 
 // figure out where the critical trials will fall
-// no critical trials in the first 5
+// no critical trials in the first 5, 4 per block, alternate anch and int
 critical_nums = []
+let n_trials = filler_codes.length + critical_codes.length;
 let i = 0;
-while (i < critical_codes.length) {
-  let num = Math.floor(Math.random() * (filler_codes.length + critical_codes.length - 5)) + 5
+while (i < critical_codes.length/4) {
+  let num = Math.floor(Math.random() * ((n_trials)/4 - 5)) + 5
+  if (!critical_nums.includes(num)) {
+    critical_nums.push(num)
+    i++
+  }
+}
+while (i < critical_codes.length/4 * 2) {
+  num = Math.floor(Math.random() * (n_trials)/4) + (n_trials)/4
+  if (!critical_nums.includes(num)) {
+    critical_nums.push(num)
+    i++
+  }
+}
+while (i < critical_codes.length/4 * 3) {
+  num = Math.floor(Math.random() * (n_trials)/4) + ((n_trials)/4) * 2
+  if (!critical_nums.includes(num)) {
+    critical_nums.push(num)
+    i++
+  }
+}
+  while (i < critical_codes.length/4 * 4) {
+  num = Math.floor(Math.random() * (n_trials)/4) + ((n_trials)/4) * 3
   if (!critical_nums.includes(num)) {
     critical_nums.push(num)
     i++
