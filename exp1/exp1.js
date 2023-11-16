@@ -38,7 +38,7 @@ const camera_instructions = {
 
 const init_camera_trial = {
   type: jsPsychWebgazerInitCamera,
-  on_start: function() {
+  on_finish: function() {
     jsPsych.extensions.webgazer.setRegressionType("weightedRidge");
   }
 }
