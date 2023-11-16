@@ -148,7 +148,7 @@ var calibration = {
     calibration_mode: 'view',
     randomize_calibration_order: true,
     on_start: function() {
-      setRegressionType("weightedRidge");
+      jsPsych.extensions.webgazer.setRegressionType("weightedRidge");
     }
   };
 
