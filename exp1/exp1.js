@@ -37,7 +37,10 @@ const camera_instructions = {
 };
 
 const init_camera_trial = {
-  type: jsPsychWebgazerInitCamera
+  type: jsPsychWebgazerInitCamera,
+  on_start: function() {
+    jsPsych.extensions.webgazer.setRegressionType("weightedRidge");
+  }
 }
 
 const enter_fullscreen = {
@@ -146,10 +149,7 @@ var calibration = {
     // ],
     repetitions_per_point: 2,
     calibration_mode: 'view',
-    randomize_calibration_order: true,
-    on_start: function() {
-      jsPsych.extensions.webgazer.setRegressionType("weightedRidge");
-    }
+    randomize_calibration_order: true
   };
 
 let validation_instructions = {
