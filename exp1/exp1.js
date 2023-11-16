@@ -110,7 +110,10 @@ let calibration_instructions = {
     To look around the screen, move only your eyes. <br><br>
     Click below to move on.</p>
   `,
-  choices: ['Continue']
+  choices: ['Continue'],
+  on_start: function() {
+    jsPsych.extensions.webgazer.showVideo();
+  }
 }
 
 let calibration_instructions_2 = {
@@ -122,7 +125,10 @@ let calibration_instructions_2 = {
     <p>focus on each dot as it appears. You do not need to click </p>
     <p>on the dots. Just move your eyes to look at the dots. </p>
   `,
-  choices: ['Continue']
+  choices: ['Continue'],
+  on_finish: function() {
+    jsPsych.extensions.webgazer.hideVideo();
+  }
 }
 
 var calibration = {
@@ -141,6 +147,9 @@ var calibration = {
     repetitions_per_point: 2,
     calibration_mode: 'view',
     randomize_calibration_order: true,
+    on_start: function() {
+      setRegressionType("weightedRidge");
+    }
   };
 
 let validation_instructions = {
@@ -361,10 +370,15 @@ for (let i=0; i<all_trials.length; i++) {
         <p>focus on it using only your eyes without moving your neck or</p>
         <p>head. When you're ready to begin, click below.</p>
       `,
-      choices: ['Continue']
+      choices: ['Continue'],
+      on_start: function() {
+        jsPsych.extensions.webgazer.showVideo();
+      },
+      on_finish: function() {
+        jsPsych.extensions.webgazer.hideVideo();
+      }
     }
-    timeline.push(post_block, calibration, validation)
-
+    timeline.push(post_block, calibration, validation_instructions, validation)
   }
 }
 

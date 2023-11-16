@@ -13,6 +13,10 @@
     background-size: 75%;
 }
 
+/* .jspsych-display-element {
+    align-items: center;
+} */
+
 .jspsych-audio-button-response-button {
     width: 380px;
     height: 380px;
@@ -55,4 +59,9 @@
     font-size: 48px;
     font-family: sans-serif;
     line-height: 48px;
+}
+
+#webgazerVideoContainer {
+    margin: 20px;
+    left: calc(50% - 160px) !important;
 }
