@@ -151,8 +151,8 @@ var jsPsychSurvey = (function (jspsych) {
 			h.beforeRemove?a.oa:a.removeNode);var M,O,P;try{P=e.ownerDocument.activeElement;}catch(N){}if(A.length)for(;(E=A.shift())!=n;){y=v[E];for(M=n;E;)if((O=v[--E].Y)&&O.length){M=O[O.length-1];break}for(f=0;u=y.Y[f];M=u,f++)a.h.Wb(e,u,M);}for(E=0;y=v[E];E++){y.Y||a.a.extend(y,b(e,g,y.Aa,m,y.pb));for(f=0;u=y.Y[f];M=u,f++)a.h.Wb(e,u,M);!y.Ed&&m&&(m(y.Aa,y.Y,y.pb),y.Ed=!0,M=y.Y[y.Y.length-1]);}P&&e.ownerDocument.activeElement!=P&&P.focus();q(h.beforeRemove,C);for(E=0;E<C.length;++E)C[E].Aa=d;q(h.afterMove,D);
 			q(h.afterAdd,F);};})();a.b("utils.setDomNodeChildrenFromArrayMapping",a.a.ec);a.ba=function(){this.allowTemplateRewriting=!1;};a.ba.prototype=new a.ca;a.ba.prototype.constructor=a.ba;a.ba.prototype.renderTemplateSource=function(b,c,d,e){if(c=(9>a.a.W?0:b.nodes)?b.nodes():null)return a.a.la(c.cloneNode(!0).childNodes);b=b.text();return a.a.ua(b,e)};a.ba.Ma=new a.ba;a.gc(a.ba.Ma);a.b("nativeTemplateEngine",a.ba);(function(){a.$a=function(){var a=this.Hd=function(){if(!v||!v.tmpl)return 0;try{if(0<=v.tmpl.tag.tmpl.open.toString().indexOf("__"))return 2}catch(a){}return 1}();
 			this.renderTemplateSource=function(b,e,f,g){g=g||w;f=f||{};if(2>a)throw Error("Your version of jQuery.tmpl is too old. Please upgrade to jQuery.tmpl 1.0.0pre or later.");var h=b.data("precompiled");h||(h=b.text()||"",h=v.template(null,"{{ko_with $item.koBindingContext}}"+h+"{{/ko_with}}"),b.data("precompiled",h));b=[e.$data];e=v.extend({koBindingContext:e},f.templateOptions);e=v.tmpl(h,b,e);e.appendTo(g.createElement("div"));v.fragments={};return e};this.createJavaScriptEvaluatorBlock=function(a){return "{{ko_code ((function() { return "+
-			a+" })()) }}"};this.addTemplate=function(a,b){w.write("<script type='text/html' id='"+a+"'>"+b+"\x3c/script>");};0<a&&(v.tmpl.tag.ko_code={open:"__.push($1 || '');"},v.tmpl.tag.ko_with={open:"with($1) {",close:"} "});};a.$a.prototype=new a.ca;a.$a.prototype.constructor=a.$a;var b=new a.$a;0<b.Hd&&a.gc(b);a.b("jqueryTmplTemplateEngine",a.$a);})();});})();})();
-	} (knockoutLatest, knockoutLatest.exports));
+			a+" })()) }}"};this.addTemplate=function(a,b){w.write("<script type='text/html' id='"+a+"'>"+b+"\x3c/script>");};0<a&&(v.tmpl.tag.ko_code={open:"__.push($1 || '');"},v.tmpl.tag.ko_with={open:"with($1) {",close:"} "});};a.$a.prototype=new a.ca;a.$a.prototype.constructor=a.$a;var b=new a.$a;0<b.Hd&&a.gc(b);a.b("jqueryTmplTemplateEngine",a.$a);})();});})();})(); 
+		} (knockoutLatest, knockoutLatest.exports));
 		return knockoutLatest.exports;
 	}
 
@@ -62403,6 +62403,8 @@ var jsPsychSurvey = (function (jspsych) {
 		
 	} (survey_ko));
 
+	var survey_koExports = survey_ko.exports;
+
 	const info = {
 	    name: "survey",
 	    parameters: {
@@ -62769,7 +62771,7 @@ var jsPsychSurvey = (function (jspsych) {
 	                "correct_response",
 	            ]);
 	            SurveyPlugin.set_question_defaults(params, dropdown_params);
-	            const question = new survey_ko.exports.QuestionDropdown(name);
+	            const question = new survey_koExports.QuestionDropdown(name);
 	            question.title = params.prompt;
 	            question.isRequired = params.required;
 	            question.hasOther = params.add_other_option;
@@ -62793,7 +62795,7 @@ var jsPsychSurvey = (function (jspsych) {
 	        this.setup_html_question = (name, params) => {
 	            SurveyPlugin.validate_question_params(params, [], []);
 	            SurveyPlugin.set_question_defaults(params, html_params);
-	            const question = new survey_ko.exports.QuestionHtml(name);
+	            const question = new survey_koExports.QuestionHtml(name);
 	            question.html = params.prompt;
 	            return question;
 	        };
@@ -62808,7 +62810,7 @@ var jsPsychSurvey = (function (jspsych) {
 	                "correct_response",
 	            ]);
 	            SurveyPlugin.set_question_defaults(params, likert_params);
-	            const question = new survey_ko.exports.QuestionRating(name);
+	            const question = new survey_koExports.QuestionRating(name);
 	            question.title = params.prompt;
 	            question.isRequired = params.required;
 	            if (params.likert_scale_values !== null) {
@@ -62834,7 +62836,7 @@ var jsPsychSurvey = (function (jspsych) {
 	        this.setup_likert_table_question = (name, params) => {
 	            SurveyPlugin.validate_question_params(params, ["options", "statements"], ["randomize_statement_order", "correct_response"]);
 	            SurveyPlugin.set_question_defaults(params, likert_table_params);
-	            const question = new survey_ko.exports.QuestionMatrix(name);
+	            const question = new survey_koExports.QuestionMatrix(name);
 	            question.title = params.prompt;
 	            question.isAllRowRequired = params.required;
 	            question.columns = params.options.map((opt, ind) => ({
@@ -62859,15 +62861,15 @@ var jsPsychSurvey = (function (jspsych) {
 	            let question;
 	            switch (params.type) {
 	                case "multi-choice":
-	                    question = new survey_ko.exports.QuestionRadiogroup(name);
+	                    question = new survey_koExports.QuestionRadiogroup(name);
 	                    question.defaultValue = "";
 	                    break;
 	                case "multi-select":
-	                    question = new survey_ko.exports.QuestionCheckbox(name);
+	                    question = new survey_koExports.QuestionCheckbox(name);
 	                    question.defaultValue = [];
 	                    break;
 	                case "ranking":
-	                    question = new survey_ko.exports.QuestionRanking(name);
+	                    question = new survey_koExports.QuestionRanking(name);
 	                    break;
 	            }
 	            question.title = params.prompt;
@@ -62887,7 +62889,7 @@ var jsPsychSurvey = (function (jspsych) {
 	            if (params.correct_response !== null) {
 	                question.correctAnswer = params.correct_response;
 	            }
-	            if (question instanceof survey_ko.exports.QuestionRanking) {
+	            if (question instanceof survey_koExports.QuestionRanking) {
 	                // Hack to initialize `question.dragDropRankingChoices` which is only done by the
 	                // `endLoadingFromJson()` method
 	                question.endLoadingFromJson();
@@ -62898,14 +62900,14 @@ var jsPsychSurvey = (function (jspsych) {
 	        this.setup_text_question = (name, params) => {
 	            SurveyPlugin.validate_question_params(params, [], ["placeholder", "textbox_rows", "textbox_columns", "input_type", "correct_response"]);
 	            SurveyPlugin.set_question_defaults(params, text_params);
-	            const question = params.textbox_rows > 1 ? new survey_ko.exports.QuestionComment(name) : new survey_ko.exports.QuestionText(name);
+	            const question = params.textbox_rows > 1 ? new survey_koExports.QuestionComment(name) : new survey_koExports.QuestionText(name);
 	            question.title = params.prompt;
 	            question.isRequired = params.required;
 	            question.placeHolder = params.placeholder;
 	            if (params.correct_response !== null) {
 	                question.correctAnswer = params.correct_response;
 	            }
-	            if (question instanceof survey_ko.exports.QuestionComment) {
+	            if (question instanceof survey_koExports.QuestionComment) {
 	                question.rows = params.textbox_rows;
 	                question.cols = params.textbox_columns;
 	            }
@@ -62919,7 +62921,7 @@ var jsPsychSurvey = (function (jspsych) {
 	    }
 	    applyStyles() {
 	        // https://surveyjs.io/Examples/Library/?id=custom-theme
-	        const colors = survey_ko.exports.StylesManager.ThemeColors["default"];
+	        const colors = survey_koExports.StylesManager.ThemeColors["default"];
 	        colors["$background-dim"] = "#f3f3f3";
 	        colors["$body-background-color"] = "white";
 	        colors["$body-container-background-color"] = "white";
@@ -62943,11 +62945,11 @@ var jsPsychSurvey = (function (jspsych) {
 	        colors["$slider-color"] = "white";
 	        colors["$text-color"] = "#6d7072";
 	        colors["$text-input-color"] = "#6d7072";
-	        survey_ko.exports.StylesManager.applyTheme();
+	        survey_koExports.StylesManager.applyTheme();
 	    }
 	    trial(display_element, trial) {
 	        var _a;
-	        this.survey = new survey_ko.exports.Survey(); // set up survey in code: https://surveyjs.io/Documentation/Library#survey-objects
+	        this.survey = new survey_koExports.Survey(); // set up survey in code: https://surveyjs.io/Documentation/Library#survey-objects
 	        this.applyStyles(); // applies bootstrap theme
 	        // add custom CSS classes to survey elements
 	        // https://surveyjs.io/Examples/Library/?id=survey-customcss&platform=Knockoutjs&theme=bootstrap#content-docs

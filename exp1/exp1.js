@@ -37,10 +37,10 @@ const camera_instructions = {
 };
 
 const init_camera_trial = {
-  type: jsPsychWebgazerInitCamera
-  // on_finish: function() {
-  //   jsPsych.extensions.webgazer.setRegressionType("weightedRidge");
-  // }
+  type: jsPsychWebgazerInitCamera,
+  on_finish: function() {
+    jsPsych.extensions.webgazer.setRegressionType("weightedRidge");
+  }
 }
 
 const enter_fullscreen = {
@@ -163,9 +163,22 @@ let validation_instructions = {
     post_trial_gap: 1000
 };
 
+let val_points = [
+  [[25,75], [75,75], [25,25], [75,25], [75,75], [25,25], [25,75], [75,25]],
+  [[75,75], [25,25], [25,75], [75,25], [25,75], [75,25], [75,75], [25,25]],
+  [[75,25], [25,25], [75,75], [25,75], [25,25], [75,75], [25,75], [75,25]],
+  [[25,25], [25,75], [75,25], [75,75], [25,25], [25,75], [75,25], [75,75]]
+]
+
+val_points = shuffle_array(val_points)
+
 let validation = {
     type: jsPsychWebgazerValidate,
-    validation_points: [[25,25], [25,75], [75,25], [75,75], [25,25], [25,75], [75,25], [75,75]],
+    validation_points: function() {
+      let p = val_points.pop();
+      console.log(p)
+      return p
+    },
     show_validation_data: false,
     randomize_validation_order: true
 };
