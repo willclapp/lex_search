@@ -147,6 +147,7 @@ var calibration = {
     // calibration_points: [
     //   [50,50]
     // ],
+    point_size: 15,
     repetitions_per_point: 2,
     calibration_mode: 'view',
     randomize_calibration_order: true
@@ -176,9 +177,9 @@ let validation = {
     type: jsPsychWebgazerValidate,
     validation_points: function() {
       let p = val_points.pop();
-      console.log(p)
       return p
     },
+    point_size: 15,
     show_validation_data: false,
     randomize_validation_order: false
 };
