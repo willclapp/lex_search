@@ -374,6 +374,7 @@ for (let i=0; i<all_trials.length; i++) {
     const post_block = {
       type: jsPsychHtmlButtonResponse,
       stimulus: `
+        <br>
         <p>That is the end of block #${i + 1} out of 4. </p>
         <p>Feel free to take a break if you need to.</p>
         <p>Before we continue, let's take a moment to make sure that</p>
