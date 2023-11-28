@@ -102,7 +102,7 @@ timeline.push(
 let calibration_instructions = {
   type: jsPsychHtmlButtonResponse,
   stimulus: `
-    <p>Before we calibrate the eye-tracker, here are a few reminders and suggestions.<br><br>
+    <p><br><br>Before we calibrate the eye-tracker, here are a few reminders and suggestions.<br><br>
     First, make sure that your computer is resting on a flat surface, like a table or a desk. <br>
     If your computer is on your lap, or moves at all, the eye-tracker will not work.<br><br>
     Also make sure that you're lit from the front, either with a lamp or facing a window. <br><br>
