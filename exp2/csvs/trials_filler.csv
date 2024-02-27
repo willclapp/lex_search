@@ -1,85 +1,85 @@
-index,trial_code,sentence,status,target,target_filename,competitor,competitor_filename,Distractor1,Distractor1_filename,Distractor2,Distractor2_filename,Distractor3,Distractor3_filename,audio_tag
-17,pred_ant,A termite looks like an ant,filler,ant,PICTURE_585.png,NA,NA,saxophone,PICTURE_107.png,trigger,PICTURE_291.png,box,PICTURE_508.png,2
-18,pred_belt,His pants were held up by a belt,filler,belt,PICTURE_165.png,NA,NA,greenhouse,PICTURE_106.png,plumber,PICTURE_294.png,fox,PICTURE_521.png,2
-19,pred_bench,The judge is sitting on the bench,filler,bench,PICTURE_449.png,NA,NA,deer,PICTURE_105.png,mime,PICTURE_303.png,telephone,PICTURE_509.png,1
-20,pred_bomb,The airplane dropped a bomb,filler,bomb,PICTURE_386.png,NA,NA,nose,PICTURE_100.png,tunnel,PICTURE_286.png,shepherd,PICTURE_502.png,2
-21,pred_bone,The dog chewed on a bone,filler,bone,PICTURE_24.png,NA,NA,mask,PICTURE_84.png,knot,PICTURE_267.png,sun,PICTURE_488.png,2
-22,pred_broom,The girl swept the floor with a broom,filler,broom,PICTURE_590.png,NA,NA,tiger,PICTURE_98.png,cape,PICTURE_275.png,avocado,PICTURE_477.png,1
-23,pred_carrot,The rabbit ate the orange carrot,filler,carrot,PICTURE_285.png,NA,NA,heart,PICTURE_83.png,lizard,PICTURE_252.png,circle,PICTURE_496.png,2
-24,pred_castle,The queen lives inside of the castle,filler,castle,PICTURE_240.png,NA,NA,bag,PICTURE_53.png,root,PICTURE_245.png,pineapple,PICTURE_442.png,1
-25,pred_cheese,He paired the red wine with cheese,filler,cheese,PICTURE_72.png,NA,NA,wasp,PICTURE_62.png,brain,PICTURE_247.png,apron,PICTURE_476.png,2
-26,pred_chest,The doctor X-rayed his chest,filler,chest,PICTURE_231.png,NA,NA,feather,PICTURE_97.png,pomegranate,PICTURE_281.png,shoe,PICTURE_541.png,2
-27,pred_coin,Let's decide by tossing a coin,filler,coin,PICTURE_383.png,NA,NA,park,PICTURE_82.png,baguette,PICTURE_258.png,shield,PICTURE_501.png,2
-28,pred_computer,She started typing on the computer,filler,computer,PICTURE_196.png,NA,NA,saw,PICTURE_52.png,light bulb,PICTURE_244.png,sausage,PICTURE_441.png,2
-29,pred_cork,The bottle was sealed with a cork,filler,cork,PICTURE_409.png,NA,NA,fruit,PICTURE_114.png,envelope,PICTURE_310.png,turtle,PICTURE_531.png,1
-30,pred_crown,The king wore a golden crown,filler,crown,PICTURE_32.png,NA,NA,milk,PICTURE_96.png,drum,PICTURE_278.png,squirrel,PICTURE_484.png,2
-31,pred_dentist,Her tooth hurt so she went to the dentist,filler,dentist,PICTURE_246.png,NA,NA,broccoli,PICTURE_76.png,lamppost,PICTURE_261.png,stairs,PICTURE_500.png,1
-32,pred_fist,He hit me with a clenched fist,filler,fist,PICTURE_411.png,NA,NA,painting,PICTURE_99.png,wig,PICTURE_277.png,skunk,PICTURE_493.png,1
-33,pred_fork,He eats the salad with a fork,filler,fork,PICTURE_673.png,NA,NA,camel,PICTURE_77.png,island,PICTURE_260.png,basket,PICTURE_487.png,1
-34,pred_jar,The cookies were kept in a jar,filler,jar,PICTURE_448.png,NA,NA,lung,PICTURE_112.png,ostrich,PICTURE_299.png,violin,PICTURE_566.png,2
-35,pred_knife,I cut my finger with a knife,filler,knife,PICTURE_465.png,NA,NA,hippopotamus,PICTURE_115.png,flower,PICTURE_312.png,astronaut,PICTURE_539.png,2
-36,pred_lamp,"It's getting dark, so light the lamp",filler,lamp,PICTURE_414.png,NA,NA,drum set,PICTURE_101.png,rhinoceros,PICTURE_282.png,tongue,PICTURE_503.png,2
-37,pred_map,We're lost so let's look at the map,filler,map,PICTURE_677.png,NA,NA,robot,PICTURE_87.png,hand,PICTURE_264.png,chicken,PICTURE_454.png,2
-38,pred_meat,He is a vegetarian so he won't eat meat,filler,meat,PICTURE_81.png,NA,NA,wave,PICTURE_73.png,choir,PICTURE_253.png,tank,PICTURE_621.png,2
-39,pred_microphone,The musician sang into the microphone,filler,microphone,PICTURE_208.png,NA,NA,shadow,PICTURE_55.png,pirate,PICTURE_265.png,fly,PICTURE_462.png,2
-40,pred_mirror,He saw his reflection in the mirror,filler,mirror,PICTURE_340.png,NA,NA,tractor,PICTURE_74.png,potato,PICTURE_249.png,coffin,PICTURE_497.png,2
-41,pred_mouse,They played a game of cat and mouse,filler,mouse,PICTURE_1.png,NA,NA,fire,PICTURE_116.png,wing,PICTURE_307.png,clown,PICTURE_532.png,2
-42,pred_net,He caught the fish in his net,filler,net,PICTURE_346.png,NA,NA,chair,PICTURE_122.png,razor,PICTURE_311.png,lighthouse,PICTURE_540.png,2
-43,pred_orchestra,He is a violinist in the orchestra,filler,orchestra,PICTURE_70.png,NA,NA,ball,PICTURE_732.png,salt,PICTURE_233.png,wardrobe,PICTURE_458.png,2
-44,pred_pool,The swimmer dove into the pool,filler,pool,PICTURE_362.png,NA,NA,elevator,PICTURE_104.png,birdcage,PICTURE_290.png,face,PICTURE_510.png,1
-45,pred_rope,He tossed the drowning man a rope,filler,rope,PICTURE_517.png,NA,NA,moon,PICTURE_90.png,chameleon,PICTURE_269.png,pizza,PICTURE_489.png,2
-46,pred_rug,She hated to vacuum the rug,filler,rug,PICTURE_491.png,NA,NA,calendar,PICTURE_108.png,dinosaur,PICTURE_293.png,lips,PICTURE_513.png,1
-47,pred_scissors,He cut the papers with scissors,filler,scissors,PICTURE_453.png,NA,NA,hunter,PICTURE_16.png,plate,PICTURE_234.png,foot,PICTURE_455.png,1
-48,pred_sheep,The shepherd watched his flock of sheep,filler,sheep,PICTURE_636.png,NA,NA,maze,PICTURE_121.png,ice cream,PICTURE_309.png,branch,PICTURE_536.png,2
-49,pred_skirt,She shortened the hem of her skirt,filler,skirt,PICTURE_199.png,NA,NA,crutch,PICTURE_88.png,bed,PICTURE_268.png,oil,PICTURE_456.png,2
-50,pred_sponge,He wiped the sink with a sponge,filler,sponge,PICTURE_650.png,NA,NA,hair,PICTURE_102.png,forest,PICTURE_288.png,underwear,PICTURE_545.png,1
-51,pred_spoon,Stir your coffee with a spoon,filler,spoon,PICTURE_564.png,NA,NA,helicopter,PICTURE_80.png,butcher,PICTURE_254.png,lightning,PICTURE_506.png,1
-52,pred_stamp,Air mail requires a special stamp,filler,stamp,PICTURE_57.png,NA,NA,lake,PICTURE_113.png,die,PICTURE_308.png,fingerprint,PICTURE_537.png,2
-53,pred_swan,The duck swam with the white swan,filler,swan,PICTURE_528.png,NA,NA,mouth,PICTURE_91.png,limo,PICTURE_283.png,calculator,PICTURE_516.png,1
-54,pred_sword,He killed the dragon with his sword,filler,sword,PICTURE_301.png,NA,NA,river,PICTURE_86.png,heel,PICTURE_266.png,pig,PICTURE_446.png,2
-55,pred_thermometer,She took her temperature with a thermometer,filler,thermometer,PICTURE_192.png,NA,NA,banana,PICTURE_69.png,wagon,PICTURE_248.png,pyramid,PICTURE_457.png,1
-56,pred_truck,We shipped the furniture by truck,filler,truck,PICTURE_535.png,NA,NA,seal,PICTURE_92.png,arrow,PICTURE_270.png,kangaroo,PICTURE_479.png,2
-57,pred_tub,Paul took a bath in the tub,filler,tub,PICTURE_747.png,NA,NA,desk,PICTURE_110.png,flag,PICTURE_295.png,walrus,PICTURE_529.png,1
-58,pred_turkey,On Thanksgiving his family eats turkey,filler,turkey,PICTURE_668.png,NA,NA,balloon,PICTURE_75.png,shovel,PICTURE_255.png,rose,PICTURE_480.png,1
-59,unpred_asparagus,We're speaking about the asparagus,filler,asparagus,PICTURE_581.png,NA,NA,bullet,PICTURE_155.png,car,PICTURE_358.png,toad,PICTURE_584.png,2
-60,unpred_baby,I want to speak about the baby,filler,baby,PICTURE_507.png,NA,NA,road,PICTURE_164.png,gorilla,PICTURE_380.png,cloud,PICTURE_599.png,2
-61,unpred_battery,Bill heard we talked about the battery,filler,battery,PICTURE_656.png,NA,NA,faucet,PICTURE_140.png,night,PICTURE_342.png,cucumber,PICTURE_559.png,1
-62,unpred_beard,Jane did not speak about the beard,filler,beard,PICTURE_159.png,NA,NA,rain,PICTURE_190.png,steering wheel,PICTURE_398.png,cactus,PICTURE_640.png,2
-63,unpred_boat,The man should discuss the boat,filler,boat,PICTURE_482.png,NA,NA,pharmacy,PICTURE_173.png,chain,PICTURE_391.png,sweater,PICTURE_607.png,2
-64,unpred_book,I should have considered the book,filler,book,PICTURE_505.png,NA,NA,goal,PICTURE_170.png,strawberry,PICTURE_381.png,dynamite,PICTURE_634.png,2
-65,unpred_boy,Ruth must have known about the boy,filler,boy,PICTURE_499.png,NA,NA,parrot,PICTURE_172.png,stapler,PICTURE_387.png,cemetery,PICTURE_603.png,1
-66,unpred_bridge,Tom will discuss the bridge,filler,bridge,PICTURE_178.png,NA,NA,soccer ball,PICTURE_185.png,teapot,PICTURE_392.png,pelican,PICTURE_662.png,1
-67,unpred_bus,Jane wants to speak about the bus,filler,bus,PICTURE_273.png,NA,NA,rat,PICTURE_137.png,tomato,PICTURE_326.png,eyebrow,PICTURE_578.png,1
-68,unpred_chocolate,He can't consider the chocolate,filler,chocolate,PICTURE_593.png,NA,NA,puddle,PICTURE_150.png,butterfly,PICTURE_351.png,juggler,PICTURE_572.png,2
-69,unpred_city,Bill can't have considered the city,filler,city,PICTURE_187.png,NA,NA,engine,PICTURE_186.png,fig,PICTURE_397.png,soap,PICTURE_619.png,2
-70,unpred_coat,I was considering the coat,filler,coat,PICTURE_644.png,NA,NA,doll,PICTURE_128.png,leaf,PICTURE_318.png,shark,PICTURE_533.png,2
-71,unpred_coffee,We would consider the coffee,filler,coffee,PICTURE_666.png,NA,NA,sunflower,PICTURE_141.png,lock,PICTURE_349.png,vulture,PICTURE_563.png,1
-72,unpred_door,The man could consider the door,filler,door,PICTURE_546.png,NA,NA,tie,PICTURE_161.png,hedgehog,PICTURE_365.png,lettuce,PICTURE_592.png,2
-73,unpred_fence,Bob could have known about the fence,filler,fence,PICTURE_530.png,NA,NA,coconut,PICTURE_163.png,scorpion,PICTURE_370.png,window,PICTURE_597.png,2
-74,unpred_fridge,You heard Jane called about the fridge,filler,fridge,PICTURE_138.png,NA,NA,singer,PICTURE_131.png,present,PICTURE_338.png,caterpillar,PICTURE_561.png,1
-75,unpred_frog,He should know about the frog,filler,frog,PICTURE_612.png,NA,NA,glass,PICTURE_142.png,monster,PICTURE_337.png,watermelon,PICTURE_560.png,1
-76,unpred_glasses,Nancy didn't discuss the glasses,filler,glasses,PICTURE_733.png,NA,NA,corner,PICTURE_124.png,owl,PICTURE_323.png,breakfast,PICTURE_555.png,1
-77,unpred_gun,They heard I called about the gun,filler,gun,PICTURE_461.png,NA,NA,salad,PICTURE_191.png,purse,PICTURE_388.png,umbrella,PICTURE_653.png,1
-78,unpred_harp,Nancy had considered the harp,filler,harp,PICTURE_605.png,NA,NA,keyhole,PICTURE_149.png,bell pepper,PICTURE_348.png,gloves,PICTURE_576.png,1
-79,unpred_hotdog,He would think about the hot dog,filler,hot dog,PICTURE_627.png,NA,NA,wound,PICTURE_118.png,perfume,PICTURE_314.png,bat,PICTURE_547.png,1
-80,unpred_house,He wants to talk about the house,filler,house,PICTURE_522.png,NA,NA,boomerang,PICTURE_209.png,cauliflower,PICTURE_373.png,koala,PICTURE_601.png,2
-81,unpred_iceberg,Bill hopes Paul heard about the iceberg,filler,iceberg,PICTURE_577.png,NA,NA,domino,PICTURE_154.png,guitar,PICTURE_357.png,corn,PICTURE_587.png,2
-82,unpred_kite,We heard they called about the kite,filler,kite,PICTURE_720.png,NA,NA,shoelace,PICTURE_167.png,whale,PICTURE_724.png,funnel,PICTURE_633.png,1
-83,unpred_lighter,You're glad they heard about the lighter,filler,lighter,PICTURE_558.png,NA,NA,wheelbarrow,PICTURE_160.png,dolphin,PICTURE_361.png,sled,PICTURE_625.png,2
-84,unpred_magnet,Tom discussed the magnet,filler,magnet,PICTURE_571.png,NA,NA,snail,PICTURE_152.png,goat,PICTURE_354.png,lab,PICTURE_582.png,2
-85,unpred_painter,We have discussed the painter,filler,painter,PICTURE_175.png,NA,NA,witch,PICTURE_184.png,dragonfly,PICTURE_404.png,airport,PICTURE_617.png,2
-86,unpred_piano,She hears Bob asked about the piano,filler,piano,PICTURE_626.png,NA,NA,horse,PICTURE_117.png,barber,PICTURE_313.png,Apple,PICTURE_552.png,1
-87,unpred_plant,I'm glad you heard about the plant,filler,plant,PICTURE_611.png,NA,NA,trash can,PICTURE_145.png,flipper,PICTURE_341.png,beak,PICTURE_575.png,1
-88,unpred_prison,I had not thought about the prison,filler,prison,PICTURE_623.png,NA,NA,olive,PICTURE_146.png,ruler,PICTURE_336.png,bull,PICTURE_570.png,2
-89,unpred_pumpkin,I've spoken about the pumpkin,filler,pumpkin,PICTURE_551.png,NA,NA,alligator,PICTURE_189.png,fan,PICTURE_368.png,towel,PICTURE_591.png,2
-90,unpred_rifle,Bill might discuss the rifle,filler,rifle,PICTURE_645.png,NA,NA,sack,PICTURE_127.png,cow,PICTURE_319.png,bracelet,PICTURE_588.png,2
-91,unpred_scar,The boy can't talk about the scar,filler,scar,PICTURE_207.png,NA,NA,lemon,PICTURE_129.png,UFO,PICTURE_315.png,puppet,PICTURE_554.png,1
-92,unpred_shirt,They had a problem with the shirt,filler,shirt,PICTURE_353.png,NA,NA,ghost,PICTURE_139.png,helmet,PICTURE_327.png,wolf,PICTURE_557.png,1
-93,unpred_snow,She hopes Jane called about the snow,filler,snow,PICTURE_390.png,NA,NA,triangle,PICTURE_181.png,anchor,PICTURE_405.png,honey,PICTURE_610.png,1
-94,unpred_soldier,The man would not discuss the soldier,filler,soldier,PICTURE_317.png,NA,NA,pipe,PICTURE_148.png,bible,PICTURE_350.png,eggplant,PICTURE_573.png,2
-95,unpred_submarine,She has known about the submarine,filler,submarine,PICTURE_514.png,NA,NA,back,PICTURE_169.png,lobster,PICTURE_378.png,cube,PICTURE_595.png,1
-96,unpred_tattoo,Bill cannot consider the tattoo,filler,tattoo,PICTURE_413.png,NA,NA,mushroom,PICTURE_177.png,ballerina,PICTURE_399.png,pencil case,PICTURE_609.png,1
-97,unpred_telescope,Bob has discussed the telescope,filler,telescope,PICTURE_699.png,NA,NA,kiwi,PICTURE_125.png,bra,PICTURE_331.png,snake,PICTURE_549.png,1
-98,unpred_toaster,She's glad Jane asked about the toaster,filler,toaster,PICTURE_562.png,NA,NA,cigarette,PICTURE_153.png,spear,PICTURE_367.png,elephant,PICTURE_579.png,1
-99,unpred_tree,Ruth hopes he heard about the tree,filler,tree,PICTURE_693.png,NA,NA,parachute,PICTURE_126.png,butter,PICTURE_335.png,syringe,PICTURE_594.png,1
-100,unpred_zebra,The class is discussing the zebra,filler,zebra,PICTURE_379.png,NA,NA,recorder,PICTURE_156.png,pot,PICTURE_369.png,iron,PICTURE_586.png,1
+index,trial_code,sentence,status,target,target_filename,competitor,competitor_filename,Distractor1,Distractor1_filename,Distractor2,Distractor2_filename,Distractor3,Distractor3_filename,AnF1,AnF2,CF1,CF2
+17,pred_ant,A termite looks like an ant,filler,ant,PICTURE_585.png,NA,NA,saxophone,PICTURE_107.png,trigger,PICTURE_291.png,box,PICTURE_508.png,2,1,1,1
+18,pred_belt,His pants were held up by a belt,filler,belt,PICTURE_165.png,NA,NA,greenhouse,PICTURE_106.png,plumber,PICTURE_294.png,fox,PICTURE_521.png,2,1,1,1
+19,pred_bench,The judge is sitting on the bench,filler,bench,PICTURE_449.png,NA,NA,deer,PICTURE_105.png,mime,PICTURE_303.png,telephone,PICTURE_509.png,1,1,1,1
+20,pred_bomb,The airplane dropped a bomb,filler,bomb,PICTURE_386.png,NA,NA,nose,PICTURE_100.png,tunnel,PICTURE_286.png,shepherd,PICTURE_502.png,2,1,1,1
+21,pred_bone,The dog chewed on a bone,filler,bone,PICTURE_24.png,NA,NA,mask,PICTURE_84.png,knot,PICTURE_267.png,sun,PICTURE_488.png,2,1,1,1
+22,pred_broom,The girl swept the floor with a broom,filler,broom,PICTURE_590.png,NA,NA,tiger,PICTURE_98.png,cape,PICTURE_275.png,avocado,PICTURE_477.png,1,1,1,1
+23,pred_carrot,The rabbit ate the orange carrot,filler,carrot,PICTURE_285.png,NA,NA,heart,PICTURE_83.png,lizard,PICTURE_252.png,circle,PICTURE_496.png,2,1,1,1
+24,pred_castle,The queen lives inside of the castle,filler,castle,PICTURE_240.png,NA,NA,bag,PICTURE_53.png,root,PICTURE_245.png,pineapple,PICTURE_442.png,1,1,1,1
+25,pred_cheese,He paired the red wine with cheese,filler,cheese,PICTURE_72.png,NA,NA,wasp,PICTURE_62.png,brain,PICTURE_247.png,apron,PICTURE_476.png,2,1,1,1
+26,pred_chest,The doctor X-rayed his chest,filler,chest,PICTURE_231.png,NA,NA,feather,PICTURE_97.png,pomegranate,PICTURE_281.png,shoe,PICTURE_541.png,2,1,1,1
+27,pred_coin,Let's decide by tossing a coin,filler,coin,PICTURE_383.png,NA,NA,park,PICTURE_82.png,baguette,PICTURE_258.png,shield,PICTURE_501.png,2,1,1,1
+28,pred_computer,She started typing on the computer,filler,computer,PICTURE_196.png,NA,NA,saw,PICTURE_52.png,light bulb,PICTURE_244.png,sausage,PICTURE_441.png,2,1,1,1
+29,pred_cork,The bottle was sealed with a cork,filler,cork,PICTURE_409.png,NA,NA,fruit,PICTURE_114.png,envelope,PICTURE_310.png,turtle,PICTURE_531.png,1,1,1,1
+30,pred_crown,The king wore a golden crown,filler,crown,PICTURE_32.png,NA,NA,milk,PICTURE_96.png,drum,PICTURE_278.png,squirrel,PICTURE_484.png,2,1,1,1
+31,pred_dentist,Her tooth hurt so she went to the dentist,filler,dentist,PICTURE_246.png,NA,NA,broccoli,PICTURE_76.png,lamppost,PICTURE_261.png,stairs,PICTURE_500.png,1,1,1,1
+32,pred_fist,He hit me with a clenched fist,filler,fist,PICTURE_411.png,NA,NA,painting,PICTURE_99.png,wig,PICTURE_277.png,skunk,PICTURE_493.png,1,1,1,1
+33,pred_fork,He eats the salad with a fork,filler,fork,PICTURE_673.png,NA,NA,camel,PICTURE_77.png,island,PICTURE_260.png,basket,PICTURE_487.png,1,1,1,1
+34,pred_jar,The cookies were kept in a jar,filler,jar,PICTURE_448.png,NA,NA,lung,PICTURE_112.png,ostrich,PICTURE_299.png,violin,PICTURE_566.png,2,1,1,1
+35,pred_knife,I cut my finger with a knife,filler,knife,PICTURE_465.png,NA,NA,hippopotamus,PICTURE_115.png,flower,PICTURE_312.png,astronaut,PICTURE_539.png,2,1,1,1
+36,pred_lamp,"It's getting dark, so light the lamp",filler,lamp,PICTURE_414.png,NA,NA,drum set,PICTURE_101.png,rhinoceros,PICTURE_282.png,tongue,PICTURE_503.png,2,1,1,1
+37,pred_map,We're lost so let's look at the map,filler,map,PICTURE_677.png,NA,NA,robot,PICTURE_87.png,hand,PICTURE_264.png,chicken,PICTURE_454.png,2,1,1,1
+38,pred_meat,He is a vegetarian so he won't eat meat,filler,meat,PICTURE_81.png,NA,NA,wave,PICTURE_73.png,choir,PICTURE_253.png,tank,PICTURE_621.png,2,1,1,1
+39,pred_microphone,The musician sang into the microphone,filler,microphone,PICTURE_208.png,NA,NA,shadow,PICTURE_55.png,pirate,PICTURE_265.png,fly,PICTURE_462.png,2,1,1,1
+40,pred_mirror,He saw his reflection in the mirror,filler,mirror,PICTURE_340.png,NA,NA,tractor,PICTURE_74.png,potato,PICTURE_249.png,coffin,PICTURE_497.png,2,1,1,1
+41,pred_mouse,They played a game of cat and mouse,filler,mouse,PICTURE_1.png,NA,NA,fire,PICTURE_116.png,wing,PICTURE_307.png,clown,PICTURE_532.png,2,1,1,1
+42,pred_net,He caught the fish in his net,filler,net,PICTURE_346.png,NA,NA,chair,PICTURE_122.png,razor,PICTURE_311.png,lighthouse,PICTURE_540.png,2,1,1,1
+43,pred_orchestra,He is a violinist in the orchestra,filler,orchestra,PICTURE_70.png,NA,NA,ball,PICTURE_732.png,salt,PICTURE_233.png,wardrobe,PICTURE_458.png,2,1,1,1
+44,pred_pool,The swimmer dove into the pool,filler,pool,PICTURE_362.png,NA,NA,elevator,PICTURE_104.png,birdcage,PICTURE_290.png,face,PICTURE_510.png,1,1,1,1
+45,pred_rope,He tossed the drowning man a rope,filler,rope,PICTURE_517.png,NA,NA,moon,PICTURE_90.png,chameleon,PICTURE_269.png,pizza,PICTURE_489.png,2,1,1,1
+46,pred_rug,She hated to vacuum the rug,filler,rug,PICTURE_491.png,NA,NA,calendar,PICTURE_108.png,dinosaur,PICTURE_293.png,lips,PICTURE_513.png,1,1,1,1
+47,pred_scissors,He cut the papers with scissors,filler,scissors,PICTURE_453.png,NA,NA,hunter,PICTURE_16.png,plate,PICTURE_234.png,foot,PICTURE_455.png,1,1,1,1
+48,pred_sheep,The shepherd watched his flock of sheep,filler,sheep,PICTURE_636.png,NA,NA,maze,PICTURE_121.png,ice cream,PICTURE_309.png,branch,PICTURE_536.png,2,1,1,1
+49,pred_skirt,She shortened the hem of her skirt,filler,skirt,PICTURE_199.png,NA,NA,crutch,PICTURE_88.png,bed,PICTURE_268.png,oil,PICTURE_456.png,2,1,1,1
+50,pred_sponge,He wiped the sink with a sponge,filler,sponge,PICTURE_650.png,NA,NA,hair,PICTURE_102.png,forest,PICTURE_288.png,underwear,PICTURE_545.png,1,1,1,1
+51,pred_spoon,Stir your coffee with a spoon,filler,spoon,PICTURE_564.png,NA,NA,helicopter,PICTURE_80.png,butcher,PICTURE_254.png,lightning,PICTURE_506.png,1,1,1,1
+52,pred_stamp,Air mail requires a special stamp,filler,stamp,PICTURE_57.png,NA,NA,lake,PICTURE_113.png,die,PICTURE_308.png,fingerprint,PICTURE_537.png,2,1,1,1
+53,pred_swan,The duck swam with the white swan,filler,swan,PICTURE_528.png,NA,NA,mouth,PICTURE_91.png,limo,PICTURE_283.png,calculator,PICTURE_516.png,1,1,1,1
+54,pred_sword,He killed the dragon with his sword,filler,sword,PICTURE_301.png,NA,NA,river,PICTURE_86.png,heel,PICTURE_266.png,pig,PICTURE_446.png,2,1,1,1
+55,pred_thermometer,She took her temperature with a thermometer,filler,thermometer,PICTURE_192.png,NA,NA,banana,PICTURE_69.png,wagon,PICTURE_248.png,pyramid,PICTURE_457.png,1,1,1,1
+56,pred_truck,We shipped the furniture by truck,filler,truck,PICTURE_535.png,NA,NA,seal,PICTURE_92.png,arrow,PICTURE_270.png,kangaroo,PICTURE_479.png,2,1,1,1
+57,pred_tub,Paul took a bath in the tub,filler,tub,PICTURE_747.png,NA,NA,desk,PICTURE_110.png,flag,PICTURE_295.png,walrus,PICTURE_529.png,1,1,1,1
+58,pred_turkey,On Thanksgiving his family eats turkey,filler,turkey,PICTURE_668.png,NA,NA,balloon,PICTURE_75.png,shovel,PICTURE_255.png,rose,PICTURE_480.png,1,1,1,1
+59,unpred_asparagus,We're speaking about the asparagus,filler,asparagus,PICTURE_581.png,NA,NA,bullet,PICTURE_155.png,car,PICTURE_358.png,toad,PICTURE_584.png,2,1,1,1
+60,unpred_baby,I want to speak about the baby,filler,baby,PICTURE_507.png,NA,NA,road,PICTURE_164.png,gorilla,PICTURE_380.png,cloud,PICTURE_599.png,2,1,1,1
+61,unpred_battery,Bill heard we talked about the battery,filler,battery,PICTURE_656.png,NA,NA,faucet,PICTURE_140.png,night,PICTURE_342.png,cucumber,PICTURE_559.png,1,1,1,1
+62,unpred_beard,Jane did not speak about the beard,filler,beard,PICTURE_159.png,NA,NA,rain,PICTURE_190.png,steering wheel,PICTURE_398.png,cactus,PICTURE_640.png,2,1,1,1
+63,unpred_boat,The man should discuss the boat,filler,boat,PICTURE_482.png,NA,NA,pharmacy,PICTURE_173.png,chain,PICTURE_391.png,sweater,PICTURE_607.png,2,1,1,1
+64,unpred_book,I should have considered the book,filler,book,PICTURE_505.png,NA,NA,goal,PICTURE_170.png,strawberry,PICTURE_381.png,dynamite,PICTURE_634.png,2,1,1,1
+65,unpred_boy,Ruth must have known about the boy,filler,boy,PICTURE_499.png,NA,NA,parrot,PICTURE_172.png,stapler,PICTURE_387.png,cemetery,PICTURE_603.png,1,1,1,1
+66,unpred_bridge,Tom will discuss the bridge,filler,bridge,PICTURE_178.png,NA,NA,soccer ball,PICTURE_185.png,teapot,PICTURE_392.png,pelican,PICTURE_662.png,1,1,1,1
+67,unpred_bus,Jane wants to speak about the bus,filler,bus,PICTURE_273.png,NA,NA,rat,PICTURE_137.png,tomato,PICTURE_326.png,eyebrow,PICTURE_578.png,1,1,1,1
+68,unpred_chocolate,He can't consider the chocolate,filler,chocolate,PICTURE_593.png,NA,NA,puddle,PICTURE_150.png,butterfly,PICTURE_351.png,juggler,PICTURE_572.png,2,1,1,1
+69,unpred_city,Bill can't have considered the city,filler,city,PICTURE_187.png,NA,NA,engine,PICTURE_186.png,fig,PICTURE_397.png,soap,PICTURE_619.png,2,1,1,1
+70,unpred_coat,I was considering the coat,filler,coat,PICTURE_644.png,NA,NA,doll,PICTURE_128.png,leaf,PICTURE_318.png,shark,PICTURE_533.png,2,1,1,1
+71,unpred_coffee,We would consider the coffee,filler,coffee,PICTURE_666.png,NA,NA,sunflower,PICTURE_141.png,lock,PICTURE_349.png,vulture,PICTURE_563.png,1,1,1,1
+72,unpred_door,The man could consider the door,filler,door,PICTURE_546.png,NA,NA,tie,PICTURE_161.png,hedgehog,PICTURE_365.png,lettuce,PICTURE_592.png,2,1,1,1
+73,unpred_fence,Bob could have known about the fence,filler,fence,PICTURE_530.png,NA,NA,coconut,PICTURE_163.png,scorpion,PICTURE_370.png,window,PICTURE_597.png,2,1,1,1
+74,unpred_fridge,You heard Jane called about the fridge,filler,fridge,PICTURE_138.png,NA,NA,singer,PICTURE_131.png,present,PICTURE_338.png,caterpillar,PICTURE_561.png,1,1,1,1
+75,unpred_frog,He should know about the frog,filler,frog,PICTURE_612.png,NA,NA,glass,PICTURE_142.png,monster,PICTURE_337.png,watermelon,PICTURE_560.png,1,1,1,1
+76,unpred_glasses,Nancy didn't discuss the glasses,filler,glasses,PICTURE_733.png,NA,NA,corner,PICTURE_124.png,owl,PICTURE_323.png,breakfast,PICTURE_555.png,1,1,1,1
+77,unpred_gun,They heard I called about the gun,filler,gun,PICTURE_461.png,NA,NA,salad,PICTURE_191.png,purse,PICTURE_388.png,umbrella,PICTURE_653.png,1,1,1,1
+78,unpred_harp,Nancy had considered the harp,filler,harp,PICTURE_605.png,NA,NA,keyhole,PICTURE_149.png,bell pepper,PICTURE_348.png,gloves,PICTURE_576.png,1,1,1,1
+79,unpred_hotdog,He would think about the hot dog,filler,hot dog,PICTURE_627.png,NA,NA,wound,PICTURE_118.png,perfume,PICTURE_314.png,bat,PICTURE_547.png,1,1,1,1
+80,unpred_house,He wants to talk about the house,filler,house,PICTURE_522.png,NA,NA,boomerang,PICTURE_209.png,cauliflower,PICTURE_373.png,koala,PICTURE_601.png,2,1,1,1
+81,unpred_iceberg,Bill hopes Paul heard about the iceberg,filler,iceberg,PICTURE_577.png,NA,NA,domino,PICTURE_154.png,guitar,PICTURE_357.png,corn,PICTURE_587.png,2,1,1,1
+82,unpred_kite,We heard they called about the kite,filler,kite,PICTURE_720.png,NA,NA,shoelace,PICTURE_167.png,whale,PICTURE_724.png,funnel,PICTURE_633.png,1,1,1,1
+83,unpred_lighter,You're glad they heard about the lighter,filler,lighter,PICTURE_558.png,NA,NA,wheelbarrow,PICTURE_160.png,dolphin,PICTURE_361.png,sled,PICTURE_625.png,2,1,1,1
+84,unpred_magnet,Tom discussed the magnet,filler,magnet,PICTURE_571.png,NA,NA,snail,PICTURE_152.png,goat,PICTURE_354.png,lab,PICTURE_582.png,2,1,1,1
+85,unpred_painter,We have discussed the painter,filler,painter,PICTURE_175.png,NA,NA,witch,PICTURE_184.png,dragonfly,PICTURE_404.png,airport,PICTURE_617.png,2,1,1,1
+86,unpred_piano,She hears Bob asked about the piano,filler,piano,PICTURE_626.png,NA,NA,horse,PICTURE_117.png,barber,PICTURE_313.png,Apple,PICTURE_552.png,1,1,1,1
+87,unpred_plant,I'm glad you heard about the plant,filler,plant,PICTURE_611.png,NA,NA,trash can,PICTURE_145.png,flipper,PICTURE_341.png,beak,PICTURE_575.png,1,1,1,1
+88,unpred_prison,I had not thought about the prison,filler,prison,PICTURE_623.png,NA,NA,olive,PICTURE_146.png,ruler,PICTURE_336.png,bull,PICTURE_570.png,2,1,1,1
+89,unpred_pumpkin,I've spoken about the pumpkin,filler,pumpkin,PICTURE_551.png,NA,NA,alligator,PICTURE_189.png,fan,PICTURE_368.png,towel,PICTURE_591.png,2,1,1,1
+90,unpred_rifle,Bill might discuss the rifle,filler,rifle,PICTURE_645.png,NA,NA,sack,PICTURE_127.png,cow,PICTURE_319.png,bracelet,PICTURE_588.png,2,1,1,1
+91,unpred_scar,The boy can't talk about the scar,filler,scar,PICTURE_207.png,NA,NA,lemon,PICTURE_129.png,UFO,PICTURE_315.png,puppet,PICTURE_554.png,1,1,1,1
+92,unpred_shirt,They had a problem with the shirt,filler,shirt,PICTURE_353.png,NA,NA,ghost,PICTURE_139.png,helmet,PICTURE_327.png,wolf,PICTURE_557.png,1,1,1,1
+93,unpred_snow,She hopes Jane called about the snow,filler,snow,PICTURE_390.png,NA,NA,triangle,PICTURE_181.png,anchor,PICTURE_405.png,honey,PICTURE_610.png,1,1,1,1
+94,unpred_soldier,The man would not discuss the soldier,filler,soldier,PICTURE_317.png,NA,NA,pipe,PICTURE_148.png,bible,PICTURE_350.png,eggplant,PICTURE_573.png,2,1,1,1
+95,unpred_submarine,She has known about the submarine,filler,submarine,PICTURE_514.png,NA,NA,back,PICTURE_169.png,lobster,PICTURE_378.png,cube,PICTURE_595.png,1,1,1,1
+96,unpred_tattoo,Bill cannot consider the tattoo,filler,tattoo,PICTURE_413.png,NA,NA,mushroom,PICTURE_177.png,ballerina,PICTURE_399.png,pencil case,PICTURE_609.png,1,1,1,1
+97,unpred_telescope,Bob has discussed the telescope,filler,telescope,PICTURE_699.png,NA,NA,kiwi,PICTURE_125.png,bra,PICTURE_331.png,snake,PICTURE_549.png,1,2,2,2
+98,unpred_toaster,She's glad Jane asked about the toaster,filler,toaster,PICTURE_562.png,NA,NA,cigarette,PICTURE_153.png,spear,PICTURE_367.png,elephant,PICTURE_579.png,1,1,1,1
+99,unpred_tree,Ruth hopes he heard about the tree,filler,tree,PICTURE_693.png,NA,NA,parachute,PICTURE_126.png,butter,PICTURE_335.png,syringe,PICTURE_594.png,1,1,1,1
+100,unpred_zebra,The class is discussing the zebra,filler,zebra,PICTURE_379.png,NA,NA,recorder,PICTURE_156.png,pot,PICTURE_369.png,iron,PICTURE_586.png,1,1,1,1
