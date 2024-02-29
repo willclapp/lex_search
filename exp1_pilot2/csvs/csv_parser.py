@@ -26,9 +26,13 @@ def make_filler(input_csv, output):
     out_file.close()
     print("file written")
 
-csv_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1_pilot2/csvs/trials_filler.csv"
-output_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1_pilot2/csvs/trials_filler.js"
+csv_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_filler.csv"
+output_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_filler.js"
 make_filler(csv_path, output_path)
+
+###################################################################################################
+###################################################################################################
+###################################################################################################
 
 def make_critical(input_csv, output):
     output_string = "const critical_critical = [\""
@@ -63,7 +67,7 @@ def make_critical(input_csv, output):
     out_file.close()
     print("file written")
 
-csv_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1_pilot2/csvs/trials_critical.csv"
-output_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1_pilot2/csvs/trials_critical.js"
-make_critical(csv_path, output_path)
+csv_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_critical.csv"
+output_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_critical.js"
+# make_critical(csv_path, output_path)
 
