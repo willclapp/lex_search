@@ -10,24 +10,33 @@ def make_filler(input_csv, output):
                     output_string += l + "\", \""
                     filler_header.append(l)
                 output_string = output_string[:-3] + "]\n\nconst filler_trials = {\n\t"
+                i_AnF1 = line.index("AnF1")
+                i_AnF2 = line.index("AnF2")
+                i_CF1 = line.index("CF1")
+                i_CF2 = line.index("CF2")
             else:
                 output_string += line[1] + ": {\n\t\t"
                 for i in range(len(line)) :
                     output_string += filler_header[i] + ": \"" + line[i] + "\",\n\t\t"
                 # add correct audio file name
-                audio_file = "AnF/" + line[1] + "_" + line[-1] + "_" + "AnF.wav\",\n\t\t"
-                output_string += "audio_filename: \"" + audio_file
+                audio_AnF1 = "AnF1/filler/" + line[1] + "_" + "AnF1" + "_" + line[i_AnF1] + ".wav\",\n\t\t"
+                audio_AnF2 = "AnF2/filler/" + line[1] + "_" + "AnF2" + "_" + line[i_AnF2] + ".wav\",\n\t\t"
+                audio_CF1 = "CF1/filler/" + line[1] + "_" + "CF1" + "_" + line[i_CF1] + ".wav\",\n\t\t"
+                audio_CF2 = "CF2/filler/" + line[1] + "_" + "CF2" + "_" + line[i_CF2] + ".wav\",\n\t\t"
+                output_string += "audio_AnF1: \"" + audio_AnF1
+                output_string += "audio_AnF2: \"" + audio_AnF2
+                output_string += "audio_CF1: \"" + audio_CF1
+                output_string += "audio_CF2: \"" + audio_CF2
                 output_string = output_string[:-4] +"\n\t},\n\t"
                 
     output_string = output_string[:-3] + "\n}"
-    print(output_string)
     out_file = open(output, 'w')
     out_file.write(output_string)
     out_file.close()
     print("file written")
 
-csv_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1_pilot2/csvs/trials_filler.csv"
-output_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1_pilot2/csvs/trials_filler.js"
+csv_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_filler.csv"
+output_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_filler.js"
 make_filler(csv_path, output_path)
 
 def make_critical(input_csv, output):
@@ -65,5 +74,5 @@ def make_critical(input_csv, output):
 
 csv_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1_pilot2/csvs/trials_critical.csv"
 output_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp1_pilot2/csvs/trials_critical.js"
-make_critical(csv_path, output_path)
+# make_critical(csv_path, output_path)
 
