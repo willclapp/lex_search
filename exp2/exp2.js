@@ -1,12 +1,3 @@
-// Second Pilot version
-// New features:
-//  - Anch stims are now spliced to account for stream anomalies            (IMPLEMENTED)
-//  - New questions added to Questionnaire to get to the sample rate issue  (IMPLEMENTED)
-//  - New fixation interval between inspection and audio                    (IMPLEMENTED)
-//  - New condition with text instead of images for stimuli                 (IMPLEMENTED)
-//  - Get rid of Pilot talker                                               (IMPLEMENTED)
-
-let timeline = [];
 
 const jsPsych = initJsPsych({
   extensions: [
@@ -16,6 +7,14 @@ const jsPsych = initJsPsych({
     proliferate.submit({"trials": data.values()});
   }
 })
+
+// Properties to add to every trial
+jsPsych.data.addProperties({
+  anchor_talker: anchor_talker,
+  int_talkers: int_talkers
+})
+
+let timeline = [];
 
 const preload = {
   type: jsPsychPreload,

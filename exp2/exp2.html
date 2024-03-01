@@ -28,8 +28,12 @@
             // let stim_condition = Math.floor(Math.random() * 2) ? "text" : "image"
             let det = "anchDet"
             let stim_condition = "image"
-            anchor_talker = "AnF"
-            int_talkers = ["IF1", "IF3", "IM1", "IM2"]
+            anchor_talkers = ["AnF1", "AnF2", "CF1", "CF2"]
+            let anchor_talker = anchor_talkers[Math.floor(Math.random() * 4)]
+            
+            let int_talkers = anchor_talker.slice(0,1) == "A" ? ["CF1", "CF2"] : ["AnF1", "AnF2"]
+            console.log(anchor_talker)
+            console.log(int_talkers)
             let preload_audio = ["./audio/silence.wav"]
             let preload_imgs = ["../img/fixation.png"]
         </script>
@@ -38,9 +42,9 @@
         <script src="../util.js"></script>
         <script src="csvs/trials_critical.js"></script>
         <script src="csvs/trials_filler.js"></script>
-        <script src="../make_stims.js"></script>
+        <script src="exp2_make_stims.js"></script>
         <!-- <script src="stims.js"></script> -->
-        <script src="exp1.js"></script>
+        <script src="exp2.js"></script>
 
         <!-- This is the name that will appear on the browser tab. -->
         <title>Language Experiment</title>
