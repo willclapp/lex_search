@@ -30,10 +30,8 @@
             let stim_condition = "image"
             anchor_talkers = ["AnF1", "AnF2", "CF1", "CF2"]
             let anchor_talker = anchor_talkers[Math.floor(Math.random() * 4)]
-            
-            let int_talkers = anchor_talker.slice(0,1) == "A" ? ["CF1", "CF2"] : ["AnF1", "AnF2"]
             console.log(anchor_talker)
-            console.log(int_talkers)
+            let int_talkers = anchor_talker.slice(0,1) == "A" ? ["CF1", "CF2"] : ["AnF1", "AnF2"]
             let preload_audio = ["./audio/silence.wav"]
             let preload_imgs = ["../img/fixation.png"]
         </script>

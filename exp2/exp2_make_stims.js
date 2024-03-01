@@ -17,9 +17,10 @@ for (const [key, value] of Object.entries(critical_trials)) {
 let critical_talker_order = []
 for (let i = 0; i < 8; i++) {
   critical_talker_order.push(anchor_talker)
-  critical_talker_order.push(int_talkers[Math.floor(i/2)])
 }
-critical_talker_order = critical_talker_order.sort()
+for (let i = 0; i < 8; i++) {
+  critical_talker_order.push(int_talkers[Math.floor(i/4)])
+}
 let cto_anch = critical_talker_order.slice(0, critical_talker_order.length/2)
 let cto_int = shuffle_array(critical_talker_order.slice(critical_talker_order.length/2, critical_talker_order.length))
 critical_talker_order = []
@@ -93,7 +94,7 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
   if (critical_nums.includes(i)) {
     curr_trial = critical_trials[critical_codes[j]]
     curr_talker = critical_talker_order[j]
-    audio_filename = curr_trial[critical_talker_order[j]+"_audio_filename"]
+    audio_filename = curr_trial["audio_"+anchor_talker+"_"+critical_talker_order[j]]
     if (stim_condition == "image") {
       imgs.push(curr_trial.target_filename, curr_trial.Distractor1_filename, curr_trial.Distractor2_filename)
     } else {
@@ -123,8 +124,8 @@ for (let i=0; i<(critical_codes.length + filler_codes.length); i++) {
     j++;
   } else {
     curr_trial = filler_trials[filler_codes[k]]
-    curr_talker = "AnF"
-    audio_filename = curr_trial.audio_filename
+    curr_talker = anchor_talker
+    audio_filename = curr_trial["audio_"+anchor_talker]
     if (stim_condition == "image") {
       imgs.push(curr_trial.target_filename, curr_trial.Distractor1_filename, curr_trial.Distractor2_filename, curr_trial.Distractor3_filename)
     } else {

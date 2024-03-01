@@ -1,12 +1,12 @@
 index,target,sentence,trial_code,status,target_filename,AnF1_AnF1,AnF1_CF1,AnF1_CF2,AnF2_AnF2,AnF2_CF1,AnF2_CF2,CF1_CF1,CF1_AnF1,CF1_AnF2,CF2_CF2,CF2_AnF1,CF2_AnF2,competitor,competitor_filename,Distractor1,Distractor1_filename,Distractor2,Distractor2_filename,Distractor3,Distractor3_filename,det
-1,archer,He wants to know about the archer,di_archer,critical,PICTURE_1001.png,5,4,3,2,1,2,2,2,2,2,2,2,arch,PICTURE_1000.png,robe,PICTURE_14.png,jellyfish,PICTURE_193.png,bagpipe,PICTURE_425.png,anchDet
+1,archer,He wants to know about the archer,di_archer,critical,PICTURE_1001.png,2,2,2,2,2,2,2,2,2,2,2,2,arch,PICTURE_1000.png,robe,PICTURE_14.png,jellyfish,PICTURE_193.png,bagpipe,PICTURE_425.png,anchDet
 2,armor,Ruth has a problem with the armor,di_armor,critical,PICTURE_1002.png,2,2,2,2,2,2,2,2,2,2,2,2,arm,PICTURE_473.png,fairy,PICTURE_7.png,scale,PICTURE_212.png,pistachio,PICTURE_410.png,anchDet
 3,barrel,We did not discuss the barrel,di_barrel,critical,PICTURE_1003.png,2,2,2,2,2,2,2,2,2,2,2,2,bear,PICTURE_637.png,shoulder,PICTURE_5.png,compass,PICTURE_197.png,egg,PICTURE_423.png,anchDet
 4,hammer,I am thinking about the hammer,di_hammer,critical,PICTURE_216.png,2,2,2,2,2,2,2,2,2,2,2,2,ham,PICTURE_1007.png,church,PICTURE_4.png,ankle,PICTURE_205.png,throne,PICTURE_420.png,anchDet
 5,needle,Paul spoke about the needle,di_needle,critical,PICTURE_235.png,2,2,2,2,2,2,2,2,2,2,2,2,knee,PICTURE_222.png,burger,PICTURE_11.png,seagull,PICTURE_220.png,comb,PICTURE_426.png,anchDet
 6,panda,She wants to talk about the panda,di_panda,critical,PICTURE_1014.png,2,2,2,2,2,2,2,2,2,2,2,2,pan,PICTURE_1013.png,shower,PICTURE_9.png,diaper,PICTURE_218.png,sock,PICTURE_416.png,anchDet
 7,pilgrim,The man spoke about the pilgrim,di_pilgrim,critical,PICTURE_1018.png,2,2,2,2,2,2,2,2,2,2,2,2,pill,PICTURE_1019.png,lion,PICTURE_15.png,zipper,PICTURE_223.png,cannon,PICTURE_437.png,anchDet
-8,sprinkler,You were interested in the sprinkler,di_sprinkler,critical,PICTURE_1023.png,8,11,90,2,2,2,2,2,2,2,2,2,spring,PICTURE_1022.png,bicycle,PICTURE_23.png,woman,PICTURE_239.png,curtain,PICTURE_418.png,anchDet
+8,sprinkler,You were interested in the sprinkler,di_sprinkler,critical,PICTURE_1023.png,2,2,2,2,2,2,2,2,2,2,2,2,spring,PICTURE_1022.png,bicycle,PICTURE_23.png,woman,PICTURE_239.png,curtain,PICTURE_418.png,anchDet
 9,bikini,We spoke about the bikini,tri_bikini,critical,PICTURE_1004.png,2,2,2,2,2,2,2,2,2,2,2,2,key,PICTURE_78.png,newspaper,PICTURE_61.png,paintbrush,PICTURE_224.png,thumb,PICTURE_438.png,anchDet
 10,conductor,The old man talked about the conductor,tri_conductor,critical,PICTURE_1005.png,2,2,2,2,2,2,2,2,2,2,2,2,duck,PICTURE_400.png,hairbrush,PICTURE_43.png,wall,PICTURE_227.png,mitten,PICTURE_431.png,anchDet
 11,intestine,We were discussing the intestine,tri_intestine,critical,PICTURE_1009.png,2,2,2,2,2,2,2,2,2,2,2,2,test,PICTURE_1024.png,roof,PICTURE_66.png,puzzle,PICTURE_238.png,clothespin,PICTURE_467.png,anchDet
