@@ -36,9 +36,9 @@ const camera_instructions = {
 };
 
 const init_camera_trial = {
-  type: jsPsychWebgazerInitCamera
+  type: jsPsychWebgazerInitCamera,
   // on_finish: function() {
-  //   jsPsych.extensions.webgazer.setRegressionType("weightedRidge");
+  //   jsPsych.extensions.webgazer.setRegression("weightedRidge");
   // }
 }
 
@@ -84,7 +84,7 @@ const audio_check = {
     <p>up. The audio below is similar to what you'll hear in the</p>
     <p>experiment, so you can play it as many times as you need</p>
     <p>while you adjust your volume to a comfortable level.</p>
-    <audio controls src="./audio/AnF/di_kitchen_2_AnF.wav"></audio>
+    <audio controls src="./audio/di_kitchen_2_AnF.wav"></audio>
   `,
   choices: ['Continue']
 }
@@ -173,15 +173,52 @@ let val_points = [
 val_points = shuffle_array(val_points)
 
 let validation = {
-    type: jsPsychWebgazerValidate,
-    validation_points: function() {
-      let p = val_points.pop();
-      return p
-    },
-    point_size: 15,
-    show_validation_data: false,
-    randomize_validation_order: false
+  type: jsPsychWebgazerValidate,
+  validation_points: function() {
+    let p = val_points.pop();
+    return p
+  },
+  point_size: 15,
+  show_validation_data: false,
+  randomize_validation_order: false,
+  on_finish: function(data) {
+    console.log(data.percent_in_roi)
+    console.log(average(data.percent_in_roi))
+    console.log(data.samples_per_sec)
+    
+    if (data.samples_per_sec < sr_cutoff) {
+      low_sr = true
+    }
+    if (average(data.percent_in_roi) < val_cutoff) {
+      low_val = true
+    }
+  }
 };
+
+let evaluation = {
+  type: jsPsychHtmlKeyboardResponse,
+  response_ends_trial: false,
+  stimulus: function() {
+    if (low_sr | low_val) {
+      return `
+        <p>Unfortunately, calibration was not successful due to the resolution of the webcam,</p>
+        <p>which means that the data will not be usable. To be compensated for your time, please</p>
+        <p>return your submission and send us a private message. We can offer a bonus of $1.75, </p>
+        <p>reflecting the average time taken to complete calibration. Thank you for understanding.</p>
+      `
+    } else {
+      return ``
+    }
+  },
+  trial_duration: function() {
+    if (low_sr | low_val) {
+      return 1000*60*60
+    } else {
+      return 0
+    }
+  },
+  options: [" "]
+}
 
 let image_intructions = `<p>We're now ready to begin the main experiment. </p>
   <p>On each page, you'll see four images. Take a look around to familiarize yourself</p>
@@ -226,6 +263,7 @@ timeline.push(
   calibration, 
   validation_instructions, 
   validation,
+  evaluation,
   experiment_instructions
 );
 
