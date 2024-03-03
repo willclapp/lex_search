@@ -37,7 +37,7 @@ def make_filler(input_csv, output):
 
 csv_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_filler.csv"
 output_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_filler.js"
-# make_filler(csv_path, output_path)
+make_filler(csv_path, output_path)
 
 def make_critical(input_csv, output):
     output_string = "const critical_critical = [\""

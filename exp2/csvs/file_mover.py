@@ -24,7 +24,7 @@ def move_filler(input_csv, input_dir, out_dir):
 filler_csv = "./trials_filler.csv"
 input_dir = "/Users/willclapp/Desktop/ART/artclass/project/recording/Exp2_root/"
 out_dir = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/audio/"
-# move_filler(filler_csv, input_dir, out_dir)
+move_filler(filler_csv, input_dir, out_dir)
 
 
 
@@ -41,7 +41,6 @@ def move_critical(input_csv, input_dir, out_dir):
             else:
                 for i in range(0, len(speakers)):
                     fname = "_".join([line[3], speakers[i], line[indices[i]]]) + ".wav"
-                    print(fname)
                     foldname = speakers[i].split("_")[0]
                     shutil.copyfile(input_dir+foldname+"/spliced/"+fname, out_dir+foldname+"/spliced/"+fname)
 

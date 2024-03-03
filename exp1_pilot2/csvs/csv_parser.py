@@ -6,6 +6,7 @@ def make_filler(input_csv, output):
         filler_header = []
         for line in csv_reader:
             if line[0] == 'index':
+                print("he")
                 for l in line:
                     output_string += l + "\", \""
                     filler_header.append(l)
@@ -20,7 +21,6 @@ def make_filler(input_csv, output):
                 output_string = output_string[:-4] +"\n\t},\n\t"
                 
     output_string = output_string[:-3] + "\n}"
-    print(output_string)
     out_file = open(output, 'w')
     out_file.write(output_string)
     out_file.close()
@@ -67,7 +67,7 @@ def make_critical(input_csv, output):
     out_file.close()
     print("file written")
 
-csv_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_critical.csv"
-output_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_critical.js"
-# make_critical(csv_path, output_path)
+# csv_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_critical.csv"
+# output_path = "/Users/willclapp/Desktop/ART/artclass/project/experiments/exp2/csvs/trials_critical.js"
+# # make_critical(csv_path, output_path)
 

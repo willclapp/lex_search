@@ -17,12 +17,12 @@ const filler_trials = {
 		Distractor3: "box",
 		Distractor3_filename: "PICTURE_508.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
+		AnF2: "2",
+		CF1: "2",
 		CF2: "1",
 		audio_AnF1: "AnF1/filler/pred_ant_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_ant_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_ant_CF1_1.wav",
+		audio_AnF2: "AnF2/filler/pred_ant_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_ant_CF1_2.wav",
 		audio_CF2: "CF2/filler/pred_ant_CF2_1.wav"
 	},
 	pred_belt: {
@@ -41,13 +41,13 @@ const filler_trials = {
 		Distractor3: "fox",
 		Distractor3_filename: "PICTURE_521.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_belt_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_belt_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_belt_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_belt_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_belt_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_belt_CF1_3.wav",
+		audio_CF2: "CF2/filler/pred_belt_CF2_2.wav"
 	},
 	pred_bench: {
 		index: "19",
@@ -65,13 +65,13 @@ const filler_trials = {
 		Distractor3: "telephone",
 		Distractor3_filename: "PICTURE_509.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_bench_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_bench_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_bench_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_bench_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_bench_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_bench_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_bench_CF2_2.wav"
 	},
 	pred_bomb: {
 		index: "20",
@@ -89,13 +89,13 @@ const filler_trials = {
 		Distractor3: "shepherd",
 		Distractor3_filename: "PICTURE_502.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_bomb_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_bomb_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_bomb_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_bomb_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_bomb_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_bomb_CF1_3.wav",
+		audio_CF2: "CF2/filler/pred_bomb_CF2_2.wav"
 	},
 	pred_bone: {
 		index: "21",
@@ -113,13 +113,13 @@ const filler_trials = {
 		Distractor3: "sun",
 		Distractor3_filename: "PICTURE_488.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_bone_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_bone_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_bone_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_bone_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_bone_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_bone_CF1_3.wav",
+		audio_CF2: "CF2/filler/pred_bone_CF2_2.wav"
 	},
 	pred_broom: {
 		index: "22",
@@ -137,13 +137,13 @@ const filler_trials = {
 		Distractor3: "avocado",
 		Distractor3_filename: "PICTURE_477.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_broom_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_broom_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_broom_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_broom_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_broom_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_broom_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_broom_CF2_2.wav"
 	},
 	pred_carrot: {
 		index: "23",
@@ -161,13 +161,13 @@ const filler_trials = {
 		Distractor3: "circle",
 		Distractor3_filename: "PICTURE_496.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_carrot_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_carrot_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_carrot_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_carrot_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_carrot_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_carrot_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_carrot_CF2_2.wav"
 	},
 	pred_castle: {
 		index: "24",
@@ -187,11 +187,11 @@ const filler_trials = {
 		AnF1: "1",
 		AnF2: "1",
 		CF1: "1",
-		CF2: "1",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_castle_AnF1_1.wav",
 		audio_AnF2: "AnF2/filler/pred_castle_AnF2_1.wav",
 		audio_CF1: "CF1/filler/pred_castle_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_castle_CF2_1.wav"
+		audio_CF2: "CF2/filler/pred_castle_CF2_2.wav"
 	},
 	pred_cheese: {
 		index: "25",
@@ -209,13 +209,13 @@ const filler_trials = {
 		Distractor3: "apron",
 		Distractor3_filename: "PICTURE_476.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_cheese_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_cheese_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_cheese_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_cheese_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_cheese_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_cheese_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_cheese_CF2_2.wav"
 	},
 	pred_chest: {
 		index: "26",
@@ -234,12 +234,12 @@ const filler_trials = {
 		Distractor3_filename: "PICTURE_541.png",
 		AnF1: "2",
 		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_chest_AnF1_2.wav",
 		audio_AnF2: "AnF2/filler/pred_chest_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_chest_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_chest_CF2_1.wav"
+		audio_CF1: "CF1/filler/pred_chest_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_chest_CF2_2.wav"
 	},
 	pred_coin: {
 		index: "27",
@@ -257,13 +257,13 @@ const filler_trials = {
 		Distractor3: "shield",
 		Distractor3_filename: "PICTURE_501.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_coin_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_coin_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_coin_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_coin_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_coin_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_coin_CF1_3.wav",
+		audio_CF2: "CF2/filler/pred_coin_CF2_2.wav"
 	},
 	pred_computer: {
 		index: "28",
@@ -281,13 +281,13 @@ const filler_trials = {
 		Distractor3: "sausage",
 		Distractor3_filename: "PICTURE_441.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_computer_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_computer_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_computer_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_computer_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_computer_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_computer_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_computer_CF2_2.wav"
 	},
 	pred_cork: {
 		index: "29",
@@ -305,13 +305,13 @@ const filler_trials = {
 		Distractor3: "turtle",
 		Distractor3_filename: "PICTURE_531.png",
 		AnF1: "1",
-		AnF2: "1",
+		AnF2: "2",
 		CF1: "1",
-		CF2: "1",
+		CF2: "3",
 		audio_AnF1: "AnF1/filler/pred_cork_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_cork_AnF2_1.wav",
+		audio_AnF2: "AnF2/filler/pred_cork_AnF2_2.wav",
 		audio_CF1: "CF1/filler/pred_cork_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_cork_CF2_1.wav"
+		audio_CF2: "CF2/filler/pred_cork_CF2_3.wav"
 	},
 	pred_crown: {
 		index: "30",
@@ -329,13 +329,13 @@ const filler_trials = {
 		Distractor3: "squirrel",
 		Distractor3_filename: "PICTURE_484.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_crown_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_crown_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_crown_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_crown_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_crown_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_crown_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_crown_CF2_2.wav"
 	},
 	pred_dentist: {
 		index: "31",
@@ -353,13 +353,13 @@ const filler_trials = {
 		Distractor3: "stairs",
 		Distractor3_filename: "PICTURE_500.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_dentist_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_dentist_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_dentist_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_dentist_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_dentist_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_dentist_CF1_3.wav",
+		audio_CF2: "CF2/filler/pred_dentist_CF2_2.wav"
 	},
 	pred_fist: {
 		index: "32",
@@ -377,13 +377,13 @@ const filler_trials = {
 		Distractor3: "skunk",
 		Distractor3_filename: "PICTURE_493.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_fist_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_fist_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_fist_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_fist_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_fist_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_fist_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_fist_CF2_2.wav"
 	},
 	pred_fork: {
 		index: "33",
@@ -401,13 +401,13 @@ const filler_trials = {
 		Distractor3: "basket",
 		Distractor3_filename: "PICTURE_487.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "4",
 		audio_AnF1: "AnF1/filler/pred_fork_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_fork_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_fork_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_fork_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_fork_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_fork_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_fork_CF2_4.wav"
 	},
 	pred_jar: {
 		index: "34",
@@ -425,13 +425,13 @@ const filler_trials = {
 		Distractor3: "violin",
 		Distractor3_filename: "PICTURE_566.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_jar_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_jar_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_jar_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_jar_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_jar_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_jar_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_jar_CF2_2.wav"
 	},
 	pred_knife: {
 		index: "35",
@@ -449,12 +449,12 @@ const filler_trials = {
 		Distractor3: "astronaut",
 		Distractor3_filename: "PICTURE_539.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
+		AnF2: "2",
+		CF1: "2",
 		CF2: "1",
 		audio_AnF1: "AnF1/filler/pred_knife_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_knife_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_knife_CF1_1.wav",
+		audio_AnF2: "AnF2/filler/pred_knife_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_knife_CF1_2.wav",
 		audio_CF2: "CF2/filler/pred_knife_CF2_1.wav"
 	},
 	pred_lamp: {
@@ -473,13 +473,13 @@ const filler_trials = {
 		Distractor3: "tongue",
 		Distractor3_filename: "PICTURE_503.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_lamp_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_lamp_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_lamp_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_lamp_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_lamp_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_lamp_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_lamp_CF2_2.wav"
 	},
 	pred_map: {
 		index: "37",
@@ -499,11 +499,11 @@ const filler_trials = {
 		AnF1: "2",
 		AnF2: "1",
 		CF1: "1",
-		CF2: "1",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_map_AnF1_2.wav",
 		audio_AnF2: "AnF2/filler/pred_map_AnF2_1.wav",
 		audio_CF1: "CF1/filler/pred_map_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_map_CF2_1.wav"
+		audio_CF2: "CF2/filler/pred_map_CF2_2.wav"
 	},
 	pred_meat: {
 		index: "38",
@@ -521,13 +521,13 @@ const filler_trials = {
 		Distractor3: "tank",
 		Distractor3_filename: "PICTURE_621.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_meat_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_meat_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_meat_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_meat_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_meat_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_meat_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_meat_CF2_2.wav"
 	},
 	pred_microphone: {
 		index: "39",
@@ -545,13 +545,13 @@ const filler_trials = {
 		Distractor3: "fly",
 		Distractor3_filename: "PICTURE_462.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_microphone_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_microphone_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_microphone_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_microphone_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_microphone_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_microphone_CF1_3.wav",
+		audio_CF2: "CF2/filler/pred_microphone_CF2_2.wav"
 	},
 	pred_mirror: {
 		index: "40",
@@ -571,11 +571,11 @@ const filler_trials = {
 		AnF1: "2",
 		AnF2: "1",
 		CF1: "1",
-		CF2: "1",
+		CF2: "4",
 		audio_AnF1: "AnF1/filler/pred_mirror_AnF1_2.wav",
 		audio_AnF2: "AnF2/filler/pred_mirror_AnF2_1.wav",
 		audio_CF1: "CF1/filler/pred_mirror_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_mirror_CF2_1.wav"
+		audio_CF2: "CF2/filler/pred_mirror_CF2_4.wav"
 	},
 	pred_mouse: {
 		index: "41",
@@ -593,13 +593,13 @@ const filler_trials = {
 		Distractor3: "clown",
 		Distractor3_filename: "PICTURE_532.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_mouse_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_mouse_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_mouse_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_mouse_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_mouse_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_mouse_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_mouse_CF2_2.wav"
 	},
 	pred_net: {
 		index: "42",
@@ -617,13 +617,13 @@ const filler_trials = {
 		Distractor3: "lighthouse",
 		Distractor3_filename: "PICTURE_540.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_net_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_net_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_net_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_net_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_net_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_net_CF1_3.wav",
+		audio_CF2: "CF2/filler/pred_net_CF2_2.wav"
 	},
 	pred_orchestra: {
 		index: "43",
@@ -641,13 +641,13 @@ const filler_trials = {
 		Distractor3: "wardrobe",
 		Distractor3_filename: "PICTURE_458.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "3",
 		audio_AnF1: "AnF1/filler/pred_orchestra_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_orchestra_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_orchestra_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_orchestra_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_orchestra_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_orchestra_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_orchestra_CF2_3.wav"
 	},
 	pred_pool: {
 		index: "44",
@@ -665,13 +665,13 @@ const filler_trials = {
 		Distractor3: "face",
 		Distractor3_filename: "PICTURE_510.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_pool_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_pool_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_pool_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_pool_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_pool_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_pool_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_pool_CF2_2.wav"
 	},
 	pred_rope: {
 		index: "45",
@@ -690,12 +690,12 @@ const filler_trials = {
 		Distractor3_filename: "PICTURE_489.png",
 		AnF1: "2",
 		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_rope_AnF1_2.wav",
 		audio_AnF2: "AnF2/filler/pred_rope_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_rope_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_rope_CF2_1.wav"
+		audio_CF1: "CF1/filler/pred_rope_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_rope_CF2_2.wav"
 	},
 	pred_rug: {
 		index: "46",
@@ -713,12 +713,12 @@ const filler_trials = {
 		Distractor3: "lips",
 		Distractor3_filename: "PICTURE_513.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
+		AnF2: "2",
+		CF1: "2",
 		CF2: "1",
 		audio_AnF1: "AnF1/filler/pred_rug_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_rug_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_rug_CF1_1.wav",
+		audio_AnF2: "AnF2/filler/pred_rug_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_rug_CF1_2.wav",
 		audio_CF2: "CF2/filler/pred_rug_CF2_1.wav"
 	},
 	pred_scissors: {
@@ -737,13 +737,13 @@ const filler_trials = {
 		Distractor3: "foot",
 		Distractor3_filename: "PICTURE_455.png",
 		AnF1: "1",
-		AnF2: "1",
+		AnF2: "2",
 		CF1: "1",
-		CF2: "1",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_scissors_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_scissors_AnF2_1.wav",
+		audio_AnF2: "AnF2/filler/pred_scissors_AnF2_2.wav",
 		audio_CF1: "CF1/filler/pred_scissors_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_scissors_CF2_1.wav"
+		audio_CF2: "CF2/filler/pred_scissors_CF2_2.wav"
 	},
 	pred_sheep: {
 		index: "48",
@@ -761,13 +761,13 @@ const filler_trials = {
 		Distractor3: "branch",
 		Distractor3_filename: "PICTURE_536.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "3",
 		audio_AnF1: "AnF1/filler/pred_sheep_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_sheep_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_sheep_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_sheep_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_sheep_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_sheep_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_sheep_CF2_3.wav"
 	},
 	pred_skirt: {
 		index: "49",
@@ -785,13 +785,13 @@ const filler_trials = {
 		Distractor3: "oil",
 		Distractor3_filename: "PICTURE_456.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_skirt_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_skirt_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_skirt_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_skirt_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_skirt_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_skirt_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_skirt_CF2_2.wav"
 	},
 	pred_sponge: {
 		index: "50",
@@ -809,13 +809,13 @@ const filler_trials = {
 		Distractor3: "underwear",
 		Distractor3_filename: "PICTURE_545.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_sponge_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_sponge_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_sponge_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_sponge_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_sponge_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_sponge_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_sponge_CF2_2.wav"
 	},
 	pred_spoon: {
 		index: "51",
@@ -834,12 +834,12 @@ const filler_trials = {
 		Distractor3_filename: "PICTURE_506.png",
 		AnF1: "1",
 		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_spoon_AnF1_1.wav",
 		audio_AnF2: "AnF2/filler/pred_spoon_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_spoon_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_spoon_CF2_1.wav"
+		audio_CF1: "CF1/filler/pred_spoon_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_spoon_CF2_2.wav"
 	},
 	pred_stamp: {
 		index: "52",
@@ -857,13 +857,13 @@ const filler_trials = {
 		Distractor3: "fingerprint",
 		Distractor3_filename: "PICTURE_537.png",
 		AnF1: "2",
-		AnF2: "1",
+		AnF2: "2",
 		CF1: "1",
-		CF2: "1",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_stamp_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_stamp_AnF2_1.wav",
+		audio_AnF2: "AnF2/filler/pred_stamp_AnF2_2.wav",
 		audio_CF1: "CF1/filler/pred_stamp_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_stamp_CF2_1.wav"
+		audio_CF2: "CF2/filler/pred_stamp_CF2_2.wav"
 	},
 	pred_swan: {
 		index: "53",
@@ -881,13 +881,13 @@ const filler_trials = {
 		Distractor3: "calculator",
 		Distractor3_filename: "PICTURE_516.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "3",
 		audio_AnF1: "AnF1/filler/pred_swan_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_swan_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_swan_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_swan_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_swan_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_swan_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_swan_CF2_3.wav"
 	},
 	pred_sword: {
 		index: "54",
@@ -905,13 +905,13 @@ const filler_trials = {
 		Distractor3: "pig",
 		Distractor3_filename: "PICTURE_446.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_sword_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_sword_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_sword_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_sword_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_sword_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_sword_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_sword_CF2_2.wav"
 	},
 	pred_thermometer: {
 		index: "55",
@@ -930,12 +930,12 @@ const filler_trials = {
 		Distractor3_filename: "PICTURE_457.png",
 		AnF1: "1",
 		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_thermometer_AnF1_1.wav",
 		audio_AnF2: "AnF2/filler/pred_thermometer_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_thermometer_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_thermometer_CF2_1.wav"
+		audio_CF1: "CF1/filler/pred_thermometer_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_thermometer_CF2_2.wav"
 	},
 	pred_truck: {
 		index: "56",
@@ -953,13 +953,13 @@ const filler_trials = {
 		Distractor3: "kangaroo",
 		Distractor3_filename: "PICTURE_479.png",
 		AnF1: "2",
-		AnF2: "1",
+		AnF2: "2",
 		CF1: "1",
-		CF2: "1",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_truck_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/pred_truck_AnF2_1.wav",
+		audio_AnF2: "AnF2/filler/pred_truck_AnF2_2.wav",
 		audio_CF1: "CF1/filler/pred_truck_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_truck_CF2_1.wav"
+		audio_CF2: "CF2/filler/pred_truck_CF2_2.wav"
 	},
 	pred_tub: {
 		index: "57",
@@ -977,13 +977,13 @@ const filler_trials = {
 		Distractor3: "walrus",
 		Distractor3_filename: "PICTURE_529.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_tub_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_tub_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_tub_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_tub_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_tub_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_tub_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_tub_CF2_2.wav"
 	},
 	pred_turkey: {
 		index: "58",
@@ -1001,13 +1001,13 @@ const filler_trials = {
 		Distractor3: "rose",
 		Distractor3_filename: "PICTURE_480.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/pred_turkey_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/pred_turkey_AnF2_1.wav",
-		audio_CF1: "CF1/filler/pred_turkey_CF1_1.wav",
-		audio_CF2: "CF2/filler/pred_turkey_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/pred_turkey_AnF2_2.wav",
+		audio_CF1: "CF1/filler/pred_turkey_CF1_2.wav",
+		audio_CF2: "CF2/filler/pred_turkey_CF2_2.wav"
 	},
 	unpred_asparagus: {
 		index: "59",
@@ -1026,12 +1026,12 @@ const filler_trials = {
 		Distractor3_filename: "PICTURE_584.png",
 		AnF1: "2",
 		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_asparagus_AnF1_2.wav",
 		audio_AnF2: "AnF2/filler/unpred_asparagus_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_asparagus_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_asparagus_CF2_1.wav"
+		audio_CF1: "CF1/filler/unpred_asparagus_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_asparagus_CF2_2.wav"
 	},
 	unpred_baby: {
 		index: "60",
@@ -1049,13 +1049,13 @@ const filler_trials = {
 		Distractor3: "cloud",
 		Distractor3_filename: "PICTURE_599.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_baby_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_baby_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_baby_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_baby_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_baby_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_baby_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_baby_CF2_2.wav"
 	},
 	unpred_battery: {
 		index: "61",
@@ -1074,12 +1074,12 @@ const filler_trials = {
 		Distractor3_filename: "PICTURE_559.png",
 		AnF1: "1",
 		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		CF1: "2",
+		CF2: "3",
 		audio_AnF1: "AnF1/filler/unpred_battery_AnF1_1.wav",
 		audio_AnF2: "AnF2/filler/unpred_battery_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_battery_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_battery_CF2_1.wav"
+		audio_CF1: "CF1/filler/unpred_battery_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_battery_CF2_3.wav"
 	},
 	unpred_beard: {
 		index: "62",
@@ -1097,13 +1097,13 @@ const filler_trials = {
 		Distractor3: "cactus",
 		Distractor3_filename: "PICTURE_640.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "3",
 		audio_AnF1: "AnF1/filler/unpred_beard_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_beard_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_beard_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_beard_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_beard_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_beard_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_beard_CF2_3.wav"
 	},
 	unpred_boat: {
 		index: "63",
@@ -1121,13 +1121,13 @@ const filler_trials = {
 		Distractor3: "sweater",
 		Distractor3_filename: "PICTURE_607.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_boat_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_boat_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_boat_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_boat_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_boat_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_boat_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_boat_CF2_2.wav"
 	},
 	unpred_book: {
 		index: "64",
@@ -1145,13 +1145,13 @@ const filler_trials = {
 		Distractor3: "dynamite",
 		Distractor3_filename: "PICTURE_634.png",
 		AnF1: "2",
-		AnF2: "1",
+		AnF2: "2",
 		CF1: "1",
-		CF2: "1",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_book_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_book_AnF2_1.wav",
+		audio_AnF2: "AnF2/filler/unpred_book_AnF2_2.wav",
 		audio_CF1: "CF1/filler/unpred_book_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_book_CF2_1.wav"
+		audio_CF2: "CF2/filler/unpred_book_CF2_2.wav"
 	},
 	unpred_boy: {
 		index: "65",
@@ -1170,12 +1170,12 @@ const filler_trials = {
 		Distractor3_filename: "PICTURE_603.png",
 		AnF1: "1",
 		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_boy_AnF1_1.wav",
 		audio_AnF2: "AnF2/filler/unpred_boy_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_boy_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_boy_CF2_1.wav"
+		audio_CF1: "CF1/filler/unpred_boy_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_boy_CF2_2.wav"
 	},
 	unpred_bridge: {
 		index: "66",
@@ -1193,13 +1193,13 @@ const filler_trials = {
 		Distractor3: "pelican",
 		Distractor3_filename: "PICTURE_662.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_bridge_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_bridge_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_bridge_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_bridge_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_bridge_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_bridge_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_bridge_CF2_2.wav"
 	},
 	unpred_bus: {
 		index: "67",
@@ -1217,13 +1217,13 @@ const filler_trials = {
 		Distractor3: "eyebrow",
 		Distractor3_filename: "PICTURE_578.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_bus_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_bus_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_bus_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_bus_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_bus_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_bus_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_bus_CF2_2.wav"
 	},
 	unpred_chocolate: {
 		index: "68",
@@ -1241,13 +1241,13 @@ const filler_trials = {
 		Distractor3: "juggler",
 		Distractor3_filename: "PICTURE_572.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_chocolate_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_chocolate_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_chocolate_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_chocolate_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_chocolate_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_chocolate_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_chocolate_CF2_2.wav"
 	},
 	unpred_city: {
 		index: "69",
@@ -1265,13 +1265,13 @@ const filler_trials = {
 		Distractor3: "soap",
 		Distractor3_filename: "PICTURE_619.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_city_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_city_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_city_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_city_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_city_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_city_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_city_CF2_2.wav"
 	},
 	unpred_coat: {
 		index: "70",
@@ -1289,13 +1289,13 @@ const filler_trials = {
 		Distractor3: "shark",
 		Distractor3_filename: "PICTURE_533.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_coat_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_coat_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_coat_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_coat_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_coat_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_coat_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_coat_CF2_2.wav"
 	},
 	unpred_coffee: {
 		index: "71",
@@ -1313,13 +1313,13 @@ const filler_trials = {
 		Distractor3: "vulture",
 		Distractor3_filename: "PICTURE_563.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_coffee_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_coffee_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_coffee_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_coffee_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_coffee_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_coffee_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_coffee_CF2_2.wav"
 	},
 	unpred_door: {
 		index: "72",
@@ -1337,13 +1337,13 @@ const filler_trials = {
 		Distractor3: "lettuce",
 		Distractor3_filename: "PICTURE_592.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_door_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_door_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_door_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_door_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_door_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_door_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_door_CF2_2.wav"
 	},
 	unpred_fence: {
 		index: "73",
@@ -1361,13 +1361,13 @@ const filler_trials = {
 		Distractor3: "window",
 		Distractor3_filename: "PICTURE_597.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_fence_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_fence_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_fence_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_fence_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_fence_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_fence_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_fence_CF2_2.wav"
 	},
 	unpred_fridge: {
 		index: "74",
@@ -1385,13 +1385,13 @@ const filler_trials = {
 		Distractor3: "caterpillar",
 		Distractor3_filename: "PICTURE_561.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_fridge_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_fridge_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_fridge_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_fridge_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_fridge_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_fridge_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_fridge_CF2_2.wav"
 	},
 	unpred_frog: {
 		index: "75",
@@ -1409,13 +1409,13 @@ const filler_trials = {
 		Distractor3: "watermelon",
 		Distractor3_filename: "PICTURE_560.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "3",
 		audio_AnF1: "AnF1/filler/unpred_frog_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_frog_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_frog_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_frog_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_frog_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_frog_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_frog_CF2_3.wav"
 	},
 	unpred_glasses: {
 		index: "76",
@@ -1433,13 +1433,13 @@ const filler_trials = {
 		Distractor3: "breakfast",
 		Distractor3_filename: "PICTURE_555.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "3",
 		audio_AnF1: "AnF1/filler/unpred_glasses_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_glasses_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_glasses_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_glasses_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_glasses_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_glasses_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_glasses_CF2_3.wav"
 	},
 	unpred_gun: {
 		index: "77",
@@ -1457,13 +1457,13 @@ const filler_trials = {
 		Distractor3: "umbrella",
 		Distractor3_filename: "PICTURE_653.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_gun_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_gun_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_gun_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_gun_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_gun_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_gun_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_gun_CF2_2.wav"
 	},
 	unpred_harp: {
 		index: "78",
@@ -1481,13 +1481,13 @@ const filler_trials = {
 		Distractor3: "gloves",
 		Distractor3_filename: "PICTURE_576.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_harp_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_harp_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_harp_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_harp_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_harp_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_harp_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_harp_CF2_2.wav"
 	},
 	unpred_hotdog: {
 		index: "79",
@@ -1505,13 +1505,13 @@ const filler_trials = {
 		Distractor3: "bat",
 		Distractor3_filename: "PICTURE_547.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_hotdog_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_hotdog_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_hotdog_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_hotdog_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_hotdog_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_hotdog_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_hotdog_CF2_2.wav"
 	},
 	unpred_house: {
 		index: "80",
@@ -1529,13 +1529,13 @@ const filler_trials = {
 		Distractor3: "koala",
 		Distractor3_filename: "PICTURE_601.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_house_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_house_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_house_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_house_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_house_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_house_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_house_CF2_2.wav"
 	},
 	unpred_iceberg: {
 		index: "81",
@@ -1553,13 +1553,13 @@ const filler_trials = {
 		Distractor3: "corn",
 		Distractor3_filename: "PICTURE_587.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "4",
+		CF2: "4",
 		audio_AnF1: "AnF1/filler/unpred_iceberg_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_iceberg_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_iceberg_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_iceberg_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_iceberg_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_iceberg_CF1_4.wav",
+		audio_CF2: "CF2/filler/unpred_iceberg_CF2_4.wav"
 	},
 	unpred_kite: {
 		index: "82",
@@ -1577,13 +1577,13 @@ const filler_trials = {
 		Distractor3: "funnel",
 		Distractor3_filename: "PICTURE_633.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "4",
 		audio_AnF1: "AnF1/filler/unpred_kite_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_kite_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_kite_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_kite_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_kite_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_kite_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_kite_CF2_4.wav"
 	},
 	unpred_lighter: {
 		index: "83",
@@ -1601,13 +1601,13 @@ const filler_trials = {
 		Distractor3: "sled",
 		Distractor3_filename: "PICTURE_625.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "4",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_lighter_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_lighter_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_lighter_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_lighter_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_lighter_AnF2_4.wav",
+		audio_CF1: "CF1/filler/unpred_lighter_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_lighter_CF2_2.wav"
 	},
 	unpred_magnet: {
 		index: "84",
@@ -1625,13 +1625,13 @@ const filler_trials = {
 		Distractor3: "lab",
 		Distractor3_filename: "PICTURE_582.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_magnet_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_magnet_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_magnet_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_magnet_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_magnet_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_magnet_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_magnet_CF2_2.wav"
 	},
 	unpred_painter: {
 		index: "85",
@@ -1649,13 +1649,13 @@ const filler_trials = {
 		Distractor3: "airport",
 		Distractor3_filename: "PICTURE_617.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_painter_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_painter_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_painter_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_painter_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_painter_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_painter_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_painter_CF2_2.wav"
 	},
 	unpred_piano: {
 		index: "86",
@@ -1674,12 +1674,12 @@ const filler_trials = {
 		Distractor3_filename: "PICTURE_552.png",
 		AnF1: "1",
 		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_piano_AnF1_1.wav",
 		audio_AnF2: "AnF2/filler/unpred_piano_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_piano_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_piano_CF2_1.wav"
+		audio_CF1: "CF1/filler/unpred_piano_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_piano_CF2_2.wav"
 	},
 	unpred_plant: {
 		index: "87",
@@ -1697,13 +1697,13 @@ const filler_trials = {
 		Distractor3: "beak",
 		Distractor3_filename: "PICTURE_575.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_plant_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_plant_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_plant_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_plant_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_plant_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_plant_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_plant_CF2_2.wav"
 	},
 	unpred_prison: {
 		index: "88",
@@ -1721,13 +1721,13 @@ const filler_trials = {
 		Distractor3: "bull",
 		Distractor3_filename: "PICTURE_570.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_prison_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_prison_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_prison_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_prison_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_prison_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_prison_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_prison_CF2_2.wav"
 	},
 	unpred_pumpkin: {
 		index: "89",
@@ -1745,13 +1745,13 @@ const filler_trials = {
 		Distractor3: "towel",
 		Distractor3_filename: "PICTURE_591.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_pumpkin_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_pumpkin_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_pumpkin_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_pumpkin_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_pumpkin_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_pumpkin_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_pumpkin_CF2_2.wav"
 	},
 	unpred_rifle: {
 		index: "90",
@@ -1769,13 +1769,13 @@ const filler_trials = {
 		Distractor3: "bracelet",
 		Distractor3_filename: "PICTURE_588.png",
 		AnF1: "2",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_rifle_AnF1_2.wav",
-		audio_AnF2: "AnF2/filler/unpred_rifle_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_rifle_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_rifle_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_rifle_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_rifle_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_rifle_CF2_2.wav"
 	},
 	unpred_scar: {
 		index: "91",
@@ -1793,13 +1793,13 @@ const filler_trials = {
 		Distractor3: "puppet",
 		Distractor3_filename: "PICTURE_554.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "3",
 		audio_AnF1: "AnF1/filler/unpred_scar_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_scar_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_scar_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_scar_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_scar_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_scar_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_scar_CF2_3.wav"
 	},
 	unpred_shirt: {
 		index: "92",
@@ -1817,13 +1817,13 @@ const filler_trials = {
 		Distractor3: "wolf",
 		Distractor3_filename: "PICTURE_557.png",
 		AnF1: "1",
-		AnF2: "1",
+		AnF2: "2",
 		CF1: "1",
-		CF2: "1",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_shirt_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_shirt_AnF2_1.wav",
+		audio_AnF2: "AnF2/filler/unpred_shirt_AnF2_2.wav",
 		audio_CF1: "CF1/filler/unpred_shirt_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_shirt_CF2_1.wav"
+		audio_CF2: "CF2/filler/unpred_shirt_CF2_2.wav"
 	},
 	unpred_snow: {
 		index: "93",
@@ -1841,13 +1841,13 @@ const filler_trials = {
 		Distractor3: "honey",
 		Distractor3_filename: "PICTURE_610.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_snow_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_snow_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_snow_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_snow_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_snow_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_snow_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_snow_CF2_2.wav"
 	},
 	unpred_soldier: {
 		index: "94",
@@ -1866,12 +1866,12 @@ const filler_trials = {
 		Distractor3_filename: "PICTURE_573.png",
 		AnF1: "2",
 		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_soldier_AnF1_2.wav",
 		audio_AnF2: "AnF2/filler/unpred_soldier_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_soldier_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_soldier_CF2_1.wav"
+		audio_CF1: "CF1/filler/unpred_soldier_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_soldier_CF2_2.wav"
 	},
 	unpred_submarine: {
 		index: "95",
@@ -1889,13 +1889,13 @@ const filler_trials = {
 		Distractor3: "cube",
 		Distractor3_filename: "PICTURE_595.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_submarine_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_submarine_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_submarine_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_submarine_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_submarine_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_submarine_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_submarine_CF2_2.wav"
 	},
 	unpred_tattoo: {
 		index: "96",
@@ -1913,13 +1913,13 @@ const filler_trials = {
 		Distractor3: "pencil case",
 		Distractor3_filename: "PICTURE_609.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "2",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_tattoo_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_tattoo_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_tattoo_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_tattoo_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_tattoo_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_tattoo_CF1_2.wav",
+		audio_CF2: "CF2/filler/unpred_tattoo_CF2_2.wav"
 	},
 	unpred_telescope: {
 		index: "97",
@@ -1938,11 +1938,11 @@ const filler_trials = {
 		Distractor3_filename: "PICTURE_549.png",
 		AnF1: "1",
 		AnF2: "2",
-		CF1: "2",
+		CF1: "3",
 		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_telescope_AnF1_1.wav",
 		audio_AnF2: "AnF2/filler/unpred_telescope_AnF2_2.wav",
-		audio_CF1: "CF1/filler/unpred_telescope_CF1_2.wav",
+		audio_CF1: "CF1/filler/unpred_telescope_CF1_3.wav",
 		audio_CF2: "CF2/filler/unpred_telescope_CF2_2.wav"
 	},
 	unpred_toaster: {
@@ -1961,13 +1961,13 @@ const filler_trials = {
 		Distractor3: "elephant",
 		Distractor3_filename: "PICTURE_579.png",
 		AnF1: "1",
-		AnF2: "1",
+		AnF2: "2",
 		CF1: "1",
-		CF2: "1",
+		CF2: "4",
 		audio_AnF1: "AnF1/filler/unpred_toaster_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_toaster_AnF2_1.wav",
+		audio_AnF2: "AnF2/filler/unpred_toaster_AnF2_2.wav",
 		audio_CF1: "CF1/filler/unpred_toaster_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_toaster_CF2_1.wav"
+		audio_CF2: "CF2/filler/unpred_toaster_CF2_4.wav"
 	},
 	unpred_tree: {
 		index: "99",
@@ -1985,13 +1985,13 @@ const filler_trials = {
 		Distractor3: "syringe",
 		Distractor3_filename: "PICTURE_594.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "4",
 		audio_AnF1: "AnF1/filler/unpred_tree_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_tree_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_tree_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_tree_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_tree_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_tree_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_tree_CF2_4.wav"
 	},
 	unpred_zebra: {
 		index: "100",
@@ -2009,12 +2009,12 @@ const filler_trials = {
 		Distractor3: "iron",
 		Distractor3_filename: "PICTURE_586.png",
 		AnF1: "1",
-		AnF2: "1",
-		CF1: "1",
-		CF2: "1",
+		AnF2: "2",
+		CF1: "3",
+		CF2: "2",
 		audio_AnF1: "AnF1/filler/unpred_zebra_AnF1_1.wav",
-		audio_AnF2: "AnF2/filler/unpred_zebra_AnF2_1.wav",
-		audio_CF1: "CF1/filler/unpred_zebra_CF1_1.wav",
-		audio_CF2: "CF2/filler/unpred_zebra_CF2_1.wav"
+		audio_AnF2: "AnF2/filler/unpred_zebra_AnF2_2.wav",
+		audio_CF1: "CF1/filler/unpred_zebra_CF1_3.wav",
+		audio_CF2: "CF2/filler/unpred_zebra_CF2_2.wav"
 	}
 }

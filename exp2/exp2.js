@@ -448,97 +448,97 @@ const quest_intstructions = {
 const questionnaire = {
   type: jsPsychSurvey,
   pages: [
-      [
-          {
-              type: 'html',
-              prompt: "Please answer the following questions. None of the answers you provide will affect your compensation:"
-          },
-          {
-              type: 'multi-choice',
-              prompt: 'Did you read the instructions and do you think you did the task correctly?', 
-              name: 'correct', 
-              options: ['Yes', 'No', 'I was confused']
-          },
-          {
-              type: 'drop-down',
-              prompt: 'Gender:',
-              name: 'gender',
-              options: ['Female', 'Male', 'Non-binary/Non-conforming', 'Other']
-          },
-          {
-              type: 'text',
-              prompt: 'Age:',
-              name: 'age',
-              textbox_columns: 10
-          },
-          {
-              type: 'drop-down',
-              prompt: 'Level of education:',
-              name: 'education',
-              options: ['Some high school', 'Graduated high school', 'Some college', 'Graduated college', 'Hold a higher degree', 'Prefer not to answer']
-          },
-          {
-              type: 'text',
-              prompt: "Native language? (What was the language spoken at home when you were growing up?)",
-              name: 'language',
-              textbox_columns: 20
-          },
-          {
-              type: 'drop-down',
-              prompt: 'Are you wearing glasses or contacts right now?',
-              name: 'glasses',
-              options: ['Glasses', 'Contacts', 'Neither', 'Prefer not to answer']
-          },
-          {
-              type: 'drop-down',
-              prompt: 'Do you think the payment was fair?',
-              name: 'payment',
-              options: ['The payment was too low', 'The payment was fair', 'Prefer not to answer']
-          },
-          {
-              type: 'drop-down',
-              prompt: 'Which web browser are you using?',
-              name: 'browser',
-              options: ['Chrome', 'Firefox', 'Safari', 'Microsoft Edge', 'Other']
-          },
-          {
-              type: 'text',
-              prompt: 'What is the manufacturing year of your computer?',
-              name: 'manufacture_year',
-              textbox_columns: 10
-          },
-          {
-              type: 'drop-down',
-              prompt: 'Is your webcam built in or external?',
-              name: 'webcam',
-              options: ['Built in', 'External', 'I don\'t know']
-          },
-          {
-              type: 'drop-down',
-              prompt: 'Is your computer a laptop or a desktop?',
-              name: 'computer',
-              options: ['Laptop', 'Desktop', 'I don\'t know']
-          },
-          {
-              type: 'drop-down',
-              prompt: 'Did you remember to close out of all other apps before beginning the experiment?',
-              name: 'other_apps',
-              options: ['Yes', 'No', 'Prefer not to answer']
-          },
-          {
-              type: 'drop-down',
-              prompt: 'Did you enjoy the experiment?',
-              name: 'enjoy',
-              options: ['Worse than the average experiment', 'An average experiment', 'Better than the average experiment']
-          },
-          {
-              type: 'text',
-              prompt: "Do you have any other comments about this experiment?",
-              name: 'comments',
-              textbox_columns: 30,
-              textbox_rows: 4
-          }
-      ]
+    [
+      {
+        type: 'html',
+        prompt: "Please answer the following questions. None of the answers you provide will affect your compensation:"
+      },
+      {
+        type: 'multi-choice',
+        prompt: 'Did you read the instructions and do you think you did the task correctly?', 
+        name: 'correct', 
+        options: ['Yes', 'No', 'I was confused']
+      },
+      {
+        type: 'drop-down',
+        prompt: 'Gender:',
+        name: 'gender',
+        options: ['Female', 'Male', 'Non-binary/Non-conforming', 'Other']
+      },
+      {
+        type: 'text',
+        prompt: 'Age:',
+        name: 'age',
+        textbox_columns: 10
+      },
+      {
+        type: 'drop-down',
+        prompt: 'Level of education:',
+        name: 'education',
+        options: ['Some high school', 'Graduated high school', 'Some college', 'Graduated college', 'Hold a higher degree', 'Prefer not to answer']
+      },
+      {
+        type: 'text',
+        prompt: "Native language? (What was the language spoken at home when you were growing up?)",
+        name: 'language',
+        textbox_columns: 20
+      },
+      {
+        type: 'drop-down',
+        prompt: 'Are you wearing glasses or contacts right now?',
+        name: 'glasses',
+        options: ['Glasses', 'Contacts', 'Neither', 'Prefer not to answer']
+      },
+      {
+        type: 'drop-down',
+        prompt: 'Do you think the payment was fair?',
+        name: 'payment',
+        options: ['The payment was too low', 'The payment was fair', 'Prefer not to answer']
+      },
+      {
+        type: 'drop-down',
+        prompt: 'Which web browser are you using?',
+        name: 'browser',
+        options: ['Chrome', 'Firefox', 'Safari', 'Microsoft Edge', 'Other']
+      },
+      {
+        type: 'text',
+        prompt: 'What is the manufacturing year of your computer?',
+        name: 'manufacture_year',
+        textbox_columns: 10
+      },
+      {
+        type: 'drop-down',
+        prompt: 'Is your webcam built in or external?',
+        name: 'webcam',
+        options: ['Built in', 'External', 'I don\'t know']
+      },
+      {
+        type: 'drop-down',
+        prompt: 'Is your computer a laptop or a desktop?',
+        name: 'computer',
+        options: ['Laptop', 'Desktop', 'I don\'t know']
+      },
+      {
+        type: 'drop-down',
+        prompt: 'Did you remember to close out of all other apps before beginning the experiment?',
+        name: 'other_apps',
+        options: ['Yes', 'No', 'Prefer not to answer']
+      },
+      {
+        type: 'drop-down',
+        prompt: 'Did you enjoy the experiment?',
+        name: 'enjoy',
+        options: ['Worse than the average experiment', 'An average experiment', 'Better than the average experiment']
+      },
+      {
+        type: 'text',
+        prompt: "Do you have any other comments about this experiment?",
+        name: 'comments',
+        textbox_columns: 30,
+        textbox_rows: 4
+      }
+    ]
   ]
 }
 
